@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://www.insightindia.com/mcss/icon-font.css"
+    />
+
+    <style>
+      .slick-slider .slick-prev,
+      .slick-slider .slick-next {
+        z-index: 100;
+        font-size: 2.5em;
+        height: 40px;
+        width: 40px;
+        margin-top: -20px;
+        color: #b7b7b7;
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        color: #000;
+        opacity: 0.3;
+        transition: opacity 0.25s;
+        cursor: pointer;
+      }
+      .slick-slider .slick-prev:hover,
+      .slick-slider .slick-next:hover {
+        opacity: 0.65;
+      }
+      .slick-slider .slick-prev {
+        left: 0;
+      }
+      .slick-slider .slick-next {
+        right: 0;
+      }
+
+      #detail .product-images {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #eee;
+      }
+      #detail .product-images li,
+      #detail .product-images figure,
+      #detail .product-images a,
+      #detail .product-images img {
+        display: block;
+        outline: none;
+        border: none;
+      }
+      #detail .product-images .main-img-slider figure {
+        margin: 0 auto;
+        padding: 0 2em;
+      }
+      #detail .product-images .main-img-slider figure a {
+        cursor: pointer;
+        cursor: -webkit-zoom-in;
+        cursor: -moz-zoom-in;
+        cursor: zoom-in;
+      }
+      #detail .product-images .main-img-slider figure a img {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      #detail .product-images .thumb-nav {
+        margin: 0 auto;
+        padding: 20px 10px;
+        max-width: 600px;
+      }
+      #detail .product-images .thumb-nav.slick-slider .slick-prev,
+      #detail .product-images .thumb-nav.slick-slider .slick-next {
+        font-size: 1.2em;
+        height: 20px;
+        width: 26px;
+        margin-top: -10px;
+      }
+      #detail .product-images .thumb-nav.slick-slider .slick-prev {
+        margin-left: -30px;
+      }
+      #detail .product-images .thumb-nav.slick-slider .slick-next {
+        margin-right: -30px;
+      }
+      #detail .product-images .thumb-nav li {
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+      }
+      #detail .product-images .thumb-nav li img {
+        display: block;
+        width: 100%;
+        max-width: 75px;
+        margin: 0 auto;
+        border: 2px solid transparent;
+        -webkit-transition: border-color 0.25s;
+        -ms-transition: border-color 0.25s;
+        -moz-transition: border-color 0.25s;
+        transition: border-color 0.25s;
+      }
+      #detail .product-images .thumb-nav li:hover,
+      #detail .product-images .thumb-nav li:focus {
+        border-color: #999;
+      }
+      #detail .product-images .thumb-nav li.slick-current img {
+        border-color: #d12f81;
+      }
+    </style>
+  </head>
+  <body>
+
+    <section id="detail">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <!-- Product Images & Alternates -->
+            <div class="product-images demo-gallery">
+              <!-- Begin Product Images Slider -->
+              <div class="main-img-slider">
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-2.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-2.jpg"
+                    class="img-fluid"
+                /></a>
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-1.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-1.jpg"
+                    class="img-fluid"
+                /></a>
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-2.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-2.jpg"
+                    class="img-fluid"
+                /></a>
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-3.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-3.jpg"
+                    class="img-fluid"
+                /></a>
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-4.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-4.jpg"
+                    class="img-fluid"
+                /></a>
+                <!-- <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-1.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-1.jpg"
+                    class="img-fluid"
+                /></a> -->
+              </div>
+              <!-- End Product Images Slider -->
+
+              <!-- Begin product thumb nav -->
+              <ul class="thumb-nav">
+                  <li>
+                      <img src="https://www.freetogame.com/g/1/dauntless-2.jpg" />
+                    </li>
+                    <li>
+                        <img src="https://www.freetogame.com/g/1/dauntless-1.jpg" />
+                </li>
+                <li>
+                    <img src="https://www.freetogame.com/g/1/dauntless-2.jpg" />
+                </li>
+                <li>
+                    <img src="https://www.freetogame.com/g/1/dauntless-3.jpg" />
+                </li>
+                <li>
+                    <img src="https://www.freetogame.com/g/1/dauntless-4.jpg" />
+                </li>
+              </ul>
+              <!-- End product thumb nav -->
+            </div>
+            <!-- End Product Images & Alternates -->
+          </div>
+        </div>
+    </div>
+    </section>
+    
+    <!-- <============================================================================================================================================> -->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <!-- Product Images & Alternates -->
+            <div class="product-images demo-gallery">
+              <!-- Begin Product Images Slider -->
+              <div class="main-img-slider">
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-2.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-2.jpg"
+                    class="img-fluid"
+                /></a>
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-1.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-1.jpg"
+                    class="img-fluid"
+                /></a>
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-2.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-2.jpg"
+                    class="img-fluid"
+                /></a>
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-3.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-3.jpg"
+                    class="img-fluid"
+                /></a>
+                <a
+                  data-fancybox="gallery"
+                  href="https://www.freetogame.com/g/1/dauntless-4.jpg"
+                  ><img
+                    src="https://www.freetogame.com/g/1/dauntless-4.jpg"
+                    class="img-fluid"
+                /></a>
+             
+              </div>
+              <!-- End Product Images Slider -->
+
+              <!-- Begin product thumb nav -->
+              <ul class="thumb-nav">
+                <li>
+                  <img src="https://www.freetogame.com/g/1/dauntless-2.jpg" />
+                </li>
+                <li>
+                  <img src="https://www.freetogame.com/g/1/dauntless-1.jpg" />
+                </li>
+                <li>
+                  <img src="https://www.freetogame.com/g/1/dauntless-2.jpg" />
+                </li>
+                <li>
+                  <img src="https://www.freetogame.com/g/1/dauntless-3.jpg" />
+                </li>
+                <li>
+                  <img src="https://www.freetogame.com/g/1/dauntless-4.jpg" />
+                </li>
+              </ul>
+              <!-- End product thumb nav -->
+            </div>
+            <!-- End Product Images & Alternates -->
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+<!-- <============================================================================================================================================> -->
+
+
+
+
+
+<!-- .back-to-top {
+    padding: 1rem;
+    position: fixed;
+    bottom: 8%;
+    right: 1%;
+    z-index: 2;
+    opacity: 0.2;
+    background-color: rgba(255, 255, 255, 0.123);
+      border-radius: 30px;
+  }
+  
+  .back-to-top:hover {
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+  }
+   -->
+
+
+
+
+     <!-- Back To Top Button -->
+
+     <!-- <div class="back-to-top">
+        <a href="#landPageContainer">
+          <img
+            title="Back to Top."
+            src="https://res.cloudinary.com/de8cuyd0n/image/upload/v1520412541/E-commerce%20landing%20page/icons/back_-_top_1x.png"
+            alt="back to top"
+        /></a>
+      </div>
+    </div>
+  </div> -->
+    <!-- //Land Page container end-->
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+<script>
+  /*--------------*/
+
+  // Main/Product image slider for product page
+  $("#detail .main-img-slider").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    arrows: true,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 300,
+    lazyLoad: "ondemand",
+    asNavFor: ".thumb-nav",
+    prevArrow:
+      '<div class="slick-prev"><i class="i-prev"></i><span class="sr-only sr-only-focusable">Previous</span></div>',
+    nextArrow:
+      '<div class="slick-next"><i class="i-next"></i><span class="sr-only sr-only-focusable">Next</span></div>',
+  });
+  // Thumbnail/alternates slider for product page
+  $(".thumb-nav").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    infinite: true,
+    centerPadding: "0px",
+    asNavFor: ".main-img-slider",
+    dots: false,
+    centerMode: false,
+    draggable: true,
+    speed: 200,
+    focusOnSelect: true,
+    prevArrow:
+      '<div class="slick-prev"><i class="i-prev"></i><span class="sr-only sr-only-focusable">Previous</span></div>',
+    nextArrow:
+      '<div class="slick-next"><i class="i-next"></i><span class="sr-only sr-only-focusable">Next</span></div>',
+  });
+
+  //keeps thumbnails active when changing main image, via mouse/touch drag/swipe
+  $(".main-img-slider").on(
+    "afterChange",
+    function (event, slick, currentSlide, nextSlide) {
+      //remove all active class
+      $(".thumb-nav .slick-slide").removeClass("slick-current");
+      //set active class for current slide
+      $(".thumb-nav .slick-slide:not(.slick-cloned)")
+        .eq(currentSlide)
+        .addClass("slick-current");
+    }
+  );
+</script>
