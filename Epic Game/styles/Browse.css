@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(18,18,18);
+}
+/* displayGames part css starts here */
+#gameCategories {
+    width: 80%;
+    margin: auto;
+    border: 1px solid transparent;
+}
+#sortBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(18,18,18);
+    color: rgb(193,188,172);
+    border-color: rgb(18,18,18);
+}
+
+#contDisplayGames {
+    width: 100%;
+    height: 100px;
+    border: 1px solid transparent;
+    display: flex;
+}
+
+#displayGames {
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    justify-content: space-between;
+    width: 75%;
+    padding: 2%;
+    border: 1px solid transparent;
+}
+
+#displayGames>div:hover {
+    -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  opacity: 0.96;
+  -webkit-transition: opacity 800ms ease-in-out 0s;
+  transition: opacity 800ms ease-in-out 0s;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0s;
+  transition: -webkit-transform 1s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s, -webkit-transform 1s ease-in-out 0s;
+  cursor: pointer;
+  border: 1px solid transparent;
+
+}
+
+#displayGames > div {
+    border: 1px solid transparent;
+    margin-bottom: 30px;
+}
+
+#displayGames > div > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#displayGames > div > h2,h3 {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#displayGames > div > p {
+    color: rgb(162,159,162);
+    margin-top: 0px;
+    margin-bottom: 2px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#price {
+    border: 1px solid transparent;
+    display: flex;
+    width: 60%;
+    color: white;
+}
+
+#price > h3{
+    padding: 10px;
+}
+
+/* filter part css ended */
+
+#Filters {
+    width: 25%;
+    border: 1px solid transparent;
+}
+
+#Filters > h2 {
+    color: white;
+    margin-left: 4%;
+}
+
+#Filters > input {
+    padding: 15px;
+    margin-left: 4%;
+    background-color: rgb(32,32,32);
+    border: none;
+    border-radius: 10px;
+}
+
+hr {
+    border: 1px solid rgb(32,32,32);
+}
+
+.selection {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(18,18,18);
+    color: rgb(193,188,172);
+    border-color: rgb(18,18,18);
+    width: 100%;
+}
+
+.selection:hover {
+    cursor: pointer;
+} 
