@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background-color: #111;
+    }
+    #navbar {
+      height: 100px;
+      width: 100%;
+      background-color: black;
+    }
+    #container {
+      display: flex;
+      /* border: 5px yellow solid; */
+    }
+    #left {
+      width: 50%;
+      height: 300px;
+      margin-left: 20%;
+      /* border: 2px green solid;*/
+      border-radius: 10px;
+
+      
+    }
+
+    #right {
+      border: 2px green solid;
+      width: 30%;
+      margin-left: 2%;
+      margin-right: 5%;
+      background-color: "#222";
+      color: white;
+      font-size: 25px;
+    }
+    img {
+      height: 150px;
+      width: 150px;
+    }
+    #img-div {
+      /* border: green 2px solid; */
+      padding: 20px;
+    }
+    .total {
+      color: white;
+    }
+    .hrf {
+      border: 0;
+      height: 2px;
+      background-color: aliceblue;
+    }
+    .cart {
+      color: white;
+    }
+    .leftimg{
+        border: 2px solid green;
+        height: 80%;
+        width: 30%;
+
+    }
+    #rem{
+        height: 30px;
+        width: 100px;
+        color: white;
+        background-color: transparent;
+        border: blue 2px solid;
+        margin-top:100px;
+        margin-left: 350px;
+
+    }
+    h1{
+        color: white;
+    }
+    #pric{
+        margin-left: 350px;
+        padding-left: 20px;
+        /* border: 2px green solid; */
+    }
+  </style>
+  <body>
+    <div id="navbar"></div>
+    <a href="gamedata.html">back</a>
+    <h1 class="cart"></h1>
+    <div id="container">
+
+      <div id="left">
+          <div class="leftimg"><h1>hello</h1></div>
+      </div>
+
+
+
+
+      
+      <div id="right">
+        <span>Games and Apps Summary</span>
+        <hr class="hrf" />
+        <h1 class="total">Total: 0</h1>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  var games = JSON.parse(localStorage.getItem("selectedgames")) || [];
+  console.log(games);
+  displayData(games);
+
+  // var container = document.getElementsByClassName("container");
+
+  function displayData(gamesdoc) {
+    document.querySelector("#left").innerHTML = null;
+
+    gamesdoc.map(function (elem, index) {
+      let container = document.getElementById("left");
+      // container.setAttribute("id", "item-div")
+      container.style.display = "block";
+    //   container.style.backgroundColor = "#222";
+    //   container.style.marginTop= "20px"
+
+      let div = document.createElement("div");
+      div.style.display = "flex";
+      div.style.marginTop = "20px"
+      div.style.backgroundColor = "#222";
+      div.style.padding="15px"
+      div.style.paddingRight="30px"
+      div.style.borderRadius = "15px"
+
+    //   div.style.border = "2px solid red";
+
+      let img = document.createElement("img");
+      img.src = elem.img;
+      img.style.borderRadius = "10px"
+
+      let title = document.createElement("h2");
+      title.innerText = elem.title;
+      title.style.color = "white";
+
+      let price = document.createElement("h3");
+      price.setAttribute("id", "pric")
+      price.innerHTML =` ${elem.price} /-`
+      price.style.color = "green";
+
+      let button = document.createElement("button");
+      button.addEventListener("click", () => {
+        removeItem(index);
+      });
+      button.innerHTML = "Remove";
+      button.setAttribute("id", "rem")
+
+
+      button.addEventListener("click",refresh);
+
+      let rd = document.createElement("div");
+    //   rd.style.border = "2px solid red"
+
+
+      let idiv = document.createElement("div");
+      idiv.setAttribute("id", "img-div");
+      idiv.style.width = "30%"
+
+      titlediv = document.createElement("div");
+    //   title.style.border = "2px pink solid"
+      title.style.width = "20%"
+      
+      titlediv.append(title)
+      idiv.append(img);  // image appned
+      rd.append(price, button);  //price and button append
+      div.append(idiv, titlediv, rd); // image and title and button/ price
+      container.append(div);  //  append all to html's container
+
+      total();
+    });
+
+    function removeItem(index) {
+      games.splice(index, 1);
+
+      
+
+      displayData(games);
+      localStorage.setItem("selectedgames", JSON.stringify(games));
+    }
+  }
+  function refresh() {
+    location.reload();
+  }
+
+
+
+  
+  function total() {
+    let total_val = games.reduce(function (ac, av) {
+      return ac + av.price;
+    }, 0);
+
+    document.querySelector(".total").innerHTML = `Total: ${total_val}`;
+    let gamesArr = JSON.parse(localStorage.getItem("selectedgames")) || [];
+
+    document.querySelector(".cart").innerText = ` Cart ${gamesArr.length}`;
+  }
+</script>
