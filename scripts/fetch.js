@@ -1,12 +1,12 @@
 async function apiCall(url) {
 
-    try{
+    try {
         let res = await fetch(url);
         let data = await res.json();
-        console.log(data)
+        //console.log(data)
         return data;
     }
-    catch(err){
+    catch (err) {
         console.log('err:', err);
     }
 

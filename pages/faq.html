@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    
+  <link rel="shortcut icon" href="https://static-assets-prod.epicgames.com/epic-store/static/webpack/../favicon.ico"
+  type="image/x-icon">
+    <script src="/scripts/navStyle.js"></script>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #container {
+            width: 68%;
+            border: 1px solid transparent;
+            margin: auto;
+            margin-top: 8%;
+
+        }
+        div>button>svg{margin-left:10px !important }
+
+        table,
+        th,
+        td {
+            border: 1px solid #a6a6a7;
+            border-collapse: collapse;
+            color: #645653;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        h9 {
+            font-size: 14px;
+            color: #4c4c4e;
+            font-family: OpenSans, sans-serif;
+        }
+
+        P {
+            color: #4c4c4e;
+            font-family: OpenSans, sans-serif;
+            font-size: 13px;
+
+        }
+
+        h4 {
+            color: #645653;
+        }
+
+
+        
+/* <-----   Back To Top Button -----------> */
+
+ .back-to-top {
+  padding: 1rem;
+  position: fixed;
+  bottom: 8%;
+  right: 1%;
+  z-index: 2;
+  opacity: 0.60;
+  background-color: rgba(255, 255, 255, 0.952);
+    border-radius: 30px;
+}
+
+.back-to-top:hover {
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+
+    </style>
+</head>
+
+<body class="bg-[#121212] text-white">
+    <!-- NAv -->
+  
+    <div id="navbar">
+  
+      <nav class="w-[100%]">
+        <div id="firstNav" class="flex bg-[#2A2A2A] justify-between md:justify-start ">
+          <img class="h-[2em] w-[1.7em] m-2 ml-5  lg:ml-4  "
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB0CAMAAABE6mf9AAAB7FBMVEVMaXH////////n5+dwcHD///////////97e3v////////////////8/Pz+/v7///////+xsbH////////+/v7+/v7+/v729vbS0tLOzs7e3t6wsLD///8YGBjPz8/9/f3////7+/v////////8/Pzf39/4+Phubm7+/v7///85OTmSkpLLy8v////+/v7////Z2dn////6+vr39/fU1NT+/v6enp6lpaX9/f3////+/v719fX39/f8/Pz////////AwMD9/f3////9/f38/Pzb29v4+Pj39/f///////+3t7f8/Pze3t77+/uTk5P8/Pz4+Pjx8fH+/v7c3Nz5+fni4uL6+vr////5+fn///+qqqr09PT9/f3+/v7e3t7////8/Pz6+vr9/f3////7+/vn5+f6+vr+/v65ubn29vbMzMyhoaHb29vr6+vExMS2trb8/Pz7+/v7+/u2tra7u7vm5ub+/v6enp77+/v////////5+fn7+/v5+fmpqana2trZ2dnOzs76+vrLy8vl5eXW1tbJycnS0tL5+fn7+/vn5+f19fW9vb3Hx8f5+fn4+PjNzc3+/v7AwMDZ2dm1tbX5+fm2trb29vbe3t7p6em9vb3y8vLKysrT09Pc3Nz09PTh4eHIyMjm5ub///+stlOlAAAAo3RSTlMA9vsEAf3l/gL5UvDtEgnz7wP0wqWEijAcGiUJgAQUJNzOq+jrKOQIG64JUlTsmuKN3+AZDdkGFpbV4ToQIVC7Cg3SY3AgHgfEsh4VZcgOlAondSO7LCqo17YwNY6gj2hLRX/N0i/mWpnvElQ6Qj4+VnzpaBJP5UTCgcqqvIs6Fh5krSyESEZZ3dp3tzR68qOAh1CHS4VBS0pacG8hhHZdoqdl1QdEjAAACP1JREFUeF7tmvtf08gaxpNJ0iEkJb0BKEhDs0B7zmlrLRQoLZS0tmAFaFlABeQu53CABQQFkEXA+3W97eqq657tP3pmUjSUSitCPZ+zy/NTMszkyzvvO88kAwRBRUfqZTKRG5Gyo8lNEZT/lawjYY4gkNQ1FJoJd6ETJHIp4HQQIzJI5FYMRzh0iZyLaGC/AYSF3wCSSPyJIMeQYwjg+N0SALY49Z4jmR3jY5WOH50VsrxmRzwJs0CA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"
+            alt="">
+          <div class=" md:hidden object-right-top bg-blue-700 w-[50px] ">
+  
+            <!-- <span class=" block w-[50px]" ></span> -->
+  
+  
+          </div>
+          <div class=" hidden md:flex lg:flex justify-between items-center uppercase text-gray-300 text-xs ">
+            <div class="flex items-center justify-between">
+              <div class="px-2 "><a class="hover:text-white hover:no-underline" href="/">Store</a></div>
+              <div class="px-2 "><a class="hover:text-white hover:no-underline" href="faq.html">faq</a></div>
+              <div class="px-2 "><a class="hover:text-white hover:no-underline" href="help.html">help</a></div>
+              <div class="px-2 ">unreal engine</div>
+            </div>
+            <!-- <div class="mx-[50%]" ></div> -->
+            <div class=" flex justify-between items-center absolute top-0 right-0">
+  
+              <div class="px-2 "><button><i class=" bg-black fa fa-globe" aria-hidden="true"></i></button></div>
+              <div class="px-2 flex justify-between items-center"><button><i class=" bg-black fa fa-user"
+                    aria-hidden="true"></i></button>
+                <a href="signin.html" class="mx-2 text-[10px] hover:text-white hover:no-underline" id="signin">sign in</p>
+              </div>
+              <div class="px-2 "><button class="bg-blue-600  text-[10px] p-4 px-6 h-full uppercase ">download</button>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <div id="dicoverHide" class="mx-24 w-1/2 mt-2 absolute bg-[#121212] border-none md:hidden">
+          <details class=" mx-auto py-4">
+            <summary class="flex items-center justify-center font-bold">Discover
+            </summary>
+  
+            <div class="mt-4 leading-normal text-md flex justify-center w-full ">Discover</div>
+            <div class="mt-4 leading-normal text-md flex justify-center w-full">Browse</div>
+            <div class="mt-4 leading-normal text-md flex justify-center w-full">News</div>
+          </details>
+        </div>
+        <div id="secondNav"
+          class=" md:px-[20.5%] lg:px-[10.5%] flex bg-[#121212] justify-between md:justify-start items-center md:items-center h-[80px] p-3">
+  
+  
+          <div id="searchDiv" class="ml-4 hidden md:inline md:flex items-center ">
+            <!-- <div class="ml-4 hidden md:inline md:flex items-center " > -->
+            <div id="searchicon"
+              class="h-8 bg-[#202020] text-white text-xs pl-2 flex items-center focus:outline-none focus:bg-[#2A2A2A]  rounded-l-full">
+              <i class="fa fa-search"></i>
+  
+            </div>
+            <div><input
+                class="rounded-r-full h-8 bg-[#202020] text-white text-xs pl-2 focus:outline-none focus:bg-[#2A2A2A]"
+                type="text" name="" placeholder="Search" id=""></div>
+          </div>
+  
+          <div class="px-6 pt-4 pb-2 hidden md:inline ">
+            <button
+              class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2"><a
+                href="/">Discover</a></button>
+            <button
+              class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2"><a
+                href="./Browse.html">Browser</a></button>
+            <button
+              class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2"><a
+                href="./news.html">News</a></button>
+          </div>
+  
+          <div class="pl-[30%] px-6 pt-4 pb-2 hidden md:inline ">
+            <button
+              class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2"><a href="wishlist.html">Wishlist</a></button>
+            <button
+              class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2"><a href="cart.html">Cart</a></button>
+            <span class="rounded-full px-3 ml-[-18px] text-sm text-white border-white border bg-black" id="cartTotal">1</span>
+          </div>
+  
+  
+          <div onclick="showInputBoxInMobileView()" class="ml-4 flex justify-between items-center md:hidden">
+            <i class=" text-gray-300 fa fa-search" aria-hidden="true"></i>
+          </div>
+  
+        </div>
+  
+        <div class="">
+  
+        </div>
+      </nav>
+    </div>
+
+    <div id="container">
+        <div>
+            <h3 class="text-4xl" >FREQUENTLY ASKED QUESTION</h3>
+
+            <h9>Last Update: August 18, 2021</h9>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >Which platforms does the Epic Games Store support?</h4>
+            <p class="text-white mt-2 text-[15px]" >The Epic Games Store currently offers PC and Mac support. You can check platform compatibility for
+                individual titles by referring to the “About Game” section of any product page.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >What are the future plans for the Epic Games Store?</h4>
+            <p class="text-white mt-2 text-[15px]" >You can find upcoming features, developer updates, and major known issues on our Epic Games Store Roadmap
+                on Trello. We’ll also share significant updates with you on our news feed and social media pages such as
+                Facebook, Twitter, Instagram, and YouTube.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >Why does the Epic Games Store make exclusivity deals?</h4>
+            <p class="text-white mt-2 text-[15px]" >Exclusives are a part of the growth of many successful platforms for games and for other forms of digital
+                entertainment, such as streaming video and music.</p>
+            <p class="text-white mt-2 text-[15px]" > Epic works in partnership with developers and publishers to offer games exclusively on the store. In
+                exchange for exclusivity,
+                Epic provides them with financial support for development and marketing, which enables them to build
+                more polished games with significantly less uncertainty for the creators.</p>
+            <p class="text-white mt-2 text-[15px]" >In addition, creators will earn 88% of all the revenue from their game, while most stores only offer 70%.
+            </p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >What is the Support-A-Creator program? </h4>
+            <p class="text-white mt-2 text-[15px]" >The Support-A-Creator program enables content Creators to earn money from games in the Epic Games Store
+                by using Creator Links and Creator Tags. Learn more about the Support-A-Creator program here.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >What’s this about free games?</h4>
+            <p class="text-white mt-2 text-[15px]" >Epic will be offering a new free game available each week throughout 2021. When you claim a free game,
+                it’s yours to keep - even after the game is no longer available to new customers for free.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >I claimed a free game but don’t see it on my account now, why?</h4>
+            <p class="text-white mt-2 text-[15px]" >Once you claim a free game, it’s yours to keep. If you come back later and don’t see it your account,
+                please check to see if you have multiple accounts. If you created an Epic account using an @gmail.com
+                email address, log in to it directly using your Gmail password; using the Google login button will
+                create a distinct account even if it’s tied to the same @gmail.com email address. And check to see if
+                you have both a console-linked account (logging in via PlayStation, Xbox, or Nintendo account) and a
+                separate Epic account. If you still encounter issues, please contact player support here.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >Can I try a game before I buy it?</h4>
+            <p class="text-white mt-2 text-[15px]" >Some publishers occasionally offer demos or free trial periods for certain non-free games from time to
+                time (for example, a Free Weekend trial). During a free trial period, you can download and play a trial
+                version of the game before you decide to purchase, but you can no longer access the game when the trial
+                period ends.
+            </p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >How do refunds work on the Epic Games Store?</h4>
+            <p class="text-white mt-2 text-[15px]" >All games are eligible for refund within 14 days of purchase for any reason, as long as you’ve had the
+                game running for less than 2 hours. You will not be eligible for refunds for games from which you have
+                been banned or for which you have otherwise violated the Terms of Service. Learn more about our refund
+                policy here.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >How do I contact support?</h4>
+            <p class="text-white mt-2 text-[15px]" >You can contact our support team here. We also recommend browsing our support center articles, which may
+                help answer questions or resolve issues.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >Is my Epic Games account secure?</h4>
+            <p class="text-white mt-2 text-[15px]" >The Epic account system powers Fortnite, Rocket League, the Epic Games Store, and Unreal Engine. This
+                account system has never been compromised. However, specific individual Epic accounts have been
+                compromised by hackers using lists of email addresses and passwords leaked from other sites which have
+                been compromised.</p>
+            <p class="text-white mt-2 text-[15px]" >If you use the same email address and password on Epic as you used on another site which has been
+                compromised, then your account is vulnerable to attack. To secure your Epic account, use a unique
+                password, and enable multi-factor authentication. You can learn more about the measures we take to
+                protect your account and what you can do to stay safe here.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >What languages does the Epic Games Store support?</h4>
+            <p class="text-white mt-2 text-[15px]" >The Epic Games Store currently supports English, Arabic, German, Spanish (Spain), Spanish (Latin
+                America), French, Italian, Japanese, Korean, Polish, Portuguese, Russian, Thai, Turkish, Simplified
+                Chinese, and Traditional Chinese. In-game language support varies per game, as provided by the
+                developer; check each game’s store page for language availability.</p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >Does the Epic Games Store support regional pricing?</h4>
+            <p class="text-white mt-2 text-[15px]" >Yes, we do support regional pricing in more than 190 countries and over 30 territories. We also have a
+                set of suggested regional discounts for developers based on local norms that are regularly reviewed.
+            </p>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >Which payment methods are supported?</h4>
+            <P class="text-white mt-2 text-[15px]" >The Epic Games Store supports credit cards, PayPal, and a variety of alternative payment methods. This is
+                a list of the alternative payment methods we currently support. Methods carrying additional payment
+                processing fees are marked with an *asterisk.</P>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >Where is the Epic Games store available?</h4>
+            <P class="text-white mt-2 text-[15px]" >The Epic Games Store is available to players in most countries in the world except where prohibited by US
+                law, such as North Korea and Iran. Certain regions may have additional legal requirements that you may
+                need to implement in your game in order to be compliant and to be distributed there.</P>
+        </div>
+        <div>
+            <h4 class="text-3xl text-white mt-4" >Which currencies do you accept and in which currencies do you display prices?</h4>
+            <p class="text-white mt-2 text-[15px]" >The Epic Games Store currently accepts 43 currencies (USD, EUR, GBP, PLN, BRL, UAH, RUB, KRW, JPY, TRY,
+                AUD, CAD, DKK, NOK, SEK, CZK, ILS, CHF, MXN, PEN, HUF, CLP, SAR, AED, RON, NZD, ZAR, INR, COP, CSC, UYU,
+                HKD, IDR, MYR, PHP, SGD, THB, VND, KZT, QAR, BGN, TWD, CNY). We’re working to bring more currencies
+                online.</p>
+            <p class="text-white mt-2 text-[15px]" >If your currency is not on the list, you’ll see the prices displayed in US Dollars, but will still pay in
+                your local currency according to the current exchange rates. In some countries paying in US Dollars may
+                incur additional bank conversion fees. We are working on expanding the list of supported currencies.</p>
+        </div>
+        <div id="table" class="text-white">
+            <table class="text-white" >
+                <!-- <colgroup>
+                    <col width="12">
+                    <col width="10">
+                </colgroup> -->
+                <tbody>
+                    <tr>
+                        <th> Payment Method</th>
+                        <th>Countries</th>
+                    </tr>
+                    <tr>
+                        <td>3PAY</td>
+                        <td>UK,IE</td>
+                    </tr>
+                    <tr>
+                        <td>3 & OISTER</td>
+                        <td>UK,IE</td>
+                    </tr>
+                    <tr>
+                        <td>ALFA CLICK</td>
+                        <td>RU</td>
+                    </tr>
+                    <tr>
+                        <td>ALFAMART</td>
+                        <td>ID</td>
+                    </tr>
+                    <tr>
+                        <td>ALIPAY</td>
+                        <td>CN, HK</td>
+                    </tr>
+                    <tr>
+                        <td>ALIPAY HK</td>
+                        <td>HK</td>
+                    </tr>
+                    <tr>
+                        <td>AMAZON PAY</td>
+                        <td>AD, AT, BE, CY, DE, ES, FR, IE, IT, JP, KR, LU, MC, NL, PR, PT, SM, VA</td>
+                    </tr>
+                    <tr>
+                        <td>ATM / BANK TRANSFER</td>
+                        <td>ID</td>
+                    </tr>
+                    <tr>
+                        <td>BANCO ITAU</td>
+                        <td>BR</td>
+                    </tr>
+                    <tr>
+                        <td>BANCONTACT</td>
+                        <td>BE</td>
+                    </tr>
+                    <tr>
+                        <td>BANCO DE CREDITO</td>
+                        <td>PE</td>
+                    </tr>
+                    <tr>
+                        <td>BANKTRANSFER PTT ATM*</td>
+                        <td>TR</td>
+                    </tr>
+                    <tr>
+                        <td>BLIK</td>
+                        <td>PL</td>
+                    </tr>
+                    <tr>
+                        <td>BOLETO BANCARIO</td>
+                        <td>BR</td>
+                    </tr>
+                    <tr>
+                        <td>CESKA SPORITELNA</td>
+                        <td>CZ</td>
+                    </tr>
+                    <tr>
+                        <td>CITADELE BANK</td>
+                        <td>LV</td>
+                    </tr>
+                    <tr>
+                        <td>DANA</td>
+                        <td>ID</td>
+                    </tr>
+                    <tr>
+                        <td>DOKU WALLET</td>
+                        <td>ID</td>
+                    </tr>
+                    <tr>
+                        <td>DOTPAY</td>
+                        <td>PL</td>
+                    </tr>
+                    <tr>
+                        <td>ELISA</td>
+                        <td>FI, EE</td>
+                    </tr>
+                    <tr>
+                        <td>ERA</td>
+                        <td>CZ</td>
+                    </tr>
+                    <tr>
+                        <td>FIO_BANKA</td>
+                        <td>CZ</td>
+                    </tr>
+                    <tr>
+                        <td>GIROPAY</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>GCASH</td>
+                        <td>PH</td>
+                    </tr>
+                    <tr>
+                        <td>GPAY</td>
+                        <td>TR</td>
+                    </tr>
+                    <tr>
+                        <td>IDEAL</td>
+                        <td>NL</td>
+                    </tr>
+                    <tr>
+                        <td>ININAL*</td>
+                        <td>TR</td>
+                    </tr>
+                    <tr>
+                        <td>IS BANKASI</td>
+                        <td>TR</td>
+                    </tr>
+                    <tr>
+                        <td>KAKAOPAY</td>
+                        <td>KR</td>
+                    </tr>
+                    <tr>
+                        <td>KOMERCNI BANKA</td>
+                        <td>CZ</td>
+                    </tr>
+                    <tr>
+                        <td>MAYBANK</td>
+                        <td>MY</td>
+                    </tr>
+                    <tr>
+                        <td>MOBILE PAYMENTS </td>
+                        <td>RU</td>
+                    </tr>
+                    <tr>
+                        <td>MOLPAY</td>
+                        <td>MY</td>
+                    </tr>
+                    <tr>
+                        <td>MOVISTAR</td>
+                        <td>ES</td>
+                    </tr>
+                    <tr>
+                        <td>MULTIBANCO</td>
+                        <td>PT</td>
+                    </tr>
+                    <tr>
+                        <td>NEOSURF*</td>
+                        <td>FR</td>
+                    </tr>
+                    <tr>
+                        <td>NORDEA BANK</td>
+                        <td>SE</td>
+                    </tr>
+                    <tr>
+                        <td>O2</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr>
+                        <td>OVO</td>
+                        <td>ID</td>
+                    </tr>
+                    <tr>
+                        <td>OXXO MEXICO CASH</td>
+                        <td>MX</td>
+                    </tr>
+                    <tr>
+                        <td>PAYSAFECARD*</td>
+                        <td>AT, BE, CY, CZ, DE, DK, ES, FI, FR, IE, IT, LT, LU, NL, NO, PL, PT, SI, SK</td>
+                    </tr>
+                    <tr>
+                        <td>PLAY</td>
+                        <td>PL</td>
+                    </tr>
+                    <tr>
+                        <td>PRZELEWY24</td>
+                        <td>PL</td>
+                    </tr>
+                    <tr>
+                        <td>PRIVAT BANK</td>
+                        <td>UA</td>
+                    </tr>
+                    <tr>
+                        <td>QIWI</td>
+                        <td>BY,RU</td>
+                    </tr>
+                    <tr>
+                        <td>RASCHET</td>
+                        <td>BY</td>
+                    </tr>
+                    <tr>
+                        <td>SBERBANK ONLINE</td>
+                        <td>RU</td>
+                    </tr>
+                    <tr>
+                        <td>SEB</td>
+                        <td>EE,LT</td>
+                    </tr>
+                    <tr>
+                        <td>SKRILL</td>
+                        <td>FR,DE,ES,IE</td>
+                    </tr>
+                    <tr>
+                        <td>SLOVENSKA SPORITELNA</td>
+                        <td>SK</td>
+                    </tr>
+                    <tr>
+                        <td>SOFORT</td>
+                        <td>AT,CH,DE</td>
+                    </tr>
+                    <tr>
+                        <td>SPARKASSE</td>
+                        <td>DE</td>
+                    </tr>
+                    <tr>
+                        <td>SWEDBANK</td>
+                        <td>EE,LT,LV,SE</td>
+                    </tr>
+                    <tr>
+                        <td>SWISSCOM</td>
+                        <td>CH</td>
+                    </tr>
+                    <tr>
+                        <td>TATRA BANKA</td>
+                        <td>SK</td>
+                    </tr>
+                    <tr>
+                        <td>TELIA</td>
+                        <td>FI</td>
+                    </tr>
+                    <tr>
+                        <td>TELE2</td>
+                        <td>SE</td>
+                    </tr>
+                    <tr>
+                        <td>TOSS</td>
+                        <td>KR</td>
+                    </tr>
+                    <tr>
+                        <td>TRUSTLY</td>
+                        <td>DK,FI,SE</td>
+                    </tr>
+                    <tr>
+                        <td>VUB BANKA</td>
+                        <td>SK</td>
+                    </tr>
+                    <tr>
+                        <td>WEBMONEY</td>
+                        <td>BY,RU,AS</td>
+                    </tr>
+                    <tr>
+                        <td>WECHAT</td>
+                        <td>CN</td>
+                    </tr>
+                    <tr>
+                        <td>WIND TRE</td>
+                        <td>IT</td>
+                    </tr>
+                    <tr>
+                        <td>YOOMONEY</td>
+                        <td>RU</td>
+                    </tr>
+                    <tr>
+                        <td>ZIRAAT BANKASI</td>
+                        <td>TR</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="back-to-top">
+            <a href="#container">
+              <img title="Back to Top."
+                src="https://res.cloudinary.com/de8cuyd0n/image/upload/v1520412541/E-commerce%20landing%20page/icons/back_-_top_1x.png"
+                alt="back to top" /></a>
+          </div>
+    </div>
+
+
+    <div id="footer" class="" >
+        <footer class="bottom-0  bg-[#202020] p-4 px-6  md:px-20 text-white capitalize ">
+            <div id="first" class=" pl-2 flex items-center justify-between ">
+                <div id="socialIcon" class="flex items-center justify-between" >
+                    <div><i class=" pr-2 pl-0 text-3xl text-gray-300 fab fa-facebook" aria-hidden="true"></i></div>
+                    <div><i class=" px-2 text-3xl text-gray-300 fab fa-twitter" aria-hidden="true"></i></div>
+                    <div><i class=" px-2 text-3xl text-gray-300 fab fa-youtube" aria-hidden="true"></i></div>       
+                </div>
+                <div id="upButton mr-3 flex items-center justify-content ">
+                    <!-- <button class=" border border-white outline-none p-2" ><a href="#navbar"><img class="w-3 h-3" src="https://cdn-icons-png.flaticon.com/512/130/130906.png" alt=""></a></button> -->
+                </div>
+            </div>
+
+            <div class="py-3 " >
+                <p class="text-gray-500 font-semibold" >Resourses</p>
+            </div>
+
+            <div id="second" class="flex items-center justify-start">
+                <div class="flex justify-between md:grid md:grid-cols-3 lg:grid-cols-3 items-center justify-start text-[15px] ">
+                <!-- <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 items-center justify-start text-[15px] "> -->
+                <!-- <div class="flex items-center justify-start text-[15px] "> -->
+                    <ul class="block mr-3">
+                        <li class="hover:text-blue-700">support-a-creator</li>
+                        <li class="hover:text-blue-700">published on epic games</li>
+                        <li class="hover:text-blue-700">careers</li>
+                        <li class="hover:text-blue-700">company</li>
+                    </ul>
+                    
+                    <ul class="block">
+                        <li class="hover:text-blue-700">fan art policy</li>
+                        <li class="hover:text-blue-700">UX research</li>
+                        <li class="hover:text-blue-700">store EULA</li>
+                    </ul>
+                    <ul class="md:block mt-2 hidden ">
+                        <li class="hover:text-blue-700">online community</li>
+                        <li class="hover:text-blue-700">community rules</li>
+                        <li class="hover:text-blue-700">epic newsroom</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8" >
+                <p class="text-gray-500 font-semibold inline" >made by epic game</p>
+            </div>
+            
+            <div id="third" class=" flex justify-start items-center ">
+
+                <ul class="mr-8 ">
+                    <li class="hover:text-blue-700">battle breakers</li>
+                    <li class="hover:text-blue-700">fortnite</li>
+                    <li class="hover:text-blue-700">infinity blade</li>
+                </ul>
+                <div class="">
+                    <p class="hover:text-blue-700">robo recall</p>
+                    <p class="hover:text-blue-700">shadow complex</p>
+                    <p class="hover:text-blue-700">unreal tournament</p>
+                </div>
+            </div>
+            <div id="forth" class="pt-12 pb-5 ">
+                <p class="text-xs md:w-1/2 my-2 md:my-12 text-gray-400 leading-[24px] " >
+                    © 2022, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. Non-US transactions through Epic Games International, S.à r.l. 
+                </p>
+            </div>
+            <div id="five" class="block " >
+                <div class=" content-center md:flex ">
+                    <div class="text-sm mx-2 hover:text-blue-700 "><center><p>Terms of Service</p></center></div>
+                    <div class="text-sm mx-2 hover:text-blue-700 "><center><p>privacy policy</p></center></div>
+                    <div class="text-sm mx-2 hover:text-blue-700 "><center><p>store refund policy</p></center></div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img class="h-6 w-5 m-2 ml-5  lg:ml-4  " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB0CAMAAABE6mf9AAAB7FBMVEVMaXH////////n5+dwcHD///////////97e3v////////////////8/Pz+/v7///////+xsbH////////+/v7+/v7+/v729vbS0tLOzs7e3t6wsLD///8YGBjPz8/9/f3////7+/v////////8/Pzf39/4+Phubm7+/v7///85OTmSkpLLy8v////+/v7////Z2dn////6+vr39/fU1NT+/v6enp6lpaX9/f3////+/v719fX39/f8/Pz////////AwMD9/f3////9/f38/Pzb29v4+Pj39/f///////+3t7f8/Pze3t77+/uTk5P8/Pz4+Pjx8fH+/v7c3Nz5+fni4uL6+vr////5+fn///+qqqr09PT9/f3+/v7e3t7////8/Pz6+vr9/f3////7+/vn5+f6+vr+/v65ubn29vbMzMyhoaHb29vr6+vExMS2trb8/Pz7+/v7+/u2tra7u7vm5ub+/v6enp77+/v////////5+fn7+/v5+fmpqana2trZ2dnOzs76+vrLy8vl5eXW1tbJycnS0tL5+fn7+/vn5+f19fW9vb3Hx8f5+fn4+PjNzc3+/v7AwMDZ2dm1tbX5+fm2trb29vbe3t7p6em9vb3y8vLKysrT09Pc3Nz09PTh4eHIyMjm5ub///+stlOlAAAAo3RSTlMA9vsEAf3l/gL5UvDtEgnz7wP0wqWEijAcGiUJgAQUJNzOq+jrKOQIG64JUlTsmuKN3+AZDdkGFpbV4ToQIVC7Cg3SY3AgHgfEsh4VZcgOlAondSO7LCqo17YwNY6gj2hLRX/N0i/mWpnvElQ6Qj4+VnzpaBJP5UTCgcqqvIs6Fh5krSyESEZZ3dp3tzR68qOAh1CHS4VBS0pacG8hhHZdoqdl1QdEjAAACP1JREFUeF7tmvtf08gaxpNJ0iEkJb0BKEhDs0B7zmlrLRQoLZS0tmAFaFlABeQu53CABQQFkEXA+3W97eqq657tP3pmUjSUSitCPZ+zy/NTMszkyzvvO88kAwRBRUfqZTKRG5Gyo8lNEZT/lawjYY4gkNQ1FJoJd6ETJHIp4HQQIzJI5FYMRzh0iZyLaGC/AYSF3wCSSPyJIMeQYwjg+N0SALY49Z4jmR3jY5WOH50VsrxmRzwJs0CA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" alt="">
+                    <!-- <img class="h-6 w-5 m-2 ml-5  lg:ml-4  " src="https://www.pngfind.com/pngs/m/435-4351693_unreal-4-logo-png-unreal-engine-4-logo.png" alt=""> -->
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+     var userName = JSON.parse(localStorage.getItem("UserName"));
+   console.log(userName);
+   if (userName !== null){
+    document.querySelector("#signin").textContent= userName;
+   }
+   else {
+
+   }
+   let gamesArr = JSON.parse(localStorage.getItem("cartGameData")) || [];
+   
+   document.querySelector("#cartTotal").innerText = `${gamesArr.length}`;
+</script>
+<script>
+    type="text/javascript">!function (t, e) {t.artibotApi = {l: [], t: [], on: function () {this.l.push(arguments)}, trigger: function () {this.t.push(arguments)}}; var a = !1, i = e.createElement("script"); i.async = !0, i.type = "text/javascript", i.src = "https://app.artibot.ai/loader.js", e.getElementsByTagName("head").item(0).appendChild(i), i.onreadystatechange = i.onload = function () {if (!(a || this.readyState && "loaded" != this.readyState && "complete" != this.readyState)) {new window.ArtiBot({i: "4fc2ac37-3d97-4f29-98cc-2a4e4858c5f7"}); a = !0} }}(window, document);</script>

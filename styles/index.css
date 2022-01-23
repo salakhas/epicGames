@@ -1,0 +1,36 @@
+#scrollimage::-webkit-scrollbar {
+    display: none;
+  }
+  div>button>svg{margin-left:10px !important }
+  #bigImage {
+    background: url("https://cdn2.unrealengine.com/egs-godofwar-santamonicastudio-s2-1200x1600-1200x1600-1ece95b84a3e.jpg?h=854&resize=1&w=640");
+    background-size: stretch no-repeat;
+    /* background-size: no-repeat; */
+    background-size: cover;
+    height: 500px !important;
+    /* height: 75%; */
+    width: 100%;
+  }
+  #progess_bar {
+    background: linear-gradient(90deg, gray 80%, black 50%);
+  }
+
+  /* <-----   Back To Top Button -----------> */
+
+  .back-to-top {
+    padding: 1rem;
+    position: fixed;
+    bottom: 8%;
+    right: 1%;
+    z-index: 2;
+    opacity: 0.6;
+    background-color: rgba(255, 255, 255, 0.952);
+    border-radius: 30px;
+  }
+
+  .back-to-top:hover {
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+  }

@@ -1,0 +1,131 @@
+div>button>svg{margin-left:10px !important }
+
+#navbar {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+  }
+  #container {
+    display: flex;
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    justify-content: space-between;
+    /* border: 5px yellow solid; */
+    margin-bottom: 75px;
+
+  }
+  #left {
+    width: 65%;
+    border-radius: 10px;
+  }
+
+  #right {
+  /* width: 40%;
+    height: 60%; */
+    background-color: "#222";
+    color: white;
+    font-size: 25px;
+  }
+  
+  #img-div {
+    /* border: green 2px solid; */
+    padding: 15px;
+  }
+  .total {
+    color: white;
+  }
+  .hrf {
+    border: 0;
+    height: 2px;
+    background-color: aliceblue;
+  }
+  .cart {
+    color: white;
+  }
+  .leftimg {
+    border: 2px solid green;
+    width: 500px;
+    height: 40px;
+  }
+  #rem {
+    height: 40px;
+    width: 170px;
+    color: white;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid grey;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+  #wbtn{
+  height: 40px;
+    width: 170px;
+    color: white;
+    background-color: transparent;
+    border: grey 2px solid;
+    border-radius: 10px;
+    margin-top: 100px;
+    font-weight: 700;
+
+  
+  }
+  h1 {
+    color: white;
+  }
+  #pric {
+    margin-left: 300px;
+  }
+  #gameImg {
+    width:410px;
+    height: 230px;
+    object-fit:fill;
+  }
+  #topFilter {
+    width: 100%;
+    display: flex;
+    color: rgb(193, 188, 172);
+    margin-left: 200px;
+  }
+
+  #topFilter > h4 {
+    color: rgb(193, 188, 172);
+  }
+
+  #topFilter > h4:hover {
+    cursor: pointer;
+    color: white;
+  }
+  .wishHead{
+      font-size: 50px;
+      margin-left: 180px;
+      margin-top: 70px;
+      margin-bottom: 70px;
+      font-weight: 600;
+
+  }
+  #Filters {
+  width: 65%;
+  border: 1px solid transparent;
+}
+
+
+/* <-----   Back To Top Button -----------> */
+
+.back-to-top {
+  padding: 1rem;
+  position: fixed;
+  bottom: 8%;
+  right: 1%;
+  z-index: 2;
+  opacity: 0.60;
+  background-color: rgba(255, 255, 255, 0.952);
+    border-radius: 30px;
+}
+
+.back-to-top:hover {
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+}
