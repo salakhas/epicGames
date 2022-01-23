@@ -1,0 +1,447 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+div>button>svg{margin-left:10px !important }
+
+#firstGreyDiv{
+    width: 101.3%;
+    height: fit-content;
+    background-color: #484848;
+    margin-left: -8px;
+    margin-right: -10px;
+    /*margin-top: -5px;*/
+}
+#innerGreyDiv{
+    width: 90%;
+    height: fit-content;
+    border: 1px solid #484848;
+    margin: auto;
+}
+
+/*css of div showing alert message*/
+.alertDiv{
+    width: 100%;
+    height: 67.5px;
+    margin-top: 18px;
+    background-color: #141414;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 4% 92% 4%;
+    overflow: hidden;
+}
+
+
+#exclamation{
+    color: #DE3341;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.alertText{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    word-wrap: break-word;
+}
+#downArrowAlert{
+    color: #C4C4C4;
+    padding-top: 10px;
+    padding-left: 13px;
+    font-size: 12px;
+}
+.noShow,.noShowU{
+    display: none;
+}
+
+/*Heading css*/
+#helpHeading{
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.dotHelp{
+    color: #11CF59;
+    margin-left: -10px;
+    margin-top: -9px;
+}
+.mainHeadingHelp{
+    font-size: 42px;
+    word-spacing: 3px;
+}
+.operantional{
+    margin-left:5px;
+    padding-top: 20px;
+    font-size: 12px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    display: flex;
+}
+.diffhead{
+    font-weight: bold;
+}
+.operantional:hover{
+    text-decoration: underline;
+}
+.operantional:hover > .diffhead{
+    text-decoration: none;
+}
+
+/*input box css*/
+#inputDiv{
+    width: 100%;
+    height: 50px;
+    background-color: white;/*
+    border: 0.5px solid black;*/
+    border-radius: 115px;
+    margin-top: 30px;
+    display: flex;  
+    margin-bottom: 82px;
+}
+
+.searchIcons{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 18px;
+}
+.inputBoxHelp{
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    border: 0px;
+}
+#closeIconHelp{
+    position: absolute;
+    margin-left: 88.5%;
+    margin-top: 12px;
+}
+
+
+/*common topics css*/
+#commonTopicsDiv{
+    width: 100%;
+    height: fit-content;
+}
+#innerCommonTopicsDiv{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+}
+/*common topics heading*/
+#commonTopicsHeading{
+    font-size: 32px;
+    color: #141414;
+    margin-top: 2px;
+    font-weight: 500;
+}
+/*topics*/
+#gridTopics{
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    column-gap: 20px;
+}
+#gridTopics>div{
+    height: 118px;
+    border-top: 1px solid gray;
+}
+#gridTopics>div:nth-child(1),#gridTopics>div:nth-child(2),#gridTopics>div:nth-child(3){
+    height: 142px;
+    border-top: 1px solid gray;
+}
+#gridTopics > div:nth-child(8),#gridTopics > div:nth-child(9),#gridTopics > div:nth-child(10){
+   border-bottom: 1px solid gray;
+}
+
+.smallTopicBoxes{
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+.smallerBoxesTopic{
+    padding-top: 10px;
+}
+.chatBox{
+    color: #c7e0fa;
+}
+.topicLinks{
+    text-decoration: none;
+    color: black;
+}
+.readmore{
+    text-decoration: none;
+}
+.smallTopicBoxes:hover> .smallerBoxesTopic > .topicLinks{
+    color: black;
+    text-decoration: underline;
+}
+.smallTopicBoxes:hover> .smallerBoxesTopic > .readmore{
+    text-decoration: underline;
+}
+/*Can we help you div*/
+#howCanWeHelpYou{
+    width: 100%;
+    height: fit-content;
+}
+#innerCanWeHelpYou{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+#canwehelp{
+    font-size: 32px;
+    color: #141414;
+    margin-top: 4px;
+    margin-bottom: 38px;
+    font-weight: 500;
+}
+#canWeHelpThumbnail{
+    width: 100%;
+    height: 285px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+#canWeHelpThumbnail > div{
+    height: 285px;
+    border-radius: 5px;
+}
+#canWeHelp1{
+    background-image: url("https://cdn2.unrealengine.com/s19-egs-helppage-keyart-1890x945-2e9ba5b17c39.jpg");
+    background-size: cover;
+    background-position-x: center;
+background-position-y: center;
+}
+#canWeHelp1:hover,#canWeHelp2:hover{
+    background-size: 150%;
+}
+#canWeHelp2{
+    background-image: url("https://cdn2.unrealengine.com/egs-square-565x278-b0eb4c5d8ec7.png");
+    background-size: cover;
+    background-position-x: center;
+background-position-y: center;
+}
+#canWeHelp1:hover,#canWeHelp2:hover{
+    background-size: 150%;
+}
+.detailsOfHelp{
+    width: 97%;
+    height: 40px;
+    border-top: 1px solid rgb(182, 182, 182);
+    color: white;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    margin: auto;
+    margin-top: 250px;
+}
+.detailsOfHelps{
+    width: 95%;
+    height: 40px;
+    border-top: 1px solid rgb(182, 182, 182);
+    color: white;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    margin: auto;
+    margin-top: 235px;
+}
+
+.detailsOfHelp>div{
+    height: 40px;
+}
+.paraHelp{
+    padding: 5px;
+}
+.arrowsIcon{
+    margin-top: 5px;
+}
+#restOfGrids{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+#restOfGrids >div{
+    height: 272px;
+    border-radius: 5px;
+}
+.gridCss{
+    background-size: cover;
+    background-position-x: center;
+background-position-y: center;
+}
+.gridCss:nth-child(12),.gridCss:nth-child(13),.gridCss:nth-child(14),.gridCss:nth-child(15){
+    background-size: cover;
+    background-position-x: center;
+background-position-y: center;
+}
+
+.gridCss:hover{
+    background-size: 120%;
+}
+
+/*result box css*/
+#resultsDiv{
+    width: 91%;
+    height: 380px;
+    margin-top: -70px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    z-index: 1;
+    overflow: scroll;
+}
+.paras{
+    padding-left: 30px;
+    padding-top: 8px;
+    color: black;
+}
+.paras:hover{
+    text-decoration: underline;
+}
+#anchor:hover{
+    text-decoration: underline;
+}
+.headSearch{
+    padding-top:30px;
+    padding-left:30px;
+    font-size:12px;
+    font-weight:bold;
+    color: #484848;
+}
+
+.parasg{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+
+
+
+/*media queries*/
+@media only screen and (max-width: 800px) {
+    .noShow{
+        display: block;
+    }
+    .alertText{
+        padding-left: 10px;
+    }
+    .noShowU{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .redAlert{
+        display: none;
+    }
+    #exclamation{
+        background-color: #DE3341;
+    }
+    .alertDiv{
+        display: grid;
+        grid-template-columns: 1% 92% 7%;
+        overflow: hidden;
+    }
+    .alertText{
+        padding-left: 10px;
+    }
+    .noShowU{
+        display: none;
+    }
+    #resultsDiv{
+        display: none;
+    }
+    #gridTopics{
+        margin-top: 28px;
+        display: grid;
+        grid-template-columns: 100%!important;
+    }
+    #gridTopics>div{
+        height: 118px;
+        border-top: 1px solid gray;
+    }
+    #gridTopics>div:nth-child(1),#gridTopics>div:nth-child(2),#gridTopics>div:nth-child(3){
+        height: 118px;
+        border-top: 1px solid gray;
+    }
+    #gridTopics > div:nth-child(8),#gridTopics > div:nth-child(9),#gridTopics > div:nth-child(10){
+       border-bottom: 1px solid gray;
+    }
+    #canWeHelpThumbnail{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    #restOfGrids{
+        width: 100%;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width:  1024px) {
+    #helpHeading{
+        width: 100%;
+        color: white;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .operantional{
+        margin-left:0px;
+    }
+    .mainHeadingHelp{
+        font-size: 45px;
+        word-spacing: 2px;
+    }
+    .noShowU{
+        display: none;
+    }
+    #gridTopics{
+        margin-top: 28px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+    #gridTopics>div{
+        height: 118px;
+        border-top: 1px solid gray;
+    }
+    #gridTopics>div:nth-child(1),#gridTopics>div:nth-child(2),#gridTopics>div:nth-child(3){
+        height: 118px;
+        border-top: 1px solid gray;
+    }
+    #gridTopics > div:nth-child(8),#gridTopics > div:nth-child(9),#gridTopics > div:nth-child(10){
+       border-bottom: 1px solid gray;
+    }
+}
+
+/* <-----   Back To Top Button -----------> */
+
+.back-to-top {
+    padding: 1rem;
+    position: fixed;
+    bottom: 8%;
+    right: 1%;
+    z-index: 2;
+    opacity: 0.60;
+    background-color: rgba(255, 255, 255, 0.952);
+      border-radius: 30px;
+  }
+  
+  .back-to-top:hover {
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+  }
+  

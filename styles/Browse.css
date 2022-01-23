@@ -1,0 +1,308 @@
+body {
+    background-color: rgb(18,18,18);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Popular{
+  color: rgb(193,188,172);
+  width: 80%;
+  border: 1px solid transparent;
+  margin: auto;
+  padding: 5px;
+}
+div>button>svg{margin-left:10px !important }
+
+a {
+    text-decoration: none;
+}
+.ImgTag > a > h3 {
+  color: white; 
+  text-align: center;
+  padding-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+.ImgTag > a > img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.carousel{
+width: 80%;
+height: 250px;
+margin-top: 40px;
+margin: auto;
+border: 1px solid transparent;
+}
+
+
+.carousel-cell {
+width: 20%;
+height: 100%;
+margin-right: 15px;
+border-radius: 5px;
+counter-increment: carousel-cell;
+border: 1px solid transparent;
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+#widgetImgContainer > ul {
+grid-template-columns: repeat(4, 1fr);
+}
+#productCategoryImgContainer >ul{
+width: 100%;
+grid-template-columns: repeat(4, 1fr); 
+    font-size: 0.8em; 
+}
+.carousel-cell{
+width: 32%;
+}
+#campaignImageAhref {
+display: block;
+width: 100%;
+/* padding-top: 10%; */
+}
+
+
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+#widgetImgContainer > ul {
+grid-template-columns: repeat(2, 1fr);
+padding: 0; 
+} 
+#productCategoryImgContainer >ul{
+width: 100%;
+grid-template-columns: repeat(2, 1fr); 
+font-size: 0.8em;
+padding: 0; 
+margin: 0;
+}
+.carousel-cell{
+  width: 95%;
+}
+#campaignImageAhref {
+  display: block;
+  width: 100%;
+  /* padding-top: 10%; */
+}
+}
+/* displayGames part css starts here */
+
+#Header {
+    color:white;
+    width: 80%;
+    margin: auto;
+    padding-left: 2%;
+    font-size: 30px;
+}
+
+#gameCategories {
+    width: 80%;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-top: 60px;
+    border: 1px solid transparent;
+}
+#topFilter {
+    width: 100%;
+    display: flex;
+    color: rgb(193,188,172);
+}
+
+#topFilter > h4 {
+    color: rgb(193,188,172);
+}
+
+#topFilter > h4:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#sortBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(18,18,18);
+    color: rgb(193,188,172);
+    border-color: rgb(18,18,18);
+    margin-right: 5%;
+}
+
+#sortBtn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#contDisplayGames {
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+}
+
+#displayGames {
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    justify-content: space-between;
+    width: 75%;
+    padding: 2%;
+    border: 1px solid transparent;
+}
+
+#displayGames>div:hover {
+    -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  opacity: 0.96;
+  -webkit-transition: opacity 800ms ease-in-out 0s;
+  transition: opacity 800ms ease-in-out 0s;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0s;
+  transition: -webkit-transform 1s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s;
+  transition: transform 1s ease-in-out 0s, -webkit-transform 1s ease-in-out 0s;
+  cursor: pointer;
+  border: 1px solid transparent;
+
+}
+
+#displayGames > div {
+    border: 1px solid transparent;
+    margin-bottom: 30px;
+}
+
+#displayGames > div > img {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+#displayGames > div > h2,h3 {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#displayGames > div > p {
+    color: rgb(162,159,162);
+    margin-top: 0px;
+    margin-bottom: 2px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#Gameprice {
+    border: 1px solid transparent;
+    display: flex;
+    width: 60%;
+    color: white;
+}
+
+#Gameprice > h3{
+    padding: 10px;
+}
+
+/* filter part css ended */
+
+#Filters {
+    width: 25%;
+    border: 1px solid transparent;
+}
+
+#Filters > h2 {
+    color: white;
+    margin-left: 4%;
+}
+
+#Filters > input {
+    padding: 10px;
+    width: 80%;
+    margin-left: 4%;
+    background-color: rgb(32,32,32);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+hr {
+    border: 1px solid rgb(32,32,32);
+}
+
+.selection {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(18,18,18);
+    color: rgb(193,188,172);
+    border-color: rgb(18,18,18);
+    width: 95%;
+}
+
+.selection:hover {
+    cursor: pointer;
+    color: white;
+} 
+
+
+@media only screen and (min-width: 768px) and (max-width:992px){
+    #displayGames {
+        display: grid;
+        grid-template-columns: repeat(2,48%);
+        width: 75%;
+        padding: 2%;
+        border: 1px solid transparent;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 768px){
+
+    #displayGames {
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        width: 75%;
+        padding: 2%;
+        border: 1px solid transparent;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 375px){
+    .carousel-cell {
+        width: 90%;
+        height: 100%;
+        margin-right: 15px;
+        border-radius: 5px;
+        counter-increment: carousel-cell;
+        border: 1px solid transparent;
+        
+        }
+    #displayGames {
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        width: 65%;
+        padding: 2%;
+        border: 1px solid transparent;
+    }
+    #Filters {
+        width: 35%;
+        border: 1px solid transparent;
+    }
+#Header {
+    color:white;
+    width: 100%;
+    margin: auto;
+    padding-left: 4%;
+    
+}
+
+#gameCategories {
+    width: 100%;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-top: 60px;
+    border: 1px solid transparent;
+}
+}
