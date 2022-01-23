@@ -1,0 +1,1723 @@
+{
+  "gameAllData": [
+    {
+      "id": 1,
+      "title": "Dauntless",
+      "strikeprice": "3999",
+      "price": "1000",
+      "thumbnail": "https://www.freetogame.com/g/1/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play, co-op action RPG with gameplay similar to Monster Hunter.",
+      "description": "Dauntless is a free-to-play, co-op action RPG developed by independent studio Phoenix Labs — a studio made of of veteran developers from Bioware, Riot, Capcom, and Blizzard. Set in a science-fantasy world, Dauntless places players in the role of elite warriors called Slayers. These Slayers protect humanity from Behemoths that are consuming the land following a cataclysmic event that turned the landscape into ever-changing, floating islands.\r\n\r\nThe gameplay may remind players of Monster Hunter, or perhaps a cheerier version of Shadow of the Colossus, where the goal is to defeat massive creates in an vast landscape.\r\n\r\nDauntless is playable solo, although it is designed with co-op play in mind. It boasts a variety of unique encounters and rewards players with items that will allow them to upgrade weapons and armor — enabling them to become even stronger warriors.",
+      "game_url": "https://www.freetogame.com/open/dauntless",
+      "genre": "MMORPG",
+      "platform": "Windows",
+      "publisher": "Phoenix Labs",
+      "developer": "Phoenix Labs, Iron Galaxy",
+      "release_date": "2019-05-21",
+      "freetogame_profile_url": "https://www.freetogame.com/dauntless",
+      "minimum_system_requirements": {
+        "os": "Windows 7 DX11 Support",
+        "processor": "CPU: i5 SandyBridge",
+        "memory": "4GB",
+        "graphics": "GPU: nVidia 660Ti (DX11) or equivalent",
+        "storage": "15GB of storage space"
+      },
+      "screenshots": [
+        {
+          "id": 5,
+          "image": "https://www.freetogame.com/g/1/dauntless-1.jpg"
+        },
+        {
+          "id": 6,
+          "image": "https://www.freetogame.com/g/1/dauntless-2.jpg"
+        },
+        {
+          "id": 7,
+          "image": "https://www.freetogame.com/g/1/dauntless-3.jpg"
+        },
+        {
+          "id": 9,
+          "image": "https://www.freetogame.com/g/1/dauntless-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "World of Tanks",
+      "strikeprice": "4000",
+      "price": "2000",
+      "thumbnail": "https://www.freetogame.com/g/2/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "If you like blowing up tanks, with a quick and intense game style you will love this game!",
+      "description": "World of Tanks is a popular free to play multiplayer role playing team-based shooter game developed by Wargaming.net. World of Tanks is based around the middle of the 20th century, and features huge epic battles with various different game modes such as Standard, Assault, Encounter Battles, and an added bonus of 15 tanks vs 15 enemy tanks gameplay.\r\n\r\nThe game starts off with quite easy gameplay but eventuates into a more difficult game as you progress, and because a typical game only takes between 5-10 minutes the game can get quite intense as well. Unlike other games in World of Tanks you cannot respawn; so when your tank gets destroyed you tank gets destroy and you have to start a new game before you can play again. You can still watch the battlefield from a spectator but who wants to be a spectator when you can join in with action with a simple click of a button?\r\n\r\nA different aspect of World of Tanks is that you wait in a queue called a “lobby” and then are launched into a random map, with random enemy players. In World of Tanks depending on your gaming style you start off with a fast lightly armored tank, a middle of the range type of tank, or a slower, more heavily armored tank. The tanks are based on real authentic tanks that were in World War 2. There are approximately 150 tanks from 3 different countries, these being Germany, Russia, and the United States of America.\r\n\r\nThe tank you choose can be customized by performing various different upgrades, which you can acquire through winning experience and credits you gain by winning battles against other enemy tanks. There are 10 different tiers, with tier 1 being a very weak tank going all the way up to tier 10 tanks which are the most powerful. Just like your tanks in the game your crew has a set of skills which progresses as you move through the different tiers in the game.\r\n\r\nYou can own multiple tanks but can only pilot 1 tank in any one game. Depending on what nation you choose will determine what research tree you will advance through to unlock new, more powerful tanks, weapons, and crew members to help your battles against the other enemy tanks. Since World of Tanks initial release there have been numerous updates to improve the difficulty, the visual aspects, new fresh maps, and new tanks and allow more exciting clan features of the game. If you like blowing up tanks, with a quick and intense game style you will simply love this game!",
+      "game_url": "https://www.freetogame.com/open/world-of-tanks",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "Wargaming",
+      "developer": "Wargaming",
+      "release_date": "2011-04-12",
+      "freetogame_profile_url": "https://www.freetogame.com/world-of-tanks",
+      "minimum_system_requirements": {
+        "os": "Windows XP / Vista / 7 / 8",
+        "processor": "Intel Pentium 4 2.2 GHz",
+        "memory": "2 GB",
+        "graphics": "Nvidia GeForce 6800 / ATI X1800 with 256 mb ram",
+        "storage": "16 GB"
+      },
+      "screenshots": [
+        {
+          "id": 10,
+          "image": "https://www.freetogame.com/g/2/World-of-Tanks-1.jpg"
+        },
+        {
+          "id": 11,
+          "image": "https://www.freetogame.com/g/2/World-of-Tanks-2.jpg"
+        },
+        {
+          "id": 12,
+          "image": "https://www.freetogame.com/g/2/World-of-Tanks-3.jpg"
+        },
+        {
+          "id": 13,
+          "image": "https://www.freetogame.com/g/2/World-of-Tanks-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Warframe",
+      "strikeprice": "6000",
+      "price": "999",
+      "thumbnail": "https://www.freetogame.com/g/3/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A cooperative free-to-play third person online action shooter set in an stunning sci-fi world. ",
+      "description": "Warframe is a 3D free-to-play cooperative third-person shooter game set in an stunning sci-fi world. In the distant future, war against the Grineer Empire leads humanity to summon ancient warriors from the distant past. Called “Tenno,” these agile fighters are equally skilled in blades and guns, able to carve their way through scores of enemies with skill and aplomb. A vast arsenal of these human weapons are called upon in mankind’s darkest hour to rescue their brethren from total annihilation.\r\n\r\nAs one of these Tenno, staked with protecting humanity, you’ll root out the Grineer from all their hiding places, scouring the Solar System and eliminating this nefarious threat. You’ll choose from among dozens of deadly Warframes, each with its own set of skills and strengths. The game progresses through a series of levels, each themed around a planet or region of the Solar System, and each requiring a squad of four Tenno to clear. As you advance, you’ll unlock more power for your Tenno, including new weapons and skills, letting you take on even tougher enemies.\r\n\r\nTenno have a number of sweet moves at their disposal, including the ability to “parkour” over and around obstacles, ziplines they can balance on, wall-latching and wall-dashing, and more. Tenno are also spiritual warriors, able to channel energy to spectacular results, including augmenting their weapon damage or activating special powers. Even when downed in battle, Tenno can continue to fight and rally to continue their missions.\r\n\r\nBetween missions, you can purchase better weapons for your Tenno or even entirely new Warframes, so you can try out a different play style. Some items cost credits (in-game currency) while others require platinum, which is purchased with real money. You can also craft your own weapons and insert mods to make them more powerful. Your ship, the Liset, is also where you’ll select your next mission, which you can choose to be public, letting anyone join you, or private, which you can attempt with a pre-selected team.\r\n\r\nWarframe requires fast reflexes and split-second timing to execute a Tenno’s most dynamic moves. Because the game demands constant progression, and the resources required to purchase those progressions, a high skill factor is required, not only to play, but to play quickly enough to advance at a reasonable rate – and to keep up with your teammates. As such, there’s a lot of repetition required. If you want to quickly rip through content over and over, growing in power with each iteration, Warframe will suit you.",
+      "game_url": "https://www.freetogame.com/open/warframe",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "Digital Extremes",
+      "developer": "Digital Extremes",
+      "release_date": "2013-03-25",
+      "freetogame_profile_url": "https://www.freetogame.com/warframe",
+      "minimum_system_requirements": {
+        "os": "Windows XP SP 3 or higher ",
+        "processor": "Intel Core 2 Duo e6400 or AMD Athlon x64 4000+ ",
+        "memory": "2 GB RAM ",
+        "graphics": "Nvidia GeForce 8600 GT or ATI Radeon HD 3600 ",
+        "storage": "10 GB HD space "
+      },
+      "screenshots": [
+        {
+          "id": 14,
+          "image": "https://www.freetogame.com/g/3/warframe-1.jpg"
+        },
+        {
+          "id": 15,
+          "image": "https://www.freetogame.com/g/3/warframe-2.jpg"
+        },
+        {
+          "id": 16,
+          "image": "https://www.freetogame.com/g/3/warframe-3.jpg"
+        },
+        {
+          "id": 17,
+          "image": "https://www.freetogame.com/g/3/warframe-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "CRSED: F.O.A.D.",
+      "strikeprice": "5000",
+      "price": "99",
+      "thumbnail": "https://www.freetogame.com/g/4/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "Take the battle royale genre and add  mystical powers and you have CRSED: F.O.A.D. (Aka Cuisine Royale: Second Edition)",
+      "description": "Darkflow Software’s Cuisine Royale has been reincarnated as the “brutal MMO last-man-standing shooter”, CRSED: F.O.A.D (Cuisine Royale Second Edition) This game replaces the original and is focused on massive PvP battles filled with dozens of players fighting for supremacy in one of four highly detailed locations. Of course, this is a battle royale, so in addition to dealing with each other, players must contend with the ever-shrinking map.\r\n\r\nPlayers can choose between seven different champions, each with a unique super power. Speaking of powers, there’s also a bit of mysticism involved, with ancient ritual, hex bags, blood magic, and more. Players can use these skills to flood the map, summon zombies, and even teleport.\r\n\r\nOf course, it’s not all magick and powers. There are the standard weapons – all realistically modeled.These include anti-material guns, sniper rifles, Ars, rocket launchers and flamethrowers. Vehicles also have an impact on gameplay with players having access to military amphibians and speed boats.\r\n\r\nUnlike other battle royales, CRSED: F.O.A.D offers players a choice between third and first-person view when playing. This is achieved by equipping all players with a familiar with a camera that can see players peeking around a corner. \r\n\r\nPreviously described as an “all-kitchen-warfare battle royale game”, Cusine Royale started out as an April Fool’s joke from the developers of the MMO shooter Enlisted, and eventually took on a life of its own due to how popular it was with fans. But the new season and reboot, changes everything!\r\n\r\n",
+      "game_url": "https://www.freetogame.com/open/crsed",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "Gaijin Distribution KFT",
+      "developer": "Darkflow Software",
+      "release_date": "2019-12-12",
+      "freetogame_profile_url": "https://www.freetogame.com/crsed",
+      "minimum_system_requirements": {
+        "os": "Windows 7 64bit /8 64bit /10 64bit",
+        "processor": "Intel Core i3",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce 560 or better, AMD Radeon 77XX or better",
+        "storage": "6 GB available space"
+      },
+      "screenshots": [
+        {
+          "id": 18,
+          "image": "https://www.freetogame.com/g/4/crsed-1.jpg"
+        },
+        {
+          "id": 19,
+          "image": "https://www.freetogame.com/g/4/crsed-2.jpg"
+        },
+        {
+          "id": 20,
+          "image": "https://www.freetogame.com/g/4/crsed-3.jpg"
+        },
+        {
+          "id": 21,
+          "image": "https://www.freetogame.com/g/4/crsed-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Crossout",
+      "strikeprice": "2999",
+      "price": "999",
+      "thumbnail": "https://www.freetogame.com/g/5/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A post-apocalyptic MMO vehicle combat game! ",
+      "description": "Crossout is a free to play post-apocalyptic MMO vehicle combat game! Gaijin Entertainment is taking the vehicular multiplayer shooter genre full gear with Crossout.\r\n\r\nFollowing the double catastrophes of a failed genetic testing project and an alien invasion, players are thrown into a wasteland world not unlike that of Mad Max. The harsh, post-apocalyptic terrain of Crossout forces players to build and customize their vehicles to fight and endure the elements and other players. Hunker down in the in-game Workshop and use the countless parts earned in battle to craft a formidable death machine capable of laying waste to opponents.\r\n\r\nWeapons in Crossout range from roof-mounted miniguns to vehicular chainsaws and everything in between the player can imagine. But combat isn’t all there is to Crossout. The in-game economy is driven by the players, allowing them to trade the parts they’ve earned with one another to craft stronger, pitiless, machines. Vehicles in Crossout must be strong, for the damage a vehicle takes in battle will affect its performance. And when the enemy is charging with a vehicle-mounted powerdrill, peak performance is everything.  Crossout is everything players looking for the post-apocalyptic vehicular warfare experience could possibly want. Find a vehicle and turn it into a death-spitting chariot of war!",
+      "game_url": "https://www.freetogame.com/open/crossout",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "Targem",
+      "developer": "Gaijin",
+      "release_date": "2017-05-30",
+      "freetogame_profile_url": "https://www.freetogame.com/crossout",
+      "minimum_system_requirements": {
+        "os": "Windows 7 64bit /8 64bit /10 64bit",
+        "processor": "Intel Core i3",
+        "memory": "8 GB RAM",
+        "graphics": "Nvidia GeForce 560 or better, AMD Radeon 77XX or better",
+        "storage": "6 GB available space"
+      },
+      "screenshots": [
+        {
+          "id": 22,
+          "image": "https://www.freetogame.com/g/5/Crossout-1.jpg"
+        },
+        {
+          "id": 23,
+          "image": "https://www.freetogame.com/g/5/Crossout-2.jpg"
+        },
+        {
+          "id": 24,
+          "image": "https://www.freetogame.com/g/5/Crossout-3.jpg"
+        },
+        {
+          "id": 25,
+          "image": "https://www.freetogame.com/g/5/Crossout-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Blade and Soul",
+      "strikeprice": "3999",
+      "price": "1699",
+      "thumbnail": "https://www.freetogame.com/g/6/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play martial arts MMORPG that tasks players with learning combination attacks.",
+      "description": "Blade & Soul is a free-to-play, action combat MMORPG from NCSoft that initially released in 2012 in Korea but finally saw a Western release in January 2016. Blade & Soul is a martial arts inspired MMORPG that tasks players with learning action combat based combination attacks for each class. Currently, there are 7 classes available in the game; Assassin, Blade Master, Destroyer, Force Master, Kung-Fu Master, Summoner, and Blade Dancer. New players will want to research the classes prior to starting a new character since classes fall under various race restrictions when choosing from one of the game’s four currently available races.\r\n\r\nBlade & Soul’s most notable feature is perhaps the game’s combat. Skills are learned as you level up and are displayed on hotbars in the traditional MMORPG style, but the actual implementation of those skills differs from most other games in the genre. While you will work with “rotations” in combat, it is perhaps better to think of these rotations in the form of “combinations” as each class will have a plethora of skills that can be combined in succession to perform very well animated combination attacks. These combinations may only be two or three buttons or they could be MUCH longer. Unlike other action combat MMOs though, Blade & Soul isn’t going to spoon feed you the combinations by hitting one key to trigger the next strike in the combination. Instead, Blade & Soul requires you to actually learn not only the combination itself, but each ability’s timing, and the required position to execute certain parts of the combination (Your hot bar actually can change based on position. i.e. being knocked down may give you access to abilities that cannot be used while standing). Learning these combination, aiming them appropriately, and reacting to incoming attacks are the key to the game’s fast paced and sometimes complex combat. If you liked TERA’s combat, you’ll probably enjoy Blade & Soul’s quite a bit.\r\n\r\nLeveling brings the usual grind of story, side, and repeatable quests but the game’s environments change so often and are very well rendered that you won’t get bored by the scenery for quite some time. Transportaion is handled with sprint, glide, and even water walking abilities to speed up any backtracking you may have do. Instant teleports are available by spending in-game currency. Leveling requires completion of quests and along the way players will gain gear that can be upgraded along with your character. Feed equipment that you don’t need to your sword, for example, and you get a sword that levels up as your character does. This primary upgrading mechanic applies to many different gear pieces and keeps players going after loot simply to “feed” their primary equipment.\r\n\r\nThe addition of a “Soul Shield” allows for extra stat customization provided you can find the pieces of the shield you desire. Skills can be further customized at about level 18 (it’s actually a story completion point that triggers this mechanic) by spending points in your martial tome to increase ability effectiveness.\r\n\r\nIf you enjoy dungeons, Blade & Soul has quite a few options for you. Each dungeon (be it a full instance or just a cave on the world map) has numerous difficulty levels and varying party size requirements. This keeps the loot fest rolling as certain dungeons will drop the items needed to “Breakthrough” on your weapon and gear upgrading. The game’s matchmaking system makes finding a party for these runs very easy.\r\n\r\nBlade & Soul’s PvP is based on two main categories; World PvP and Arena PvP. Arena PvP is a 1v1 or 3v3/6v6 (currently only in Korea) affair. Versus matches are simply queued for while World PvP is based on what your character is wearing. You read that right. World PvP is based on what you are wearing. It’s a creative way to “flag” for PvP. Simply donning the costume of one of the game’s 2 factions makes you able to be attacked by a member of the opposing faction out in the world. Other costumes could turn normally friendly NPCs into enemy NPCs that will attack you on sight.\r\n\r\nBlade & Soul’s cash shop varies by geographic location but for the most part contains the normal consumables, costumes, and cosmetics. However, some materials are also available in the shop. The multiple shops actually utilize multiple currency types and a currency exchange system is in place to provide free players with a means to acquire cash shop items. A subscription service is also available and provides additional perks to players that opt for the payment.",
+      "game_url": "https://www.freetogame.com/open/blade-and-soul",
+      "genre": "MMORPG",
+      "platform": "Windows",
+      "publisher": "NCSoft",
+      "developer": "NCSoft",
+      "release_date": "2016-01-19",
+      "freetogame_profile_url": "https://www.freetogame.com/blade-and-soul",
+      "minimum_system_requirements": {
+        "os": "Windows XP",
+        "processor": "Intel Core 2 DUo E6600 2.4 GHz / AMD Athlon 64 X2 Dual Core 4600+",
+        "memory": "2 GB",
+        "graphics": "GeForce 8600 GT / ATI Radeon HD 4650",
+        "storage": "15GB"
+      },
+      "screenshots": [
+        {
+          "id": 26,
+          "image": "https://www.freetogame.com/g/6/Blade-and-Soul-1.jpg"
+        },
+        {
+          "id": 27,
+          "image": "https://www.freetogame.com/g/6/Blade-and-Soul-2.jpg"
+        },
+        {
+          "id": 28,
+          "image": "https://www.freetogame.com/g/6/Blade-and-Soul-3.jpg"
+        },
+        {
+          "id": 29,
+          "image": "https://www.freetogame.com/g/6/Blade-and-Soul-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Armored Warfare",
+      "strikeprice": "7999",
+      "price": "1599",
+      "thumbnail": "https://www.freetogame.com/g/7/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A modern team-based MMO tank game from Obsidian Entertainment.",
+      "description": "Armored Warfare is a free to play 3D team-based MMO tank game from Obsidian Entertainment where you control combat vehicles from the 1950s all the way to modern day vehicles.  It is set in the modern day and is heavily focused on PvP, but it does have a selection of PvE game modes.\r\n\r\nYou can choose to play with one of five different classes: Main Battle Tanks, Light Tanks, Tank Destroyers, Armored Fighting Vehicles and Self-Propelled Guns. Each of the different classes comes with many different combat vehicles and many different combat styles.\r\n\r\nThe games main focus is PvP it does have a PvE side to it as well.  The PvE side of the game is split into two different categories during the missions: Primary and secondary. The Primary Objectives are things that you have to complete during the mission, with your co-op team, to successfully finish the mission. The Secondary Objectives do not have to be completed but they will offer you and your team a bigger reward if completed.\r\n\r\nThe PvP consists of two teams with 15 players each all of them using different vehicles and different classes of vehicles during the match. Players are thrown into a 15-minute match in which they have two different means to when the battle. They can either destroy all of the enemy team’s vehicles or capture the enemy base during those 15-minutes.\r\n\r\nThe game boasts great graphics powered by the CryENGINE 3 with destructible terrain. In its current state the game has nine different maps that take you from frozen tundras to sun-scorched deserts as well as doing battle around oil refineries and large population centers.\r\n\r\nArmored Warfare is a large action packed game with modern graphics that you can spend hours upon hours playing and upgrading your different vehicles and crews while enjoying either PvE or PvP.\r\n\r\nArmored Warfare is a large action packed game with modern graphics that you can spend hours upon hours playing and upgrading your different vehicles and crews while enjoying either PvE or PvP.",
+      "game_url": "https://www.freetogame.com/open/armored-warfare",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "My.com (Mail.ru Group)",
+      "developer": "Obsidian Entertainment",
+      "release_date": "2015-10-08",
+      "freetogame_profile_url": "https://www.freetogame.com/armored-warfare",
+      "minimum_system_requirements": {
+        "os": "Windows Vista / 7 / 8 / 10 (64 Bit OS)",
+        "processor": "Core i5-4440 @ 3.1 GHz or better",
+        "memory": "4 GB",
+        "graphics": "GeForce GTX 275 or better",
+        "storage": "10 GB"
+      },
+      "screenshots": [
+        {
+          "id": 30,
+          "image": "https://www.freetogame.com/g/7/armored-warfare-1.jpg"
+        },
+        {
+          "id": 31,
+          "image": "https://www.freetogame.com/g/7/armored-warfare-2.jpg"
+        },
+        {
+          "id": 32,
+          "image": "https://www.freetogame.com/g/7/armored-warfare-3.jpg"
+        },
+        {
+          "id": 33,
+          "image": "https://www.freetogame.com/g/7/armored-warfare-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Trove",
+      "strikeprice": "8999",
+      "price": "3699",
+      "thumbnail": "https://www.freetogame.com/g/8/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free to play Sandbox massively multiplayer online role-playing game! ",
+      "description": "If you’re thirsting for danger and lusting for loot, then I have just the game for you! Grab your friends, hone your blades and set off for adventure in the free to play Sandbox MMORPG Trove. Developed and published by Trion Worlds, Trove is the story of The Sun Goddess, who has shattered the world into infinite realms. You’re job is to explore build and protect those realms, all in the name of fun!\r\n\r\nIn Trove, you will play as a Knight, Gunslinger, Ice Sage, Dracolyte, Pirate with a Parrot, or any (or all) of the other Classes available to you, while mastering your abilities: from deadly ninja technologies, to deliciously deadly ice cream crushes. You will be able to upgrade your gear to tackle epic challenges and strut your stuff with killer looks, as well! In Trove, you will experience an infinite about of fully destructible realms, on the backs of fire breathing dragons and purrrrrrfectly whiskered Meownts! You’ll jump into action tailored to any skill level as you conquer untamed wilds from the Treasure Isles to Candoria ­ home of the sweet toothed Candy Barbarians.\r\n\r\nTrove allows you to assemble groups of hardy cube kind and crawl your way through huge dungeons that are unique to each of the realms. You’ll brave deadly minions, bosses and traps in an attempt to liberate powerful armor and weapons, or dip into smaller lairs for single servings of danger which are perfect for solo fun! You’ll also rake in the loot with shimmering hoards of treasure and collectible items, from the deepest and darkest places in Trove. You’ll load up on special gear, costumes, decorations, recipes, crafting ingredients, flying carpets, sea­faring ships, dragons of mighty renown, and more!\r\n\r\nBuild yourself a home, or an entire world ­ cornerstones are personal homes that you are able to build block by block, but they’re also mobile bases. You are able to drop your Cornerstones at specially­ marked plots in any world you’re visiting and viola! Your hand­crafted home ­away­ from­ home will appear, and give you a place to kick back and relax (and craft to your heart’s content). When you build a world, you build an entire new Club World with friends. If you feel like making enormous geodesic domes in the desert, go for it! Magnificent castles in the sky? You can do that as well! The sky’s the limit in the world of Trove! How will you play? Get started for free, today",
+      "game_url": "https://www.freetogame.com/open/trove",
+      "genre": "MMORPG",
+      "platform": "Windows",
+      "publisher": "Trion Worlds",
+      "developer": "Trion Worlds",
+      "release_date": "2015-07-09",
+      "freetogame_profile_url": "https://www.freetogame.com/trove",
+      "minimum_system_requirements": {
+        "os": "Vista 32-bit Service Pack 2 ",
+        "processor": "Intel Core i5-2XXX @ 2.0GHz / AMD Phenom II X4 @ 2.6GHz",
+        "memory": "1 GB RAM",
+        "graphics": "Intel HD Graphics 3000 or better ",
+        "storage": "1 GB available space"
+      },
+      "screenshots": [
+        {
+          "id": 34,
+          "image": "https://www.freetogame.com/g/8/trove-1.jpg"
+        },
+        {
+          "id": 35,
+          "image": "https://www.freetogame.com/g/8/trove-2.jpg"
+        },
+        {
+          "id": 36,
+          "image": "https://www.freetogame.com/g/8/trove-3.jpg"
+        },
+        {
+          "id": 37,
+          "image": "https://www.freetogame.com/g/8/trove-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "World of Warships",
+      "strikeprice": "11999",
+      "price": "1000",
+      "thumbnail": "https://www.freetogame.com/g/9/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A 3D free to play naval action-themed MMO from the creators of World of Tanks! ",
+      "description": "World of Warships is a 3D free to play naval action-themed MMO (massively multiplayer online) from the creators of World of Tanks and World of Warplanes. The high seas cry out as the mightiest warships in history are brought back for a final round of all-out battle to the death in Wargaming’s free-to-play World of Warships! Take command of the world’s most famous classes of battleships, aircraft carriers, cruisers, and destroyers across dozens of detailed maps in pitched MMO battles against players the world over.\r\n\r\nWorld of Warships offers an unmatched experience in MMO combat. Hear the roar of the guns as the mighty Yamato catches sight of her prey. Guide your air squadrons in for precision torpedo and dive-bomb attacks from the deck of the carrier USS Independence. Get in up close & personal with your foes in a swift tin can destroyer and devastate them with a lethal broadside of explosive torpedoes. The battle is all around you so stay alert!\r\n\r\nAs you participate in battles, you can upgrade the ships in your fleet with more powerful armaments to give your enemies an even greater surprise. Your victory is dependent upon your ability to upgrade your vessel and prepare your crew to meet the enemy. The best captains ride the ocean waves atop their armored steeds. All others are sent to the bottom of the abyss.\r\n\r\nBut World of Warships isn’t limited to team matches. Wargaming hosts tons of special events that create a unique challenge for players where the rewards could mean better upgrades to your fleet.\r\n\r\nJoin the navy of World of Warships and see the world of heart racing, fast thinking MMO combat like you’ve never seen it before!",
+      "game_url": "https://www.freetogame.com/open/world-of-warships",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "Wargaming",
+      "developer": "Wargaming",
+      "release_date": "2015-07-02",
+      "freetogame_profile_url": "https://www.freetogame.com/world-of-warships",
+      "minimum_system_requirements": {
+        "os": "Windows XP, Windows Vista, or Windows 7",
+        "processor": "Core2 Duo E6750 (Pentium 4 2.4GHz or Athlon XP 3100+)",
+        "memory": "4GB DDR2",
+        "graphics": "GeForce 9600GT (512 Mb) / GeForce 6800 GT or Radeon X800 GT",
+        "storage": "30 GB"
+      },
+      "screenshots": [
+        {
+          "id": 38,
+          "image": "https://www.freetogame.com/g/9/World-of-Warships-1.jpg"
+        },
+        {
+          "id": 39,
+          "image": "https://www.freetogame.com/g/9/World-of-Warships-2.jpg"
+        },
+        {
+          "id": 40,
+          "image": "https://www.freetogame.com/g/9/World-of-Warships-3.jpg"
+        },
+        {
+          "id": 41,
+          "image": "https://www.freetogame.com/g/9/World-of-Warships-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "ArcheAge",
+      "strikeprice": "7999",
+      "price": "899",
+      "thumbnail": "https://www.freetogame.com/g/10/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play, hybrid fantasy/sandbox MMORPG brought to you by Trion Worlds.",
+      "description": "ArcheAge is a free-to-play, hybrid fantasy/sandbox MMORPG brought to you by Trion Worlds. Set in the fantasy world of Erenor, players are sent out on a journey of their own choosing. Players start on one of two continents: Nuia, home of the elves or Harihara, home of the Ferres. After that, the choices are up to the player from where to go, to why, and what actions to perform.\r\n\r\nArcheAge offers four unique races which possess their own innate qualities with an additional ten skill trees that create up to one hundred and twenty class options. By choosing three of the ten basic skill types, players are essentially able to create their own class tailored to their own unique style of gameplay.\r\n\r\nPets can be purchased and trained into mounts or as companions on the battlefield. The crafting system features 21 professions whose actions are performed using labor points. Labor points are gained based on time spent in game (unless you are a premium member) and accumulate over time. There are 7 different levels of mastery for each profession and each level grants a crafting benefit of some sort to the player.\r\n\r\nArcheAge features both PvE and PvP options. PvE choices include the typical dungeons and quests, while PvP offers features such as the Justice System, Arenas, Naval Battles and World PvP. Community options go beyond what is typical for an MMORPG, and while guilds are a part of the community, there are also factions and families. Land ownership plays a great deal into the gameplay of ArcheAge with individual players and guilds vying for land any time a new zone is added into the game.\r\n\r\nWith so many options to choose from, ArcheAge affords players the unique opportunity to become completely immersed in their world.  From character creation, to the economy, to the community, to the sandbox style world; the choices are endless.",
+      "game_url": "https://www.freetogame.com/open/archeage",
+      "genre": "MMORPG",
+      "platform": "Windows",
+      "publisher": "Trion Worlds",
+      "developer": "XL Games",
+      "release_date": "2014-09-04",
+      "freetogame_profile_url": "https://www.freetogame.com/archeage",
+      "minimum_system_requirements": {
+        "os": "Windows XP / Sp3 / Vista / Windows 7 / Windows 8",
+        "processor": "Intel Core 2 Duo",
+        "memory": "2 GB",
+        "graphics": "nVidia GeForce 8000 series 512 MB / Radeon HD 4000 Series or better",
+        "storage": "40GB"
+      },
+      "screenshots": [
+        {
+          "id": 42,
+          "image": "https://www.freetogame.com/g/10/archeage-1.jpg"
+        },
+        {
+          "id": 43,
+          "image": "https://www.freetogame.com/g/10/archeage-2.jpg"
+        },
+        {
+          "id": 44,
+          "image": "https://www.freetogame.com/g/10/archeage-3.jpg"
+        },
+        {
+          "id": 45,
+          "image": "https://www.freetogame.com/g/10/archeage-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Neverwinter",
+      "strikeprice": "6899",
+      "price": "999",
+      "thumbnail": "https://www.freetogame.com/g/11/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play 3D action MMORPG based on the acclaimed Dungeons & Dragons fantasy roleplaying game. ",
+      "description": "If you’re a fan of Dungeons and Dragons, have I got a game for you! Neverwinter, developed by Cryptic Studios and published by Perfect World Entertainment, is based on the critically acclaimed fantasy role playing game and the best part is ­ it’s free to play. In the world of Neverwinter, you will explore and defend one of the most beloved cities from the Dungeons and Dragons Forgotten Realms Campaign Setting, as it rises from the ashes of total destruction. In this totally immersive MMORPG you will go from the besieged walls of the city, to the subterranean passageways and search for forgotten secrets and lost treasure along the way.\r\n\r\nNeverwinter is completely free to play, from the very first level, all the way up to the level cap, so anyone is able to experience the engaging action and combat it brings. You don’t have to worry about tab­targeting or auto­attacking to defeat your enemies, Neverwinter provides an amazing combat experience where every action will require planning and feel visceral and look spectacular.\r\n\r\nNeverwinter also comes with Foundry, which is a dynamic tool set that will provide you with the game assets and a sandbox environment that will allow you to create your own adventures ­ and when you are ready to unveil your creation to the world ­ you are able to hook it up directly to the existing work so everyone else in the community can experience it as well!\r\n\r\nWhether you are familiar with Dungeons and Dragons from the tabletop game or from the novels, Neverwinter has recreated many of the iconic classes, locations and encounters that you will know and love! You might choose to go on an adventure as a mighty Guardian Fighter, choose to deceive foes as a Trickster Rogue, or follow the righteous path as a Devoted Cleric, but whatever journey you decide to take in Neverwinter you will face Kobolds, Beholders, Mimics and many other creatures from the Dungeons and Dragons universe, and you will surely feel right at home!",
+      "game_url": "https://www.freetogame.com/open/neverwinter",
+      "genre": "MMORPG",
+      "platform": "Windows",
+      "publisher": "Perfect World Entertainment",
+      "developer": "Cryptic Studios",
+      "release_date": "2013-12-06",
+      "freetogame_profile_url": "https://www.freetogame.com/neverwinter",
+      "minimum_system_requirements": {
+        "os": "Windows® XP, Windows Vista, Windows 7 or Windows 8 ",
+        "processor": "Dual-core 2.0GHz CPU or better",
+        "memory": "1 GB RAM ",
+        "graphics": "Shader Model 2.0 or higher, GeForce 6800 or ATI Radeon X850 performance, 128MB+ video ram",
+        "storage": "4 GB available space "
+      },
+      "screenshots": [
+        {
+          "id": 46,
+          "image": "https://www.freetogame.com/g/11/Neverwinter-1.jpg"
+        },
+        {
+          "id": 47,
+          "image": "https://www.freetogame.com/g/11/Neverwinter-2.jpg"
+        },
+        {
+          "id": 48,
+          "image": "https://www.freetogame.com/g/11/Neverwinter-3.jpg"
+        },
+        {
+          "id": 49,
+          "image": "https://www.freetogame.com/g/11/Neverwinter-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "War Thunder",
+      "strikeprice": "5799",
+      "price": "499",
+      "thumbnail": "https://www.freetogame.com/g/12/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A MMO shooter that puts you in command of hundreds of the finest combat vehicles of World War II.",
+      "description": "War Thunder is a massively multiplayer shooter that puts you in command of hundreds of the finest combat vehicles of World War II. You’ll pilot warplanes in exciting PvP dogfights and rumble across the battlefield in tanks, battling against foes on across several vintage maps, featuring diverse terrain and offering several strategic options. There are many different ways to play War Thunder, ranging from quick arcade mode-style combat to competitive, realistic battles.\r\n\r\nThe vehicles in War Thunder represent WWII-era tanks and planes from several different nations, including the United States, Great Britain, Germany, Japan, and the USSR. Battles earn you currency you can use to upgrade your vehicles with better engines, weaponry, and other modifications, and you’ll also earn experience that you can use to unlock more vehicles and increase your crew’s performance. Planes include quick and agile fighters, giant flying fortresses, and precision bombers, while tanks run the gamut from light to heavy to self-propelled artillery. Each has its own strengths and weaknesses and learning how to properly use your vehicles is the key to victory.\r\n\r\nThe most common game modes are PvP battles that revolve around a series of control points or that task players with destroying enemy vehicles, whether AI-controlled or belonging to other players. Each player brings a squad of up to five vehicles and, when your current vehicle is destroyed, you’ll choose another one to ride back into combat. You can also adjust battle realism, opting for simpler controls with target reticles and other helpful guides, or complete realism, with very few artificial elements in the way of aid. In addition to PvP battles, there are also PvE campaigns and missions you can take on alone or with other players. No matter how you play War Thunder, the action will be easy to find and the battles will have you on the edge of your seat!",
+      "game_url": "https://www.freetogame.com/open/war-thunder",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "Gaijin Entertainment",
+      "developer": "Gaijin Entertainment",
+      "release_date": "2013-08-15",
+      "freetogame_profile_url": "https://www.freetogame.com/war-thunder",
+      "minimum_system_requirements": {
+        "os": "Windows XP SP2, Windows Vista SP1, Windows 7, Windows 8",
+        "processor": "2.2 GHz",
+        "memory": "1 GB RAM ",
+        "graphics": "Radeon X26XX / GeForce 7800 GT",
+        "storage": "3 GB available space "
+      },
+      "screenshots": [
+        {
+          "id": 50,
+          "image": "https://www.freetogame.com/g/12/War-Thunder-1.jpg"
+        },
+        {
+          "id": 51,
+          "image": "https://www.freetogame.com/g/12/War-Thunder-2.jpg"
+        },
+        {
+          "id": 52,
+          "image": "https://www.freetogame.com/g/12/War-Thunder-3.jpg"
+        },
+        {
+          "id": 53,
+          "image": "https://www.freetogame.com/g/12/War-Thunder-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Guild Wars 2",
+      "strikeprice": "9999",
+      "price": "199",
+      "thumbnail": "https://www.freetogame.com/g/13/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play MMORPG, the follow-up to ArenaNet's popular Guild Wars. ",
+      "description": "Guild Wars 2 is a free-to-play open-world MMORPG, the follow-up to ArenaNet’s popular Guild Wars. Building on that first game’s guiding principles, it offers a huge world to explore, populated with dynamic events that can start at any time and provide excellent variety in gameplay. It also features PvP, both open-world and instanced, dungeons, raiding, storytelling, and everything else you’d expect in a full-featured massively multiplayer online RPG.\r\n\r\nYou’ll choose from among the five races of Tyria – human, norn, charr, sylvari, and asura – and one of several classes. Each class has remarkable versatility, allowing it to fill a number of roles in a party and reducing the need for a full MMO-style “trinity.” Characters have limited skill bars of 10 slots; the first five are determined by your weapon and the second five by skills that you choose: a healing skill, three utility skills, and an elite skill. Different classes have ways to access other skills, and most classes have the ability to swap out weapons, so you’ll still have some variety in exactly what tools you can bring to each fight.\r\n\r\nThe heart of Guild Wars 2 is its open-world content. While there is some static content, in the form of “hearts” that you can complete once for NPCs, most of the game revolves around dynamic events, which spring up in the world at various times and often require large groups of players to complete. There are no traditional quests that require you to speak to NPCs to accept or complete them; instead, you can simply go from event to event, helping the people of Tyria as you see fit. Some events are parts of larger chains that string together and culminate in a giant event against a great threat to Tyria and require a hundred or more players to complete.",
+      "game_url": "https://www.freetogame.com/open/guild-wars-2",
+      "genre": "MMORPG",
+      "platform": "Windows",
+      "publisher": "NCsoft",
+      "developer": "ArenaNet",
+      "release_date": "2012-08-28",
+      "freetogame_profile_url": "https://www.freetogame.com/guild-wars-2",
+      "minimum_system_requirements": {
+        "os": "Windows® XP Service Pack 3 or better",
+        "processor": "Intel® Core 2 Duo 2.0 GHz, Core i3 OR AMD Athlon 64 X2, or better",
+        "memory": "2 GB RAM",
+        "graphics": "NVIDIA® GeForce® 7800, ATI X1800, Intel HD 3000, or better (256 MB of video RAM and shader model 3.0 or better)",
+        "storage": "35 GB available HDD space"
+      },
+      "screenshots": [
+        {
+          "id": 54,
+          "image": "https://www.freetogame.com/g/13/Guil-Wars-2-1.jpg"
+        },
+        {
+          "id": 55,
+          "image": "https://www.freetogame.com/g/13/Guil-Wars-2-2.jpg"
+        },
+        {
+          "id": 56,
+          "image": "https://www.freetogame.com/g/13/Guil-Wars-2-3.jpg"
+        },
+        {
+          "id": 57,
+          "image": "https://www.freetogame.com/g/13/Guil-Wars-2-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Star Trek Online",
+      "strikeprice": "8999",
+      "price": "1000",
+      "thumbnail": "https://www.freetogame.com/g/14/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play, 3D, Sci-Fi MMORPG based on the popular Star Trek series.",
+      "description": "Star Trek Online (STO) is a free-to-play, 3D, Sci-Fi MMORPG based on the popular Star Trek series. In this massively multiplayer online game brought to you by Cryptic Studios, players have many options to create their own destiny.\r\n\r\nDuring character creation players are afforded the ability to choose between three canonical races: Federation, Klingon and Romulan. Each of these races comes with their own inherent blend of racial traits and players have the opportunity to customize their own unique species.\r\n\r\nEnjoy a vast array of gameplay options as you explore iconic locations from the Star Trek series including Starfleet Academy, Deep Space Nine, The First City of Qo’nos, and many more.  Participate in many different mission types to advance your character such as Star Fleet missions (raids), Genesis System missions (exploration), and The Foundry, where you can create your own playable mission to share with your friends and the whole Star Trek Online Universe as well as participate in other user generated missions. With the Duty Officer System, there is opportunity for offline progression as well, though this is optional.\r\n\r\nStar Trek Online also has a skill-based crafting system which involves collecting various particles or data samples throughout the universe. With these particles and data samples, players are then able to craft items to assist them with their missions. As crafting skill increases, players are able to access a wider variety of more powerful items. Most items in the game can be upgraded for level and rarity and there is the opportunity to create Epic level items as well.\r\n\r\nThe MMORPG game can be downloaded for Windows from the Perfect World Entertainment platform, Arc Games, or from Steam. Perfect World Entertainment also offers a standalone Mac client download option.",
+      "game_url": "https://www.freetogame.com/open/star-trek-online",
+      "genre": "MMORPG",
+      "platform": "Windows",
+      "publisher": "Perfect World Entertainment",
+      "developer": " Cryptic Studios",
+      "release_date": "2010-02-02",
+      "freetogame_profile_url": "https://www.freetogame.com/star-trek-online",
+      "minimum_system_requirements": {
+        "os": "Windows XP SP2 / Windows Vista / Windows 7 ",
+        "processor": "Intel Core 2 Duo 1.8 Ghz or AMD Athlon X2 +3800 ",
+        "memory": "1GB RAM ",
+        "graphics": "NVIDIA GeForce 7800 / ATI Radeon X1800 / Intel HD Graphics",
+        "storage": "10GB Free Disk Space"
+      },
+      "screenshots": [
+        {
+          "id": 58,
+          "image": "https://www.freetogame.com/g/14/Star-Trek-Online-1.jpg"
+        },
+        {
+          "id": 59,
+          "image": "https://www.freetogame.com/g/14/Star-Trek-Online-2.jpg"
+        },
+        {
+          "id": 60,
+          "image": "https://www.freetogame.com/g/14/Star-Trek-Online-3.jpg"
+        },
+        {
+          "id": 61,
+          "image": "https://www.freetogame.com/g/14/Star-Trek-Online-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Crossfire",
+      "strikeprice": "6799",
+      "price": "999",
+      "thumbnail": "https://www.freetogame.com/g/15/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A first person tactical shooter with a huge selection of game modes!",
+      "description": "Crossfire is a first person tactical shooter that has a huge selection of game modes to try out, a decent amount of character customization, and loads of weapons for every situation you could find yourself in. Crossfire features two groups, Blacklist and Global Risk, that are constantly at odds with one another. Players must join an online team and participate in various game modes with their selected faction to destroy their enemies.\r\n\r\nNever fear about running out of game modes to try out, Crossfire boasts 19 different game modes that you can play through time and time again. Team Deathmatch, Destruction Mode, Elmination, Ghost Mode, Free for All, Mutation Mode, Escape Mode, Hero Mode, Zombie Apocalypse, Hero Mode X, Bounty Mode, Wave Mode, Shadow Mode, Ghosts vs. Mutants, Soccer mode, RPG Mode, Super Soldier TDM, Rapid Surge Mode, and Zombie Knight Mode.\r\n\r\nPlayers get to create their own unique characters that represent them in game. They can choose from tons of different cosmetic items that make their characters one of a kind. As players compete in Crossfire they level up and unlock more weapons and character customization options.",
+      "game_url": "https://www.freetogame.com/open/crossfire",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "Neowiz Games",
+      "developer": "SmileGate",
+      "release_date": "2007-05-03",
+      "freetogame_profile_url": "https://www.freetogame.com/crossfire",
+      "minimum_system_requirements": {
+        "os": "Windows Vista, And Windows 7",
+        "processor": "Pentium 4 - 1.5GHz",
+        "memory": "512mb",
+        "graphics": "GeForce 5600",
+        "storage": "1.7GB"
+      },
+      "screenshots": [
+        {
+          "id": 62,
+          "image": "https://www.freetogame.com/g/15/Cross-Fire-1.jpg"
+        },
+        {
+          "id": 63,
+          "image": "https://www.freetogame.com/g/15/Cross-Fire-2.jpg"
+        },
+        {
+          "id": 64,
+          "image": "https://www.freetogame.com/g/15/Cross-Fire-3.jpg"
+        },
+        {
+          "id": 963,
+          "image": "https://www.freetogame.com/g/15/Cross-Fire-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Roblox",
+      "strikeprice": "6899",
+      "price": "1999",
+      "thumbnail": "https://www.freetogame.com/g/16/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free to play sandbox MMO with lots of creation options.",
+      "description": "Roblox is a free to play sandbox MMO. Imagine MineCraft with the option to take your creations, add story and other gameplay elements, turn it into a game and then post it for others to experience it. \r\n\r\nThere are even ways to earn money and create micro-transitions for other users to support your game-worlds if they enjoy them. That is Roblox for you in a nutshell. Since Roblox’s main appeal is the vast variety of games created by users, it will be near impossible to explain gameplay in Roblox, since it will be completely different depending on which world you are playing in. Along with the thousands of games you can play on Roblox, it also has a social platform to it. You can follow different content creators and even add users on your friend’s list and interact with them within the game.\r\n\r\nThere are many feature in place within the Roblox servers that are designed to keep children safe. All chat is moderated and parents can easily track their kid’s activity within the game. One of the major rules in Roblox is the no dating rule, which helps keep the focus on playing and building games instead of deep social interaction of questionable nature.The game development portion of Roblox is one of the strongest features it has to offer. \r\n\r\nWith nearly unlimited possibilities, and its own programming language that is designed for teens to understand and learn, Roblox is an amazing engine for game programmers to hone their craft, along with making a couple bucks!",
+      "game_url": "https://www.freetogame.com/open/roblox",
+      "genre": "MMO",
+      "platform": "Windows",
+      "publisher": "Roblox Corporation",
+      "developer": "Roblox Corporation",
+      "release_date": "2006-12-22",
+      "freetogame_profile_url": "https://www.freetogame.com/roblox",
+      "minimum_system_requirements": {
+        "os": "Vista, Windows 7 and Windows 8/8.1 ",
+        "processor": "A recent processor (2005+) with a clock speed of 1.6 Ghz or better",
+        "memory": "1 GB",
+        "graphics": "DirectX 9 minimum and Shader Model 2.0. ",
+        "storage": "20 Mb"
+      },
+      "screenshots": [
+        {
+          "id": 65,
+          "image": "https://www.freetogame.com/g/16/roblox-1.jpg"
+        },
+        {
+          "id": 66,
+          "image": "https://www.freetogame.com/g/16/roblox-2.jpg"
+        },
+        {
+          "id": 67,
+          "image": "https://www.freetogame.com/g/16/roblox-3.jpg"
+        },
+        {
+          "id": 966,
+          "image": "https://www.freetogame.com/g/16/roblox-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Entropia Universe",
+      "strikeprice": "4599",
+      "price": "499",
+      "thumbnail": "https://www.freetogame.com/g/17/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A 3D MMO Multi Virtual World Real Cash Economy Experience with RPG elements. ",
+      "description": "Entropia Universe is free to play 3D Sci-Fi MMORPG with interesting economic and social features. MindArk’s virtual economy universe is known by many names depending on when you started playing the game and what planet was the key planet at the time. While the game is free-to-play and does have some typical MMORPG elements (combat, questing, looting, etc) the primary difference between Entropia Universe and other games is the linking of a real world currency exchange.\r\n\r\nImagine this: you spend $10 USD to buy some in game currency. You then use that currency and your skills (like sweating monsters) to farm up items of value and triple your total in-game currency. Sounds familiar so far, right? Here’s where Entropia Universe differs though. You can exchange that in-game currency BACK into real world money whenever you want to do so at a fixed conversion rate. This means players can play their game, have some fun, and turn an actual real life profit if they work hard enough.\r\n\r\nThis primary economic mechanic had netted Entropia Universe some serious press as players buy and sell actual locations in game for hundreds of thousands of real life dollars. The game has also appeared in the Guinness Book of World Records earning titles multiple times for the most expensive virtual items ever sold.\r\n\r\nIn game, players aren’t really limited to classes. If you like combat, go for it. Want to be a surgeon? You can do that too. If you can find a way to earn money doing something, chances are that Entropia Universe will allow you to do it. If you’re looking for a slightly off the beaten path Sci-Fi MMO game and would like to take your chance at making some extra scratch, check out Entropia Universe.\r\n",
+      "game_url": "https://www.freetogame.com/open/entropia-universe",
+      "genre": "MMORPG",
+      "platform": "Windows",
+      "publisher": "MindArk",
+      "developer": "MindArk",
+      "release_date": "2003-01-30",
+      "freetogame_profile_url": "https://www.freetogame.com/entropia-universe",
+      "minimum_system_requirements": {
+        "os": "Windows XP or higher",
+        "processor": "Intel I7 / AMD Phenom II",
+        "memory": "4 GB RAM",
+        "graphics": "NVIDIA GeForce 285 / ATI Radeon 4870 or better",
+        "storage": "10 GB of free space"
+      },
+      "screenshots": [
+        {
+          "id": 791,
+          "image": "https://www.freetogame.com/g/19/minion-masters-1.jpg"
+        },
+        {
+          "id": 792,
+          "image": "https://www.freetogame.com/g/19/minion-masters-2.jpg"
+        },
+        {
+          "id": 793,
+          "image": "https://www.freetogame.com/g/19/minion-masters-3.jpg"
+        },
+        {
+          "id": 794,
+          "image": "https://www.freetogame.com/g/19/minion-masters-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Second Life",
+      "strikeprice": "8999",
+      "price": "999",
+      "thumbnail": "https://www.freetogame.com/g/18/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free to play 3D online virtual world with a huge reputation! ",
+      "description": "Second Life is a free to play 3D online virtual world with a huge reputation, is one of the oldest Online Virtual worlds, and is still running strong even today. Second Life is, as the name suggests, virtually a second life that the player can logged into.\r\n\r\nUnlike most games where there is a set “goal” or “end” to work toward, Second Life doesn’t really have a linear story, nor does it follow the normal standard for video games. In Second Life, you start with an avatar that can be customized with a huge database filled with different cosmetic items. From there, you can do virtually anything you want. From Exploring countless zones and player created content, roleplaying with others, to using the game as a platform to socialize with others the way you would in real life, there really is no limit to what you can do in Second Life.\r\n\r\nSecond Life is filled with user generated content. You can choose to take part in that by creating your own content within Second Life, or just spend your time viewing and enjoying content made by fellow Second Life players. This type of content can be in the form of mini-games, buildings, or various types of sims. Second Life has a currency that creates an economy similar to that of the real world. “Linden Dollars” is the currency in Second life and it can even be traded for real world money, meaning that what you make in Second Life holds actual value, allowing people to make a living in Second Life if they choose to!\r\n\r\nIf you are someone that has hopped on the VR ban wagon, then Second Life is a title you need to check out. It has Oculus Rift support, which is a great way to see exactly what VR is capable of. It also adds another element to Second Life, making the game feel even closer to real life. If you are looking for an escape from your normal life, and have an idea of the perfect life you can’t obtain in the real world, then Second Life is for you!\r\n\r\n",
+      "game_url": "https://www.freetogame.com/open/second-life",
+      "genre": "Social",
+      "platform": "Windows",
+      "publisher": "Linden Lab",
+      "developer": "Linden Lab",
+      "release_date": "2003-06-23",
+      "freetogame_profile_url": "https://www.freetogame.com/second-life",
+      "minimum_system_requirements": {
+        "os": "Windows Vista / 7 / 8.1",
+        "processor": "Intel Core 2 Duo 2.0Ghz",
+        "memory": "3 GB",
+        "graphics": "Nvidia GeForce 9800, AMD Radeon 4850, or better",
+        "storage": "8 GB"
+      },
+      "screenshots": [
+        {
+          "id": 68,
+          "image": "https://www.freetogame.com/g/18/Second-life-1.jpg"
+        },
+        {
+          "id": 69,
+          "image": "https://www.freetogame.com/g/18/Second-life-2.jpg"
+        },
+        {
+          "id": 70,
+          "image": "https://www.freetogame.com/g/18/Second-life-3.jpg"
+        },
+        {
+          "id": 869,
+          "image": "https://www.freetogame.com/g/18/Second-life-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Minion Masters",
+      "strikeprice": "11999",
+      "price": "699",
+      "thumbnail": "https://www.freetogame.com/g/19/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play strategic minion brawler from Danish developer Betadwarf. ",
+      "description": "Minion Masters is a free-to-play strategic minion brawler from Danish developer Betadwarf. The game offers players 1v1 or 2v2 competition taking place in small arenas. Players choose between different Masters with unique hero abilities. They then use these masters to summon collectible minions to the field. Once they’re on the field, it’s pretty much up to them what they’re going to do, so choose carefully.\r\n\r\nThe game offers several modes, standard 1v1 and 2v2, 1v1 draft, mayhem, expeditions, and solo challenges. In 1v1 draft, players build their deck from a random selection of cards During this mode three loses means the player is out of the game. Mayhem offers different rules every week, Expeditions are the game’s story mode. And solo challenges allow players to practice against the game’s AI.\r\n\r\nTo progress in the game, players will need to learn how to utilize their masters as well as unlock or craft an increasing number of minions and spells.\r\n\r\nThe game promises nearly constant new content, with the devs adding new things all the time, including events and cosmetics.",
+      "game_url": "https://www.freetogame.com/open/minion-masters",
+      "genre": "Card Game",
+      "platform": "Windows",
+      "publisher": "Betadwarf",
+      "developer": "Betadwarf",
+      "release_date": "2019-05-24",
+      "freetogame_profile_url": "https://www.freetogame.com/minion-masters",
+      "minimum_system_requirements": {
+        "os": "Windows 7, Windows 8, Windows 10",
+        "processor": "Intel Core i3, 2.4 Ghz or equivalent",
+        "memory": "4 GB RAM",
+        "graphics": "Nvidia Geforce GT 240 or equivalent, minimum 512 MB of VRAM",
+        "storage": "6 GB available space"
+      },
+      "screenshots": [
+        {
+          "id": 71,
+          "image": "https://www.freetogame.com/g/19/minion-masters-1.jpg"
+        },
+        {
+          "id": 72,
+          "image": "https://www.freetogame.com/g/19/minion-masters-2.jpg"
+        },
+        {
+          "id": 73,
+          "image": "https://www.freetogame.com/g/19/minion-masters-3.jpg"
+        },
+        {
+          "id": 74,
+          "image": "https://www.freetogame.com/g/19/minion-masters-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "strikeprice": "20999",
+      "price": "1899",
+      "title": "Splitgate: Arena Warfare",
+      "thumbnail": "https://www.freetogame.com/g/20/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play multiplayer shooter developed and published by 1047 games. ",
+      "description": "Splitgate: Arena Warfare is a free-to-play multiplayer shooter developed and published by 1047 games. \r\n\r\nThe game combines elements of shooters from the last two decades with dimension altering portals. Similar to the game Portal, players can use these to move things from one area of the map to another — including their opponents, or themselves. Drop your opponent through a hole or sneak up behind them using the portal tech.\r\n\r\nThe game features close-quarters combat and allows players to take on nine other players or fight against AI. It’s designed for veteran and new players and boasts an “infinitely high skill cap”. As with most competitive shooters, players can expect a ranking system. Splitgate’s is based solely on wins and losses — something the developers feel will cut back on griefing and boosting.",
+      "game_url": "https://www.freetogame.com/open/splitgate-arena-warfare",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "1047 Games",
+      "developer": "1047 Games",
+      "release_date": "2019-05-22",
+      "freetogame_profile_url": "https://www.freetogame.com/splitgate-arena-warfare",
+      "minimum_system_requirements": {
+        "os": "64-bit Windows 7, Windows 8.1, Windows 10",
+        "processor": "Any dual core CPU",
+        "memory": "6 GB RAM",
+        "graphics": "NVIDIA GeForce GTX 560 1GB",
+        "storage": "15 GB available space"
+      },
+      "screenshots": [
+        {
+          "id": 75,
+          "image": "https://www.freetogame.com/g/20/splitgate-arena-warefare-4.jpg"
+        },
+        {
+          "id": 76,
+          "image": "https://www.freetogame.com/g/20/splitgate-arena-warefare-1.jpg"
+        },
+        {
+          "id": 77,
+          "image": "https://www.freetogame.com/g/20/splitgate-arena-warefare-2.jpg"
+        },
+        {
+          "id": 78,
+          "image": "https://www.freetogame.com/g/20/splitgate-arena-warefare-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Destiny 2",
+      "strikeprice": "27999",
+      "price": "10899",
+      "thumbnail": "https://www.freetogame.com/g/21/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play multiplayer Sci-Fi MMOFPS from Bungie.",
+      "description": "Get ready to explore the solar system in Bungie’s Destiny 2. The game, available on PS4 and PC, has made the leap to free-to-play — and Steam.\r\n\r\nThis new free version is what player have come to expect from the buy-to-play game, including all of the game’s story, access to all the guardian classes, a selection of multiplayer activities and plenty of new gear.\r\n\r\nDestiny 2 is set in a sci-fi universe where players must take up the roles of Guardians and protect what’s left of Earth from alien attackers — specifically a race known as the Cabal. The story picks up following a successful attack by the Cabal, during which the Guardians have been stripped of their power and must find a way to regain it.\r\n\r\nTem up with friends,take on everything from basic story missions to 3-player strikes and 6-player raids. Enjoy in-game events and challenge other players in different PvP modes, including the traditional deathmatch.\r\n\r\nThe game does include a few purchase options — including the most current expansion and varying amounts of silver for purchasing in-game items.",
+      "game_url": "https://www.freetogame.com/open/destiny-2",
+      "genre": "Shooter",
+      "platform": "Windows",
+      "publisher": "Bungie",
+      "developer": "Bungie",
+      "release_date": "2019-10-01",
+      "freetogame_profile_url": "https://www.freetogame.com/destiny-2",
+      "minimum_system_requirements": {
+        "os": "Windows Vista or newer ",
+        "processor": "Core 2 Duo 2.4G or better",
+        "memory": "2 GB RAM",
+        "graphics": "GeForce 9800 GTX+ or Radeon HD 4850",
+        "storage": "10 GB available space"
+      },
+      "screenshots": [
+        {
+          "id": 79,
+          "image": "https://www.freetogame.com/g/21/Destiny-2-1.jpg"
+        },
+        {
+          "id": 80,
+          "image": "https://www.freetogame.com/g/21/Destiny-2-2.jpg"
+        },
+        {
+          "id": 81,
+          "image": "https://www.freetogame.com/g/21/Destiny-2-3.jpg"
+        },
+        {
+          "id": 82,
+          "image": "https://www.freetogame.com/g/21/Destiny-2-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "SoulWorker",
+      "strikeprice": "7999",
+      "price": "6899",
+      "thumbnail": "https://www.freetogame.com/g/45/thumbnail.jpg",
+      "status": "Offline",
+      "short_description": "A free to play anime action MMO based on the popular anime of the same title. ",
+      "description": "SoulWorker is a free to play anime action MMO based on the popular anime of the same title. Developed by Lion Games, the game is being handled by a variety of publishers — including Gameforge in North America and Europe.\r\n\r\nThe game is a third-person action MMO designed in the same style as the anime. Players stake on the role of psychic teenagers with the ability to power special weapons called “Soul Workers,” which they will use to fight the monsters that have the vacant city of Cloudrealm. They won’t just be fighting, however, but also trying to discover what happened to the people who used to live in that city and possibly reverse it.\r\n\r\nPlayers get to choose between six different Soul Worker weapons — each aligning to a different class. These are: a chainsaw, a cannon, dual swords, dual pistols, a great sword, and a scythe. More powerful weapons can be obtained via crafting. There is also a limit-break style system — the Zenith attack — in which players who have accumulated enough Soul in combat are able to perform a powerful move related to their weapon. To make things even more interesting, two players can combine attacks into a more powerful one referred to as Coordination.\r\n\r\nVisually, the game is a 3D version of the anime it is inspired by. SoulWorker is slated for release later this year — although an exact date hasn’t been announced yet.",
+      "game_url": "https://www.freetogame.com/open/soulworker",
+      "genre": "Fighting",
+      "platform": "Web Browser",
+      "publisher": "Gameforge",
+      "developer": "Lion Games",
+      "release_date": "2018-02-27",
+      "freetogame_profile_url": "https://www.freetogame.com/soulworker",
+      "minimum_system_requirements": {
+        "os": "Windows 7 32 bit",
+        "processor": "Pentium 4 dual core",
+        "memory": "2 GB RAM",
+        "graphics": "Nvidia GeForce 7600 GS",
+        "storage": "4 GB available space"
+      },
+      "screenshots": [
+        {
+          "id": 83,
+          "image": "https://www.freetogame.com/g/45/soulworker-1.jpg"
+        },
+        {
+          "id": 84,
+          "image": "https://www.freetogame.com/g/45/soulworker-2.jpg"
+        },
+        {
+          "id": 85,
+          "image": "https://www.freetogame.com/g/45/soulworker-3.jpg"
+        },
+        {
+          "id": 86,
+          "image": "https://www.freetogame.com/g/45/soulworker-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "The Ultimatest Battle",
+      "strikeprice": "9999",
+      "price": "6599",
+      "thumbnail": "https://www.freetogame.com/g/58/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play 2D platform game that pits two teams of players against each other in a variety of modes. ",
+      "description": "The Ultimatest Battle is a free-to-play 2D plaform game that pits two teams of players against each other in a variety of modes. The game features real-time combat and an (almost) completely destructible environment.\r\n\r\nPlayers of Ultimatest Battle play as characters called “Nubs”. Nubs come in a variety of classes, each with their own attributes. They’re customizable — both visually and gameplay wise using items earned in game. Nubs are heavily armed and can use a variety of weapons based on their class. There are six classes to chose from including Soldier, Viking, and even Miner.\r\n\r\nGame modes include a variety of scenarios, including zero-gravity Moon battles, ControlPoint, SaveThePrincess, and Versus Boss.",
+      "game_url": "https://www.freetogame.com/open/the-ultimatest-battle",
+      "genre": "Fighting",
+      "platform": "Web Browser",
+      "publisher": "Ediogames",
+      "developer": "Ediogames",
+      "release_date": "2017-09-12",
+      "freetogame_profile_url": "https://www.freetogame.com/the-ultimatest-battle",
+      "minimum_system_requirements": {
+        "os": "Window 7",
+        "processor": "Intel core duo",
+        "memory": "1 GB",
+        "graphics": "Intel HD 4000",
+        "storage": "300 MB"
+      },
+      "screenshots": [
+        {
+          "id": 87,
+          "image": "https://www.freetogame.com/g/58/the-ultimatest-battle-1.jpg"
+        },
+        {
+          "id": 88,
+          "image": "https://www.freetogame.com/g/58/the-ultimatest-battle-2.jpg"
+        },
+        {
+          "id": 89,
+          "image": "https://www.freetogame.com/g/58/the-ultimatest-battle-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Dungeon Fighter Online",
+      "strikeprice": "999",
+      "price": "500",
+      "thumbnail": "https://www.freetogame.com/g/177/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free to play arcade-style side-scrolling action game mixed with RPG elements.",
+      "description": "Dungeon Fighter Online is a 2D free to play multiplayer arcade-style beat’em up game developed by Neople. It features 2D side-scrolling action fighting with some roleplaying elements including, along with multiple unique classes and some PvP.\r\n\r\nIn Dungeon Fighter Online you will traverse the game fighting hordes of monsters trying to keep you HP and MP meter high as you battle your way to the more difficult stages of the game. You HP meter will decrease as you get hit and your MP meter will decrease as you use your skills.\r\n\r\nWhen you begin your beat’em up experience you can choose from several different classes. You can choose from the Male Slayer, Blade Master, Soul Bender, Berserker, Asura, Female Slayer, Sword Master, Dark Templar, Demon Slayer, Vagabond, Male Gunner, Ranger, Mechanic, Spitfire, Launcher, Female Mage, Elementalist, Summoner, Battle Mage, and Witch. Each of these classes has very unique abilities and gear that you can customize as you adventure through the world.\r\n\r\nThe combat in Dungeon Fighter Online can be either passive or active. All of the classes have abilities that you can choose to either let active on their own, which will make them cost a lot of MP, or you can choose to activate them yourself, which will make the MP cost of the ability go down.",
+      "game_url": "https://www.freetogame.com/open/dungeon-fighter-online",
+      "genre": "Fighting",
+      "platform": "Web Browser",
+      "publisher": "Neople",
+      "developer": "Neople (Subsidiary of Nexon)",
+      "release_date": "2015-03-24",
+      "freetogame_profile_url": "https://www.freetogame.com/dungeon-fighter-online",
+      "minimum_system_requirements": {
+        "os": "Windows XP / Vista / 7 / 8",
+        "processor": "Intel Dual Core / AMD X2 5600+",
+        "memory": "2 GB",
+        "graphics": "Nvidia GeForce 8800 GT",
+        "storage": "5 GB"
+      },
+      "screenshots": [
+        {
+          "id": 90,
+          "image": "https://www.freetogame.com/g/177/Dungeon-Fighter-Online-1.jpg"
+        },
+        {
+          "id": 91,
+          "image": "https://www.freetogame.com/g/177/Dungeon-Fighter-Online-2.jpg"
+        },
+        {
+          "id": 92,
+          "image": "https://www.freetogame.com/g/177/Dungeon-Fighter-Online-3.jpg"
+        },
+        {
+          "id": 93,
+          "image": "https://www.freetogame.com/g/177/Dungeon-Fighter-Online-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Brawlhalla",
+      "strikeprice": "1999",
+      "price": "1500",
+      "thumbnail": "https://www.freetogame.com/g/212/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play 2D platform fighter inspired by the Smash Bros.",
+      "description": "An epic battle awaits you in Brawlhalla, a free-to-play 2D platform fighter from Blue Mammoth Games. Inspired by the Smash Bros. family of Nintendo games, Brawlhalla is a fast-and-furious smash-em-up featuring a bunch of colorful characters and enough tactical depth to satisfy even the most strategic of players. Play offline or online with up to seven other people, and brawl for bragging rights or for dominance in the ranked arena!\r\n\r\nThe warriors of Brawlhalla are a diverse lot. There are Vikings, pirates, cowboys, ninjas, and just about everything in between. All characters have the same basic moves, but weapon drops during matches can shake things up. Each fighter has two weapons he or she can pick up, each with distinctive attacks. Some warriors specialize in close-quarters combat, while others prefer to attack at range. Characters have both heavy and light attacks at their disposal, as well as plenty of aerial acrobatics they can perform. Matches end after a time limit, or when a sufficient number of kills have been reached.\r\n\r\nEach match in Brawlhalla can be fully customized for length, arena, and number of players. Play online with friends or with random opponents. You can compete in casual matches or take your skills to ranked 1v1 arenas by yourself or in 2v2 with a friend to climb up the ranking ladder. Matches can support up to eight players, in 4v4 team battles, or you can practice alone or against bots to master your moves.\r\n\r\nBrawlhalla is fully free-to-play, with no hidden costs or microtransactions apart from cosmetic changes. Blue Mammoth Games even gives players the option to refund their purchase, a limited number of times, if they’re unhappy with their selection. Whether you’re a hardcore ladder-climber or a button-mashing brawler, it all adds up to one of the most enjoyable games you’ll find online!",
+      "game_url": "https://www.freetogame.com/open/brawlhalla",
+      "genre": "Fighting",
+      "platform": "Web Browser",
+      "publisher": "Blue Mammoth Games",
+      "developer": "Blue Mammoth Games",
+      "release_date": "2015-11-03",
+      "freetogame_profile_url": "https://www.freetogame.com/brawlhalla",
+      "minimum_system_requirements": {
+        "os": "Windows XP / Vista / 7 / 8",
+        "processor": "Intel Dual Core / AMD X2 5600+",
+        "memory": "1 GB RAM ",
+        "graphics": "Nvidia GeForce 8800 GT",
+        "storage": "75 MB available space "
+      },
+      "screenshots": [
+        {
+          "id": 94,
+          "image": "https://www.freetogame.com/g/212/Brawlhalla-1.jpg"
+        },
+        {
+          "id": 95,
+          "image": "https://www.freetogame.com/g/212/Brawlhalla-2.jpg"
+        },
+        {
+          "id": 96,
+          "image": "https://www.freetogame.com/g/212/Brawlhalla-3.jpg"
+        },
+        {
+          "id": 97,
+          "image": "https://www.freetogame.com/g/212/Brawlhalla-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Archeblade",
+      "strikeprice": "12999",
+      "price": "9500",
+      "thumbnail": "https://www.freetogame.com/g/213/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play PvP-based multiplayer action game based on a Korean Fantasy Novel.",
+      "description": "ArcheBlade is a team-based fighting game powered by Unreal 3 and developd by CodeBrush Games. Choose from a large selection of characters and take control of a great combination fighting system to come out on top in ArcheBlade.\r\n\r\nChoose from a ton of unique and exciting characters to fight with in ArcheBlade, each of these characters have their own unique fighting styles with combo attacks that can be utilized by pressing the left and right mouse buttons to string together flurries of attacks. You can also execute moves by jumping and dashing.\r\n\r\nWhile you are fighting your character will have a rage meter that is slowing filling up when you receive and deliver damage. Once that rage meter fills up your character is able to unleash its special ability that can range from heals to powerful area of effect attacks that deal massive amounts of damage. Choose different gameplay styles, like forward bruiser or ranged assassin, to deal with all sorts of situations.\r\n\r\nArcheBlade is a team-based fighting game that is powered by Unreal 3 and offers a ton of unique characters to fight with. Execute amazing combos by executing button combinations similar to those from classic fighting games like Street Fighter.",
+      "game_url": "https://www.freetogame.com/open/archeblade",
+      "genre": "Fighting",
+      "platform": "Web Browser",
+      "publisher": "CodeBrush Games",
+      "developer": "CodeBrush Games",
+      "release_date": "2014-04-25",
+      "freetogame_profile_url": "https://www.freetogame.com/archeblade",
+      "minimum_system_requirements": {
+        "os": " Windows XP 32bit",
+        "processor": "Intel Core 2 Duo 1.86 GHz, AMD Athlon 64 X2 2GHz",
+        "memory": "2 GB RAM",
+        "graphics": "ATI HD3850, GTX250",
+        "storage": "1500 MB HD space"
+      },
+      "screenshots": [
+        {
+          "id": 98,
+          "image": "https://www.freetogame.com/g/213/ArcheBlade-1.jpg"
+        },
+        {
+          "id": 99,
+          "image": "https://www.freetogame.com/g/213/ArcheBlade-2.jpg"
+        },
+        {
+          "id": 100,
+          "image": "https://www.freetogame.com/g/213/ArcheBlade-3.jpg"
+        },
+        {
+          "id": 101,
+          "image": "https://www.freetogame.com/g/213/ArcheBlade-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Kingdom Wars",
+      "strikeprice": "1999",
+      "price": "1500",
+      "thumbnail": "https://www.freetogame.com/g/233/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free to play 3D MMORTS with real-time siege combat.",
+      "description": "Kingdom Wars is a free to play 3D MMORTS developed by Reverie World Studios, Inc. Battle your way through the amazing online world with real-time siege combat as you construct strongholds, command citizens, complete quests, and manage a gigantic empire.\r\n\r\nManage a persistent kingdom and economy with thousands of other players as you socialize, trade, create alliances, and compete against other players across the world. Start wars with your neighbors and complete hundreds of hours of quests.\r\n\r\nParticipate in the two different single player modes: open-ended Campaign mode and single-player Skirmish mode that has Lay Siege and Castle Defense maps to test your skills before you go take on real opponents.\r\n\r\nConstruct a unique base from hundreds of different Stronghold features and buildings that look and behave like a City-Simulation game, but you don’t have to participate in any micromanagement. Each race also has their own unique buildings that only that can build for their Strongholds.\r\n\r\nExplore the 3D dynamic World Map and you traverse the MMORTS world. It features scale replicas of all the NPC strongholds, quest areas, and the player’s home. The world also has realistic weather changes and season changes and you economy reacts to how the weather is behaving and what season it is.\r\n\r\nKingdom Wars is a free to play MMORTS that offers real-time siege combat along with constructing strongholds, commanding citizens, completing quests, and managing your gigantic empire all while trying to protect it from other players and expand it at the same time.",
+      "game_url": "https://www.freetogame.com/open/kingdom-wars",
+      "genre": "Strategy",
+      "platform": "Windows",
+      "publisher": "Reverie World Studios, INC",
+      "developer": "Reverie World Studios, INC",
+      "release_date": "2013-04-01",
+      "freetogame_profile_url": "https://www.freetogame.com/kingdom-wars",
+      "minimum_system_requirements": {
+        "os": "Windows Vista ",
+        "processor": "2.4 GHz Dual Core ",
+        "memory": "3 GB",
+        "graphics": "NVIDIA GeForce GT 530 / ATI Radeon HD 6570 ",
+        "storage": "7.5 GB"
+      },
+      "screenshots": [
+        {
+          "id": 102,
+          "image": "https://www.freetogame.com/g/233/Kingdom-Wars-1.jpg"
+        },
+        {
+          "id": 103,
+          "image": "https://www.freetogame.com/g/233/Kingdom-Wars-2.jpg"
+        },
+        {
+          "id": 104,
+          "image": "https://www.freetogame.com/g/233/Kingdom-Wars-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "The Banner Saga: Factions",
+      "strikeprice": "5099",
+      "price": "3000",
+      "thumbnail": "https://www.freetogame.com/g/236/thumbnail.jpg",
+      "status": "Offline",
+      "short_description": "A free to play strategy RPG game with stunning hand-animated artwork and focus on multiplayer combat.",
+      "description": "The Banner Saga: Factions is a free to play fantasy 2D multiplayer strategy game with RPG elements and stunning hand-animated artwork. Set in a Viking-styled realm of fantasy, The Banner Saga: Factions has been hailed by many as one of the best multiplayer role-playing games in recent memory.\r\n\r\nThough Factions is a standalone game from the rest of The Banner Saga, it still features much of what players love about the series. The Banner Saga focuses on the fight against the Dredge, a dread warlike race bent on destroying humanity. Players in the series must find the weakness of the Dredge before it is far too late.\r\n\r\nThe Banner Saga: Factions is the multiplayer combat component of the series, allowing players to fight one another in turn-based combat. Players can partake in 6v6 PvP matches, made up of 16 different classes, in fights that will test their skills against one another.\r\n\r\nFans of The Banner Saga will enjoy The Banner Saga: Factions, despite the focus on multiplayer combat rather than a story driven narrative.",
+      "game_url": "https://www.freetogame.com/open/banner-saga-factions",
+      "genre": "Strategy",
+      "platform": "Web Browser",
+      "publisher": "Versus Evil",
+      "developer": "Stoic ",
+      "release_date": "2013-02-25",
+      "freetogame_profile_url": "https://www.freetogame.com/banner-saga-factions",
+      "minimum_system_requirements": {
+        "os": "Windows XP",
+        "processor": "1.6GHz",
+        "memory": "512 MB RAM",
+        "graphics": "NVIDIA GeForce GT 530 / ATI Radeon HD 6570",
+        "storage": "1500 MB HD space"
+      },
+      "screenshots": [
+        {
+          "id": 105,
+          "image": "https://www.freetogame.com/g/236/The-Banner-Saga-Factions-1.jpg"
+        },
+        {
+          "id": 106,
+          "image": "https://www.freetogame.com/g/236/The-Banner-Saga-Factions-2.jpg"
+        },
+        {
+          "id": 107,
+          "image": "https://www.freetogame.com/g/236/The-Banner-Saga-Factions-3.jpg"
+        },
+        {
+          "id": 108,
+          "image": "https://www.freetogame.com/g/236/The-Banner-Saga-Factions-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Dogs of War Online",
+      "strikeprice": "6099",
+      "price": "3500",
+      "thumbnail": "https://www.freetogame.com/g/239/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "Based on the famous miniature board game Confrontation!",
+      "description": "Based on the famous miniature board game Confrontation, Dogs of War Online is a unique free-to-play, turn-based tactical game that sets players in a three way conflict between the forces of Light, Dark, and Destiny. Players will have to build their troops and engage in fierce battles on behalf of their employers, whoever they may be.\r\n\r\nEach faction has its own different style of play, but players will also have access to nine different champions to lead their companies with in Dogs of War Online. Along with 54 unique units to unlock, players will find that the number of troop combinations are near infinite.\r\n\r\nCombat in Dogs of War Online is made up of multiple objectives. It’s not enough to simply defeat the enemy with pure combat strength and numbers. Assassinate them, defend the champion, or destroying all of the enemy units works too.\r\n\r\nDogs of War Online also has a player interface system that will allow players to interact with one another. This comes in use during the various tournaments that give players the opportunity to win rare prizes.\r\n\r\nFans of tabletop gaming will find a lot to love about Dogs of War Online.",
+      "game_url": "https://www.freetogame.com/open/dogs-war-online",
+      "genre": "Strategy",
+      "platform": "Web Browser",
+      "publisher": "Cyanide",
+      "developer": "Cyanide",
+      "release_date": "2014-02-04",
+      "freetogame_profile_url": "https://www.freetogame.com/dogs-war-online",
+      "minimum_system_requirements": {
+        "os": "Windows XP/Vista/Win7/Win8 x86 or x64 bit",
+        "processor": "AMD/Intel dual-core 1.8 GHz. AMD Athlon II and Intel Core2Duo at least ",
+        "memory": "1.5GB for MS Windows XP, 2GB MS Windows Vista, 7 and 8 GB RAM ",
+        "graphics": "ATI/nVidia 256MB VRAM, DirectX 9.0c and Shader Model 4.0 support. ATI/AMD Radeon 3800 series and above and NVIDIA GeForce 8600 series at least. ",
+        "storage": "3 GB available space "
+      },
+      "screenshots": [
+        {
+          "id": 109,
+          "image": "https://www.freetogame.com/g/239/Dogs-of-War-Online-1.jpg"
+        },
+        {
+          "id": 110,
+          "image": "https://www.freetogame.com/g/239/Dogs-of-War-Online-2.jpg"
+        },
+        {
+          "id": 111,
+          "image": "https://www.freetogame.com/g/239/Dogs-of-War-Online-3.jpg"
+        },
+        {
+          "id": 112,
+          "image": "https://www.freetogame.com/g/239/Dogs-of-War-Online-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Forza Motorsport 6: Apex",
+      "strikeprice": "2099",
+      "price": "1500",
+      "thumbnail": "https://www.freetogame.com/g/121/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play MMO racing game that comes from makers of one of the most popular video game racing series ever. ",
+      "description": "Forza Motorsport 6: Apex is a free-to-play multiplayer online racing game that comes from makers of one of the most popular video game racing series ever. It marks the first entry for the series on PC, after a decade on consoles. Microsoft and Turn 10 Studios bring the gameplay of Forza Motorsport 6 to Windows 10 machines with a many of the same features as its paid console counterpart.\r\n\r\nForza Motorsport 6 offers over 450 cars and 26 tracks, offering one of the most realistic racing experiences you can get in a video game. Races can have up to 24 players, competing on tracks found throughout the world and hand-crafted with exacting detail. Cars in the game include some of the most popular sports cars in the world, including the Lamborghini Huracan and the Ferrari 458 Italia. Tracks include such famous locales as the Indianapolis Motor Speedway, Nurburgring, and Watkins Glen.\r\n\r\nThe level of detail is astounding, from realistic damage modeling that gives you an idea of the wear and tear that your vehicle goes through, to spectacular weather effects, to dirt and grass modeling that will have you thinking you’re watching a race on TV. You can compete against human opponents or against the AI, which uses Forza’s innovative Drivatar technology to deliver an experience that’s as close to competition against real people as you can get.\r\n\r\nThough Forza Motorsport 6: Apex does have microtransactions, it will not have a VIP Pass in the same fashion as its console counterpart. Microtransactions in Apex focus on letting players avoid the most unpleasant parts of progression while not giving a competitive edge in the races themselves. The game is the first part of Microsoft’s refocusing on PC gaming, after spending over a decade concentrating on Xbox and Xbox One as the company’s primary gaming platform.",
+      "game_url": "https://www.freetogame.com/open/forza-motorsport-6-apex",
+      "genre": "Racing",
+      "platform": "Web Browser",
+      "publisher": "Microsoft",
+      "developer": "Turn 10",
+      "release_date": "2015-09-15",
+      "freetogame_profile_url": "https://www.freetogame.com/forza-motorsport-6-apex",
+      "minimum_system_requirements": {
+        "os": " Windows 10 64-bit version 1511",
+        "processor": "Intel Core i3-4170 @ 3.7 Ghz",
+        "memory": "8 GB",
+        "graphics": "NVIDIA GeForce GT 740 AMD Radeon R7 250X",
+        "storage": "30 GB"
+      },
+      "screenshots": [
+        {
+          "id": 113,
+          "image": "https://www.freetogame.com/g/121/Forza-Motorsport-6-Apex-gameplay-screenshots-1.jpg"
+        },
+        {
+          "id": 114,
+          "image": "https://www.freetogame.com/g/121/Forza-Motorsport-6-Apex-gameplay-screenshots-2.jpg"
+        },
+        {
+          "id": 115,
+          "image": "https://www.freetogame.com/g/121/Forza-Motorsport-6-Apex-gameplay-screenshots-3.jpg"
+        },
+        {
+          "id": 116,
+          "image": "https://www.freetogame.com/g/121/Forza-Motorsport-6-Apex-gameplay-screenshots-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Riding Club Championships",
+      "strikeprice": "1099",
+      "price": "500",
+      "thumbnail": "https://www.freetogame.com/g/93/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "An online competitive horse riding game inspired by traditional equestrian disciplines. ",
+      "description": "Riding Club Championships is an online competitive horse riding game inspired by traditional equestrian disciplines. As with real world riding championships, players will participate in activities like show jumping, barrel racing, pole bending, and more.\r\n\r\nThe game allows players to play alone or with others, even competing in a weekly ranked tournament. There is also an option to create custom courses and share them with others\r\n\r\nThe game also boasts a horse RPG system, grooming, a selection of horses and gear, and a paddock mode. Of course, there are also standard MMO features such as a quest system, and multiple chat rooms.\r\n\r\nRiding Club Championships can be downloaded via Steam.",
+      "game_url": "https://www.freetogame.com/open/riding-club-championships",
+      "genre": "Racing",
+      "platform": "Web Browser",
+      "publisher": "Artplant",
+      "developer": "Artplant",
+      "release_date": "2016-09-27",
+      "freetogame_profile_url": "https://www.freetogame.com/riding-club-championships",
+      "minimum_system_requirements": {
+        "os": "Windows Vista, 7, 8, and 10",
+        "processor": "Dual Core CPU 2.0 GHz ",
+        "memory": "1 GB",
+        "graphics": "NVidia GeForce 8800 GT or better",
+        "storage": "1 GB"
+      },
+      "screenshots": [
+        {
+          "id": 117,
+          "image": "https://www.freetogame.com/g/93/riding-club-championships-1.jpg"
+        },
+        {
+          "id": 118,
+          "image": "https://www.freetogame.com/g/93/riding-club-championships-2.jpg"
+        },
+        {
+          "id": 119,
+          "image": "https://www.freetogame.com/g/93/riding-club-championships-3.jpg"
+        },
+        {
+          "id": 120,
+          "image": "https://www.freetogame.com/g/93/riding-club-championships-4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Grand Prix Racing Online",
+      "strikeprice": "2099",
+      "price": "1500",
+      "thumbnail": "https://www.freetogame.com/g/351/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play web-based motorsport management game.",
+      "description": "Grand Prix Racing Online Is a free-to-play web-based motorsport management game. Build and control a racing team of your very own, starting with a basic car and working your way through the ranks by winning races. Hire drivers and support, prepare your vehicle for qualification, manage staff, negotiate with sponsors, and do everything else that would normally be done to assure success as a Formula 1 manager.\r\n\r\nGPRO features 17 races per season — two races per week. Players can spend as much time as they want managing their team, or they can just drop in for an hour a week. Of course, the more time put in, the better they will do.\r\n\r\nPlayers can watch races live while chatting with other managers. Talk strategy and plan ahead based on your performance and the weather.",
+      "game_url": "https://www.freetogame.com/open/gpro",
+      "genre": "Racing",
+      "platform": "Web Browser",
+      "publisher": "GPRO.net",
+      "developer": "GPRO.net",
+      "release_date": "2006-08-01",
+      "freetogame_profile_url": "https://www.freetogame.com/gpro",
+      "screenshots": [
+        {
+          "id": 121,
+          "image": "https://www.freetogame.com/g/351/gpro-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "PC Futbol Legends",
+      "strikeprice": "3199",
+      "price": "2500",
+      "thumbnail": "https://www.freetogame.com/g/439/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "An arcade soccer game inspired by cult arcade games from IDC games. ",
+      "description": "PC Futbol Legends is an arcade soccer game from IDC games. Matches are played on medium-sized fields with no fouls or offsides. It’s designed to bring back the feel of classic arcade soccer games.\r\n\r\nThe game features a vintage, “not-too-serious” art style inspire by the cult games of the 90s. It avoids the complexities of football managers and hard-core simulators commonly seen today.\r\n\r\nInstad PC Futbol Legends uses simple controls based around basic soccer plays, such as passing, lobbing and shooting, and tackling. To make things more fun, the game offers temporary boosts.\r\n\r\nPC Futbol Legends includes an International Cup Mode and a league. It also features 52 national teams and 28 hand drawn managers.",
+      "game_url": "https://www.freetogame.com/open/futbol-legends",
+      "genre": "Sports",
+      "platform": "Windows",
+      "publisher": "IDG GAmes",
+      "developer": "IDG GAmes",
+      "release_date": "2019-11-01",
+      "freetogame_profile_url": "https://www.freetogame.com/futbol-legends",
+      "minimum_system_requirements": {
+        "os": "Windows Vista, 7, 8, and 10",
+        "processor": "Dual Core CPU 2.0 GHz ",
+        "memory": "1 GB",
+        "graphics": "NVidia GeForce 8800 GT or better",
+        "storage": "1 GB"
+      },
+      "screenshots": [
+        {
+          "id": 122,
+          "image": "https://www.freetogame.com/g/439/pc-futbol-legends-1.jpg"
+        },
+        {
+          "id": 123,
+          "image": "https://www.freetogame.com/g/439/pc-futbol-legends-2.jpg"
+        },
+        {
+          "id": 124,
+          "image": "https://www.freetogame.com/g/439/pc-futbol-legends-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Rocket League",
+      "strikeprice": "4199",
+      "price": "1500",
+      "thumbnail": "https://www.freetogame.com/g/474/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "Get your car-soccer gaming on for free with Psyonix’s Rocket League. The popular competitive multi-player game is a popular offering with over 57 million players.",
+      "description": "Get your car-soccer gaming on for free with Psyonix’s Rocket League. The popular competitive multi-player game is a popular offering with over 57 million players. It includes both online casual and competitive modes as well as a fully-featured offline season mode. Players can also create custom matches using “Mutators” that allow them to change the rules, or play existing hockey and basketball-inspired modes.\r\n\r\nThe game offers a Rocket Pass option for serious players, which includes a 50%XP bonus and up to 70 special rewards like a new battle-car, keys, and more. There is also a challenge system that rewards players for participating in online matches and completing weekly challenges. Players can also purchase epsorts customization item in the Rocket League Esports Shop.\r\n",
+      "game_url": "https://www.freetogame.com/open/rocket-league",
+      "genre": "Sports",
+      "platform": "Windows",
+      "publisher": "Psyonix LLC",
+      "developer": "Psyonix LLC",
+      "release_date": "2020-09-24",
+      "freetogame_profile_url": "https://www.freetogame.com/rocket-league",
+      "minimum_system_requirements": {
+        "os": "Windows 7 (64 bit) or Newer (64 bit) Windows OS",
+        "processor": "2.5 GHz Dual core",
+        "memory": "4GB",
+        "graphics": "NVIDIA GeForce 760, AMD Radeon R7 270X, or better",
+        "storage": "20GB"
+      },
+      "screenshots": [
+        {
+          "id": 125,
+          "image": "https://www.freetogame.com/g/474/rocket-league-1.jpg"
+        },
+        {
+          "id": 126,
+          "image": "https://www.freetogame.com/g/474/rocket-league-2.jpg"
+        },
+        {
+          "id": 127,
+          "image": "https://www.freetogame.com/g/474/rocket-league-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "SNOW",
+      "strikeprice": "1199",
+      "price": "800",
+      "thumbnail": "https://www.freetogame.com/g/130/thumbnail.jpg",
+      "status": "Live",
+      "short_description": "A free-to-play skiing and snowboarding game, compete solo or with friends in multiplayer modes.",
+      "description": "SNOW is a free-to-play skiing and snowboarding game that challenges players to compete solo against the clock or with friends in multiplayer modes to pull off the next big trick on the slopes without cracking your skull in the process. Poppermost Productions released the game into an Early Access/Open beta in late January 2016 with additional developments forthcoming based on player feedback.\r\n\r\nCurrently the game offers 6 different mountains for players to explore. Each mountain has multiple faces set up for speed runs, slalom matches, and trick competitions. Mountains and their sides can have differing difficulty levels and each can be explored in a “Free Roam” mode if desired.\r\n\r\nWhile the game features a cash shop, the contents of the cash shop are purely cosmetic with the exception of a few extra events that can be purchased and explored in addition to the myriad of events already available for free players. This focus on cosmetics allows SNOW to be a skill heavy game.\r\n\r\nAs of the time of this writing, SNOW does not allow any keybinding changes (although the menu has a spot for keybinding so look for it to be implemented soon) and does not support a controller so players will have to get used to some heavy finger dexterity to pull off the trickier flips, grabs, and grinds. Players familiar with the Shaun White or SSX series of games will be familiar with the core trick gameplay.\r\n\r\nW, A, S, and D controls your character (there is currently no real customization in game except for swapping out gear) and provide speed, turning, and braking while on the ground. Get some air under you and the control scheme changes to W, A, S, andD controlling your flip and turn directions and the up, down, left, and right arrows trigger grab moves when used singly or in various combinations. Left Shift is used to put a faster rotation on your flips and turns and Space Bar is used to jump. Players can even let loose a drone to scope out the field ahead of them.\r\n\r\nAt the end of a run or event, points are converted into experience to level up your character and cash shop currency is occasionally given out as a reward for those that don’t wish to actually spend money to sport a horse head while skiing. (Yes, that horse head thing is actually an option…along with a TON of other crazy costume options.)\r\n\r\nBe warned, SNOW takes a bit of getting used to and occasionally the physics of the game are a bit wonky. This is particularly noticeable when trying to pull of grind tricks on rails or other structures. That being said, it is funny to see your character grinding away on a rail while being stuck in an impossible position.\r\n\r\nFor skiing and snowboarding fans, SNOW is a great option in the multiplayer landscape or for those just looking for a bit of free PC fun.",
+      "game_url": "https://www.freetogame.com/open/snow",
+      "genre": "Sports",
+      "platform": "Windows",
+      "publisher": "Poppermost Productions",
+      "developer": "Poppermost Productions",
+      "release_date": "2016-01-27",
+      "freetogame_profile_url": "https://www.freetogame.com/snow",
+      "minimum_system_requirements": {
+        "os": "Windows Vista SP1, Windows 7, Windows 8",
+        "processor": " Intel Dual-Core 2GHz or AMD Dual-Core 2GHz ",
+        "memory": "4 GB RAM ",
+        "graphics": "NVIDIA GeForce 400 series or AMD Radeon HD 6000 series ",
+        "storage": "10 GB available space "
+      },
+      "screenshots": [
+        {
+          "id": 128,
+          "image": "https://www.freetogame.com/g/130/SNOW-gameplay-1.jpg"
+        },
+        {
+          "id": 129,
+          "image": "https://www.freetogame.com/g/130/SNOW-gameplay-2.jpg"
+        },
+        {
+          "id": 130,
+          "image": "https://www.freetogame.com/g/130/SNOW-gameplay-3.jpg"
+        },
+        {
+          "id": 131,
+          "image": "https://www.freetogame.com/g/130/SNOW-gameplay-4.jpg"
+        }
+      ]
+    }
+  ],
+  "help": [
+    {
+      "id": 1,
+      "subject": "Where can I find the Fornite game logs?"
+    },
+    {
+      "id": 2,
+      "subject": "How do I send you my Unreal Tournament log file?"
+    },
+    {
+      "id": 3,
+      "subject": "Where can I find the Epic Games Launcher debug logs?"
+    },
+    {
+      "id": 4,
+      "subject": "Where can I find the Epic Games Launcher installer logs?"
+    },
+    {
+      "id": 5,
+      "subject": "I get an error when I try to log into my Epic Games account"
+    },
+    {
+      "id": 6,
+      "subject": "What is Epic Account sign-in?"
+    },
+    {
+      "id": 7,
+      "subject": "How do I sign in with Facebook or Google or link them to my Epic account?"
+    },
+    {
+      "id": 8,
+      "subject": "LS-0003: You're not signed into the Epic Games Launcher"
+    },
+    {
+      "id": 9,
+      "subject": "How do I retain access to my Epic Games account after 'Sign in with Apple' ends?"
+    },
+    {
+      "id": 10,
+      "subject": "What account information can products or services access if I sign in with my Epic Account?"
+    },
+    {
+      "id": 11,
+      "subject": "Why is a game listed as Unavailable or not visible on the Epic Games Store?"
+    },
+    {
+      "id": 12,
+      "subject": "I wanted to buy something in the item shop but it's no longer available. Will it come back?"
+    },
+    {
+      "id": 13,
+      "subject": "How do I troubleshoot issues in Alan Wake Remasteredon my console?"
+    },
+    {
+      "id": 14,
+      "subject": "What types of products can I return for a refund?"
+    },
+    {
+      "id": 15,
+      "subject": "How to Purchase Save the World"
+    },
+    {
+      "id": 16,
+      "subject": "Troubleshooting Battle Breakers crashes or issues"
+    },
+    {
+      "id": 17,
+      "subject": "How do I troubleshoot issues in Fortnite my console?"
+    },
+    {
+      "id": 18,
+      "subject": "What is the scope of Epic Games technical support?"
+    },
+    {
+      "id": 19,
+      "subject": "How to fix Fortnite crash and technical issues"
+    },
+    {
+      "id": 20,
+      "subject": "Troubleshooting Epic Games Launcher issues"
+    },
+    {
+      "id": 21,
+      "subject": "Which currencies do you accept and in which currencies do you display prices?"
+    },
+    {
+      "id": 22,
+      "subject": "Does the Epic Games Store have regional pricing?"
+    },
+    {
+      "id": 23,
+      "subject": "Why have I not recieved my price?"
+    },
+    {
+      "id": 24,
+      "subject": "How do I claim my price?"
+    },
+    {
+      "id": 25,
+      "subject": "Do I need a parent/legal guardian to claim my price?"
+    }
+  ],
+  "User_Details": [
+    {
+      "name": "australia",
+      "firstname": "om",
+      "secondname": "om",
+      "email": "ombombatkar2@gmail.com",
+      "password": "om",
+      "username": "om",
+      "id": 1
+    },
+    {
+      "name": "india",
+      "firstname": "sathish",
+      "secondname": "Balan",
+      "email": "sathishb163@gmail.com",
+      "password": "123456789",
+      "username": "sathish",
+      "id": 2
+    },
+    {
+      "name": "india",
+      "firstname": "Ni",
+      "secondname": "KU",
+      "email": "nitishfea120784@gmail.com",
+      "password": "78",
+      "username": "NiKU",
+      "id": 3
+    },
+    {
+      "name": "india",
+      "firstname": "Ni",
+      "secondname": "KU",
+      "email": "nitishfea120784@gmail.com",
+      "password": "",
+      "username": "NiKU",
+      "id": 4
+    },
+    {
+      "name": "india",
+      "firstname": "Ni",
+      "secondname": "KU",
+      "email": "nitishfea120784@gmail.com",
+      "password": "",
+      "username": "NiKU",
+      "id": 5
+    },
+    {
+      "name": "india",
+      "firstname": "Ni",
+      "secondname": "KU",
+      "email": "nitishfea120784@gmail.com",
+      "password": "",
+      "username": "NiKU",
+      "id": 6
+    },
+    {
+      "name": "india",
+      "firstname": "Ni",
+      "secondname": "KU",
+      "email": "nitishfea120784@gmail.com",
+      "password": "1",
+      "username": "NiKU",
+      "id": 7
+    },
+    {
+      "name": "india",
+      "firstname": "NiTish",
+      "secondname": "Kumar",
+      "email": "nitish_fw14_040@masai.school",
+      "password": "12",
+      "username": "Nitish7827",
+      "id": 8
+    },
+    {
+      "name": "australia",
+      "firstname": "",
+      "secondname": "",
+      "email": "",
+      "password": "",
+      "username": "",
+      "id": 9
+    },
+    {
+      "name": "india",
+      "firstname": "NiTish",
+      "secondname": "Kumar",
+      "email": "nk7827@gmail.com",
+      "password": "1",
+      "username": "Nitish",
+      "id": 10
+    },
+    {
+      "name": "usa",
+      "firstname": "n",
+      "secondname": "n",
+      "email": "n",
+      "password": "n",
+      "username": "n",
+      "id": 11
+    },
+    {
+      "name": "india",
+      "firstname": "h",
+      "secondname": "h",
+      "email": "h",
+      "password": "h",
+      "username": "h",
+      "id": 12
+    },
+    {
+      "name": "australia",
+      "firstname": "",
+      "secondname": "",
+      "email": "",
+      "password": "",
+      "username": "",
+      "id": 13
+    },
+    {
+      "name": "australia",
+      "firstname": "",
+      "secondname": "",
+      "email": "",
+      "password": "",
+      "username": "",
+      "id": 14
+    },
+    {
+      "name": "australia",
+      "firstname": "",
+      "secondname": "",
+      "email": "",
+      "password": "",
+      "username": "",
+      "id": 15
+    },
+    {
+      "name": "australia",
+      "firstname": "",
+      "secondname": "",
+      "email": "",
+      "password": "",
+      "username": "",
+      "id": 16
+    },
+    {
+      "name": "usa",
+      "firstname": "e",
+      "secondname": "e",
+      "email": "e",
+      "password": "e",
+      "username": "e",
+      "id": 17
+    },
+    {
+      "name": "canada",
+      "firstname": "w",
+      "secondname": "w",
+      "email": "w",
+      "password": "w",
+      "username": "w",
+      "id": 18
+    },
+    {
+      "name": "india",
+      "firstname": "Ni",
+      "secondname": "KU",
+      "email": "qw",
+      "password": "1",
+      "username": "NiKU",
+      "id": 19
+    },
+    {
+      "name": "australia",
+      "firstname": "om",
+      "secondname": "b",
+      "email": "ombombatkar2@gmail.com",
+      "password": "om",
+      "username": "om",
+      "id": 20
+    }
+  ]
+}
