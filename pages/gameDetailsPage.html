@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Download and Buy Today - Epic Games Store</title>
+
+  <script src="/scripts/navStyle.js"></script>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+
+  <link rel="stylesheet" href="../styles/gameDetailsPage.css" />
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <link rel="shortcut icon" href="https://static-assets-prod.epicgames.com/epic-store/static/webpack/../favicon.ico"
+    type="image/x-icon">
+
+  <!-- <==============================================================================================================================> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+
+  <link rel="stylesheet" href="https://www.insightindia.com/mcss/icon-font.css" />
+
+
+
+  <!-- <==============================================================================================================================> -->
+
+  <!-- <script src="navStyle.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+ -->
+
+
+</head>
+
+<body class="bg-[#121212]">
+  <!-- NAv -->
+
+  <div id="navbar">
+
+    <nav class="w-[100%]">
+      <div id="firstNav" class="flex bg-[#2A2A2A] justify-between md:justify-start ">
+        <img class="h-[2em] w-[1.7em] m-2 ml-5  lg:ml-4  "
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB0CAMAAABE6mf9AAAB7FBMVEVMaXH////////n5+dwcHD///////////97e3v////////////////8/Pz+/v7///////+xsbH////////+/v7+/v7+/v729vbS0tLOzs7e3t6wsLD///8YGBjPz8/9/f3////7+/v////////8/Pzf39/4+Phubm7+/v7///85OTmSkpLLy8v////+/v7////Z2dn////6+vr39/fU1NT+/v6enp6lpaX9/f3////+/v719fX39/f8/Pz////////AwMD9/f3////9/f38/Pzb29v4+Pj39/f///////+3t7f8/Pze3t77+/uTk5P8/Pz4+Pjx8fH+/v7c3Nz5+fni4uL6+vr////5+fn///+qqqr09PT9/f3+/v7e3t7////8/Pz6+vr9/f3////7+/vn5+f6+vr+/v65ubn29vbMzMyhoaHb29vr6+vExMS2trb8/Pz7+/v7+/u2tra7u7vm5ub+/v6enp77+/v////////5+fn7+/v5+fmpqana2trZ2dnOzs76+vrLy8vl5eXW1tbJycnS0tL5+fn7+/vn5+f19fW9vb3Hx8f5+fn4+PjNzc3+/v7AwMDZ2dm1tbX5+fm2trb29vbe3t7p6em9vb3y8vLKysrT09Pc3Nz09PTh4eHIyMjm5ub///+stlOlAAAAo3RSTlMA9vsEAf3l/gL5UvDtEgnz7wP0wqWEijAcGiUJgAQUJNzOq+jrKOQIG64JUlTsmuKN3+AZDdkGFpbV4ToQIVC7Cg3SY3AgHgfEsh4VZcgOlAondSO7LCqo17YwNY6gj2hLRX/N0i/mWpnvElQ6Qj4+VnzpaBJP5UTCgcqqvIs6Fh5krSyESEZZ3dp3tzR68qOAh1CHS4VBS0pacG8hhHZdoqdl1QdEjAAACP1JREFUeF7tmvtf08gaxpNJ0iEkJb0BKEhDs0B7zmlrLRQoLZS0tmAFaFlABeQu53CABQQFkEXA+3W97eqq657tP3pmUjSUSitCPZ+zy/NTMszkyzvvO88kAwRBRUfqZTKRG5Gyo8lNEZT/lawjYY4gkNQ1FJoJd6ETJHIp4HQQIzJI5FYMRzh0iZyLaGC/AYSF3wCSSPyJIMeQYwjg+N0SALY49Z4jmR3jY5WOH50VsrxmRzwJs0CA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"
+          alt="">
+        <div class=" md:hidden object-right-top bg-blue-700 w-[50px] ">
+
+          <!-- <span class=" block w-[50px]" ></span> -->
+
+
+        </div>
+        <div class=" hidden md:flex lg:flex justify-between items-center uppercase text-gray-300 text-xs ">
+          <div class="flex items-center justify-between">
+            <div class="px-2 "><a class="hover:text-white hover:no-underline" href="Browse.html">Store</a></div>
+            <div class="px-2 "><a class="hover:text-white hover:no-underline" href="faq.html">faq</a></div>
+            <div class="px-2 "><a class="hover:text-white hover:no-underline" href="help.html">help</a></div>
+            <div class="px-2 ">unreal engine</div>
+          </div>
+          <!-- <div class="mx-[50%]" ></div> -->
+          <div class=" flex justify-between items-center absolute top-0 right-0">
+
+            <div class="px-2 "><button><i class=" bg-black fa fa-globe" aria-hidden="true"></i></button></div>
+            <div class="px-2 flex justify-between items-center"><button><i class=" bg-black fa fa-user"
+                  aria-hidden="true"></i></button>
+              <a href="signin.html" class="mx-2 text-[10px] hover:text-white hover:no-underline " id="signin">sign in</a>
+            </div>
+            <div class="px-2 "><button class="bg-blue-600  text-[10px] p-4 px-6 h-90 uppercase " style="padding:1rem !important" >download</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="dicoverHide" class="mx-24 w-1/2 mt-2 absolute bg-[#121212] border-none md:hidden">
+        <details class=" mx-auto py-4">
+          <summary class="flex items-center justify-center font-bold">Discover
+          </summary>
+
+          <div class="mt-4 leading-normal text-md flex justify-center w-full ">Discover</div>
+          <div class="mt-4 leading-normal text-md flex justify-center w-full">Browse</div>
+          <div class="mt-4 leading-normal text-md flex justify-center w-full">News</div>
+        </details>
+      </div>
+      <div id="secondNav"
+        class=" md:px-[20.5%] lg:px-[10.5%] flex bg-[#121212] justify-between md:justify-start items-center md:items-center h-[80px] p-3">
+
+
+        <div id="searchDiv" class="ml-4 hidden md:inline md:flex items-center ">
+          <!-- <div class="ml-4 hidden md:inline md:flex items-center " > -->
+          <div id="searchicon"
+            class="h-8 bg-[#202020] text-white text-xs pl-2 flex items-center focus:outline-none focus:bg-[#2A2A2A]  rounded-l-full">
+            <i class="fa fa-search"></i>
+
+          </div>
+          <div><input
+              class="rounded-r-full h-8 bg-[#202020] text-white text-xs pl-2 focus:outline-none focus:bg-[#2A2A2A]"
+              type="text" name="" placeholder="Search" id=""></div>
+        </div>
+
+        <div class="px-6 pt-4 pb-2 hidden md:inline ">
+          <button
+            class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2">
+            <a class="hover:text-white hover:no-underline" href="/">Discover</a></button>
+          <button
+            class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2"><a
+            class="hover:text-white hover:no-underline" href="./Browse.html">Browser</a></button>
+          <button
+            class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2"><a
+            class="hover:text-white hover:no-underline"  href="./news.html">News</a></button>
+        </div>
+
+        <div class="pl-[30%] px-6 pt-4 pb-2 hidden md:inline ">
+
+
+          <button
+            class=" inline-block hover:text-white rounded-full px-3 py-1 text-sm font-semibold text-gray-500 mr-2 mb-2"><a class="hover:text-white hover:no-underline " href="wishlist.html">Wishlist</a></button>
+            <a class="hover:text-white hover:no-underline" href="cart.html">
+              <button
+                class="inline-block text-danger rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2"
+              >
+                Cart
+              </button>
+            </a>
+
+            <span
+              class="rounded-full px-3 ml-[-18px] text-sm text-white border border-white bg-black light bg-black"
+              style="border: 1px solid white"
+              id="cartTotal"
+              >0</span
+            >
+          
+       
+        </div>
+
+
+        <div onclick="showInputBoxInMobileView()" class="ml-4 flex justify-between items-center md:hidden">
+          <i class=" text-gray-300 fa fa-search" aria-hidden="true"></i>
+        </div>
+
+
+
+
+        <!-- <p>discover</p> -->
+
+      </div>
+
+      <div class="">
+
+      </div>
+    </nav>
+  </div>
+
+  <!-- Nav -->
+
+  <!--sign in and sign up pop ups-->
+  <div id="signInContainer" class="text-sm w-[80%] ">
+    <!-- <div id="signInContainer" class="w-90 text-sm"> -->
+    <div class="signInFlex">
+      <div class="nikeLogoBox">
+        <h2 class="text-dark h4 float-left ml-4 mt-3">CHECKOUT </h2>
+        <div class=" flex text-primary h4 float-right mr-4 mt-3 " id="User_Icon_Name">
+          
+        </div>
+        <br><br><br>
+
+        <div>
+          <hr id="popupHr">
+          <hr id="popupBoxes">
+        </div>
+
+
+        <div class="h3 text-dark font-weight-normal ml-4">OTHER PAYMENT METHODS</div>
+
+        <div class="wrapper">
+          <div class="parent-tab">
+            <input type="radio" value="None" name="tab" id="tab-1" checked />
+
+
+
+
+            <span class="flex" ><img width="60px" class="creditImg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh6SUdnBppVXH8wLfk4kXPjsAV_VZf8-RmPQ&usqp=CAU"
+                alt=""><span class="text-dark h2 ml-4" id="creditImgh">Credit Card</span>
+              </span>
+
+
+            <div class="content">
+              <div>
+                <h2 class="h3 text-dark cardNumber" id="cardNumber">CARD DETAILS</h2>
+                <img id="paymentsIcon"" src="
+                  data:image/png;base64,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"
+                  alt="">
+              </div>
+              <form action="" id="paymentSubmit">
+
+
+                <input type="text" class="pl-1 cardNumber inputs border-muted " id="cardno" maxlength="19"
+                  minlength="19" placeholder="Card Number *" required />
+                <br>
+                <input type="text" class="pl-1 cardNumber border-muted" id="exdate" placeholder="Expiration *"
+                  required />
+                <input class="border-muted pl-1 " id="cvv" maxlength="3" type="text" placeholder="CVV *" required />
+
+
+                <!-- <input type="submit" class="rounded btn btn-primary submitForm" value="SUBMIT"> -->
+
+              </form>
+              <h4 class="font-weight-normal" id="Saved">Saved credit cards are authorized for future purchases.</h4>
+
+              <div id="policyDiv"><input class="my-2" type="checkbox">
+                <p id="policy">Do not save my credit card <a href="#" class="Learn">Learn more</a>
+              </div>
+              </p>
+
+            </div>
+          </div>
+
+          <div class="parent-tab" id="container_2">
+
+            <input  type="radio" value="None" name="tab" id="tab-2" >
+
+
+            <span class="flex" ><img width="65px" class="creditImg"
+                src="data:image/jpeg;base64,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"
+                alt=""><span class="text-dark h2 ml-4" id="creditImgh">PayPal</span></span>
+
+
+            <div class="content">
+              <h2 class="h3 text-dark cardNumber" id="cardNumber"></h2>
+
+
+              <h4 class="font-weight-normal" id="Saved">Saved credit cards are authorized for future purchases.</h4>
+
+              <div id="policyDiv"><input class="my-2" type="checkbox">
+                <p id="policy">Do not save my credit card <a href="#" class="Learn">Learn more</a>
+                  <br>
+
+                <p id="policyPal">You will be directed to PayPal to authorize your payment method, then you will be
+                  returned to Epic Games to complete this purchase.</p>
+              </div>
+              </p>
+
+              <form action="">
+                <input type="submit" class="rounded btn btn-primary submitForm2 mb-5 text-blue-900 hover:text-white"
+                  value="SAVE">
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Order Summary -->
+
+      <div class="orderSummary h-[100%] text-md ">
+        <h2 class="text-dark h4 ml-4 mt-3">Order Summary</h2>
+        <div class="card m-4" id="orderSummaryRow" style="max-width: 350px;">
+          <div class="row w-[130%]">
+            <div class="col-md-4 mt-3 w-full ">
+              <img id="cardImageThumbanil" class=" w-full h-full rounded"
+                src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_TennisManager2021_ReboundCG_S4_1200x1600-28b043727bc4e59d9e3a277c4d942801"
+                class="card-img" alt="Game Thumbnail" title="Game">
+              <!-- <img id="cardImageThumbanil" width="110px" height="140px" class="  rounded" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_TennisManager2021_ReboundCG_S4_1200x1600-28b043727bc4e59d9e3a277c4d942801" class="card-img" alt="Game Thumbnail" title="Game"> -->
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+
+                <p class="card-title h2" style="max-width: 150px" id="cardTitleName">Tennis Manager 2021</p>
+                <small class="text-dark h4 font-weight-normal" id="cardPublisherName">Rebound Capital Games</small>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card-group mt-3">
+            <div class="card" id="cardGroup">
+
+              <div class="card-body" style=" width: 350px">
+                <h4 class="card-title text-left font-weight-normal">List Price</h4>
+
+                <div id="discountAndPrice">
+                  <!-- <h4 class="card-title text-left font-weight-normal">Discount</h4>
+                 
+                  <h4 class="card-title text-left font-weight-normal">Price</h4> -->
+                </div>
+
+                <h4 class="card-title text-left font-weight-normal">VAT included if applicable</h4>
+
+                <hr>
+
+                <h4 class="card-title mt-4 text-left font-weight-normal">Total</h4>
+
+
+
+              </div>
+            </div>
+
+
+            <div class="card" id="cardGroup2">
+
+              <div class="card-body">
+                <h4 class="card-title text-right font-weight-normal" id="ListPrice">‎</h4>
+
+                <div id="discountAndPriceInNumber">
+                  <!-- <h4 class="card-title text-right font-weight-normal">‎</h4>
+                 
+                  <h4 class="card-title text-right font-weight-normal">‎</h4> -->
+                </div>
+
+
+                <h4 class="card-title text-right font-weight-normal">‎</h4>
+
+                <br>
+                <h4 class="card-title text-right font-weight-normal" id="totalPrice">‎</h4>
+
+
+
+              </div>
+            </div>
+          </div>
+
+          <input type="text" class="pl-1  border-muted m-auto " id="DiscountPrice"
+            placeholder="Enter the Discount Code">
+
+
+
+          <button class="btn btn-block btn-outline-success" id="applyButton">
+            APPLY COUPON </button>
+
+
+
+          <div id="policyDiv_2" class="m-4 mt-5 text-md "><input class="" type="checkbox">
+            <p class="h5 font-weight-normal ml-5 text-[15px] " id="policy_2">
+              Click here to share your email with SEGA of Europe. SEGA of Europe will use your email address in
+              accordance with its <a href="#" class="privacy_2">privacy policy</a>, so we encourage you to read it.</p>
+          </div>
+
+
+          <br>
+
+        <div id="btncontainer">
+          <div id="placeOrderDiv"> <button class="btn btn-block btn-primary" onclick="call(event)"
+            id="placeOrder">PLACE ORDER</button>
+        </div>
+        </div>
+        </div>
+
+
+
+
+      </div>
+      <div class="crossLogo" id="crossLogo">
+        <img width="17px"
+          src="data:image/png;base64,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" />
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  <!----------------------- product-area ----------------------->
+  <div id="fullCont">
+    <div class="container">
+      <div>
+        <div id="gaping"></div>
+        <div id="GamenameData">
+          <h1 class="text-4xl font-semibold m-1"  id="gameName"></h1>
+        </div>
+        <div id="gaping"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-sm-12">
+
+          <section id="detail">
+
+            <div class="container" id="conta">
+              <div class="row">
+                <div class="col-lg-12 mx-auto">
+                  <!-- Product Images & Alternates -->
+                  <div class="product-images demo-gallery">
+                    <!-- Begin Product Images Slider -->
+                    <div class="main-img-slider" id="mainImageslider">
+                      <a data-fancybox="gallery" href="" id="addBtn"><img src="" class="img-fluid" id="addBtn1" /></a>
+                      <a data-fancybox="gallery" href="" id="addBtn2"><img src="" class="img-fluid" id="addBtn3" /></a>
+                      <a data-fancybox="gallery" href="" id="addBtn4"><img src="" class="img-fluid" id="addBtn5" /></a>
+                      <a data-fancybox="gallery" href="" id="addBtn6"><img src="" class="img-fluid" id="addBtn7" /></a>
+                      <a data-fancybox="gallery" href="" id="addBtn8"><img src="" class="img-fluid" id="addBtn9" /></a>
+
+                    </div>
+                    <!-- End Product Images Slider -->
+
+                    <!-- Begin product thumb nav -->
+                    <ul class="thumb-nav">
+                      <li>
+                        <img id="addBtn10" src="" />
+                      </li>
+                      <li>
+                        <img id="addBtn11" src="" />
+                      </li>
+                      <li>
+                        <img id="addBtn12" src="" />
+                      </li>
+                      <li>
+                        <img id="addBtn13" src="" />
+                      </li>
+                      <li>
+                        <img id="addBtn14" src="" />
+                      </li>
+                    </ul>
+                    <!-- End product thumb nav -->
+                  </div>
+                  <!-- End Product Images & Alternates -->
+
+                  <h2 id="descriptions">Build automated farms, machines, and weapons across the universe in order to
+                    beat massive bosses and advance your technology while experiencing cosmic events in this exciting
+                    quest driven automation adventure game.</h2>
+
+                  <hr id="vl">
+                  <div>
+
+                    <h4 class="genres">Genres</h4>
+                    <h4 class="genresP"> <a href="Browse.html" id="Action">Action-Adventure</a>,
+
+                      <a href="Browse.html" id="Simulation">Simulation</a>,
+                      <a href="Browse.html" id="Strategy">Strategy</a>.
+                      <hr id="vl1">
+
+                    </h4>
+                    <h4 class="Features">Features <br>
+                      <a href="Browse.html" id="Single">Single Player</a>
+                    </h4>
+                  </div>
+
+
+
+                </div>
+
+                <div id="boxAccess" class="p-3">
+
+                  <ul id="boxAccessDetails">
+                    <li>
+                      <h3>This is an Early Access Game</h3>
+                    </li>
+                    <li>
+                      <h4 id="boxAccessDetailsh">Early Access games are still under development and may change
+                        significantly over time. As a result, you may experience unforeseen issues or completely new
+                        gameplay elements while playing this game.</h4>
+                    </li>
+                    <li>
+                      <h4 id="boxAccessDetils">You can play now to experience the game while it's being built or wait
+                        until it offers a more complete experience.</h4>
+                    </li>
+                    <li> <a href="#" id="LearnMore">Learn More</a></li>
+                  </ul>
+
+
+
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+        </div>
+
+        <!-- <-------------   Product image and Price     ---------------->
+
+        <div class="col-lg-4 col-sm-12">
+          <div id="product_image">
+          </div>
+          <a href="#" id="badegs" class="badge badge-light">BASE GAME</a>
+          <div class="product-price">
+            <span class="pricing-tag">Price:</span><span id="mainPrice"></span>
+            <span class="msrp-value" id="strikePrice"> 299.99</span>
+          </div>
+
+
+
+          <div class="text-center">
+            <a onclick="modalClick()" class="btn btn-block btn-primary" id="BuyButton">BUY NOW</a>
+          </div>
+          <div class="text-center">
+            <a href="#" class="btn btn-block btn-secondary" id="Buttn">ADD TO CART</a>
+          </div>
+          <div id="Butn" class=" border-gray-300 mt-2 rounded mt-1 btn btn-block btn-dark bg-black  text-center flex justify-center items-center ">
+            <img class=" bg-black w-4 h-4" id="addImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO8o8goWwBujwF9oIQhfMXZcr1uMle-WRTpA&usqp=CAU">
+
+            <a href="#" class="hover:no-underline hover:text-white"  >ADD TO WHISLIST</a>
+          </div>
+
+          <div class="d-flex justify-content-between Develop mt-10" id="DevelopersDiv">
+
+            <div class="h4 mt-1 font-weight-bold" id="Developers">Developer</div>
+            <div class="h4 mt-1" id="DevelopersName">Tbjbu2</div>
+
+          </div>
+          <div class="d-flex justify-content-between Develop" id="Develop">
+
+            <div class="h4 font-weight-bold mt-1" id="Developers">Publisher
+            </div>
+            <div class="h4 mt-1" id="PublishersName">Freedom Games</div>
+
+          </div>
+          <div class="d-flex justify-content-between Develop" id="Develop">
+
+            <div class="h4 font-weight-bold mt-1" id="Developers">Release Date</div>
+            <div class="h4 mt-1" id="releaseDate">01/07/22</div>
+
+          </div>
+          <div class="d-flex justify-content-between Develop" id="Develop">
+
+            <div class="h4 font-weight-bold mt-1" id="Developers">Platform</div>
+            <div class="p-1"><img width="32px"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEUAAAD////l5eXu7u5sbGz7+/swMDBVVVWgoKCWlpb4/P0+VV1GWWBXZWpiYmJYaG5OVlkwQUceOEBRYWdlb3Rud3p4fYCEhocAAAbIztBGTVBATVFCV1+Nj5Dn6+1maGoUGx4pOT+9xMcdIiU/REaDj5RMTU4nMDJLVVmepad0dHSUm57Q19kfKi6yur4ACBDDy88mNDkRHySprrBWYGMAFyCmpqYXFxcfHx8qLzALEhW2u7wAExh/io8yPEBDSEu27DL+AAADUklEQVR4nO3d21baQBSAYQGxSqtATTjEciYqTQA11FYQfP+3aghBqggMTJDM9P8vvXDlMxF2XIZ9dEREREREREREREREREREpH6t9sC+PvRB7KmbW7PTdKvpROLnoQ8l4kpPluH4tMRrx4c+pMjq5ky751YziXfVDn1g8vVfDNtzq6n3NA2Epcmg0CmvpKks7Ps0p5lcviI1ELZui87og1+2NV0c+pgFG+ZNp+emt5CpIiy1Jqbt3W111lQR9u9rdqeZTO1ui6/wITf2msldrsiPGhya80/Dk5z52HRlT1qMhW60tJgI6/lsZz4bJ7US9qcT8mg2IZ9pJmxZRuXthLxfYe7zaP4YWfTKyeUxUn1hvT2dkJMrXyMVFpYataLAhKyk8FduOvwLziP7Fd5GKyv5d9r+hJzZ6l1bEWHXMh2vvNOErICw4tPSu8+RCgglh+T9Cq0ohBv+UrKp/QqvECJEKBBCuRAijL0wo78wjxAhQoEQSoUQIUKhEEqFUANhAyFChAIhlCrzHSFChAIhlAohQoRCIZQKIUIFhPe6C9MnCBEiFAihVAgR/i9Cyf8RPo3mB7WiSIRnpzI9zp+BrB3vo99RCImIiDb3Ra75e/L1/AsX03JfF/0I+rboMug8KDvNCDKDCkHFoErlTxRCyZnmMfw2MZ5p9J9LJYUVhDIh/BRhEaFMCBEiFAqhVLEQFhDKhBBhJEIToUwIEUYiNLQX6n8O9Rfqf5UilAohQoRC6S/MIpQJIUKEQiGUCiFChEIhlCoWwkuEMiFEiFAohFIhRDhLcpGYAsKjG8v4cMupWPMnu+IsDGsF0K233ikkDHvKmc5oC6h6wlnLu4d1E86r57POaO0SIdWFs4ZPlrkKqodwATVO36+p1Eo4r9QwOr1yarYkSkthWPeq4HiuzsK37eXJrlgJG6Z/QlNRbcmNo3DW85VZ6bhViS3OcReGPVjG2Nu4Gl5lYdhzuzb2XAlo7IVhD5Zp7wZVRRjWtWrj3pqdreoLw+qTgQ8Vu+9WUxjWag/8FyN3/aWrtDCs+1KzRysvXR2EYcPJpT26W5r8NBKG9SfnFa/pvq4i1k8Y1mqf215wm6arMGw4yUbyqRFERERERERERERERERERKRIfwH/75PjbjnYOQAAAABJRU5ErkJggg=="
+                alt=""></div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+    <!-- </div> -->
+    <div class="container">
+      <div class="col-md-9">
+        <div class="prod_datais">
+          <h3>About The Game</h3>
+          <span id="Abouts">
+            <div>
+              <input type="checkbox" class="read-more-state" id="post-1" />
+
+              <p class="read-more-wrap" id="Descrption"></p>
+
+              <label for="post-1" class="read-more-trigger"></label>
+            </div>
+          </span>
+
+
+
+
+
+        </div>
+
+
+        <div class="follow">
+          <h2>FOLLOW US</h2>
+          <div id="container" class="flex w-64 justify-start">
+
+            <div class="flex"><a class=" ml-[16rem] w-[50px]" href="#"><img id="conatainerIcon" width="40px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpdhChb-9NeijsYG9jBDQmiuo5bseAjDbhqQ&usqp=CAU"
+                  alt=""></a>
+              <a class="" href="#"><img id="conatainerIcon2" width="45px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUasQGifKsbPWG9plsv-hIp_rXYRarM7rZ9g&usqp=CAU"
+                  alt=""></a>
+              <a class="" href="#"><img id="conatainerIcon3" width="45px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYSwKOQUAwE3uKPgeuFWhXHRDq0VEmORumw&usqp=CAU"
+                  alt=""></a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="SpecificationsSection">
+          <h2>Specifications</h2>
+
+          <div id="container2">
+
+            <div id="boxes_1">
+              <div id="boxes_2">
+                <h5>WINDOWS</h5>
+              </div>
+              <!-- <hr id="boxes_1HR"> -->
+              <div id="boxes_3">
+                <div class="h4 font-weight-bold innerCol">
+
+                  <h3 class="minimumGameRequired" id="minimum">Minimum</h3>
+                  <br>
+
+                  <h3 class="minimumGameRequired">OS version</h3>
+                  <p id="OsName">Windows 10 or higher</p>
+
+                  <h3 class="minimumGameRequired">CPU</h3>
+                  <p id="CPU">Intel Core i5 3550 @ 3.3 GHz or AMD FX-6300</p>
+
+                  <h3 class="minimumGameRequired">Memory</h3>
+                  <p id="Memory">6 GB</p>
+
+                  <h3 class="minimumGameRequired">GPU</h3>
+                  <p id="GPU">AMD Radeon R7 370 or NVIDIA GeForce GTX 660/570</p>
+
+                  <h3 class="minimumGameRequired">DirectX
+                  </h3>
+                  <p id="DirectX">DirectX 11</p>
+
+                  <h3 class="minimumGameRequired">Storage</h3>
+                  <p id="Storage">4 GB</p>
+
+
+                  <h3 class="minimumGameRequired" id="minimums">Languages Supported</h3>
+                  <p id="Languages">Audio: English <br>
+                    Text: English, French, German, Spanish (Spain)</p>
+
+                  <hr id="boxes_2HR">
+
+                  <h3 class="minimumGameRequired Freedom">© Tbjbu2 & Freedom Games - All Rights Reserved.
+                  </h3>
+                  <p class="Freedom" id="Storage">Privacy Policy</p>
+
+
+
+                </div>
+
+                <div class="h4 font-weight-bold innerCol" id="recommendedID">
+
+                  <h3 class="minimumGameRequired" id="minimum">Recommended</h3>
+                  <br>
+
+                  <h3 class="minimumGameRequired">OS version</h3>
+                  <p id="OsName2">Windows 7 & Windows 8 or Windows 10 or better</p>
+
+                  <h3 class="minimumGameRequired">CPU</h3>
+                  <p id="CPU2">Intel Core i5 3550 @ 3.3 GHz or AMD FX-6300</p>
+
+                  <h3 class="minimumGameRequired">Memory</h3>
+                  <p id="Memory2">6 GB</p>
+
+                  <h3 class="minimumGameRequired">GPU</h3>
+                  <p id="GPU2">AMD Radeon R7 370 or NVIDIA GeForce GTX 660/570</p>
+
+                  <h3 class="minimumGameRequired">DirectX
+                  </h3>
+                  <p>DirectX 11</p>
+
+                  <h3 class="minimumGameRequired">Storage</h3>
+                  <p id="Storage2">4 GB</p>
+
+
+
+
+                </div>
+
+
+              </div>
+
+
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="back-to-top">
+      <a href="#fullCont">
+        <img title="Back to Top."
+          src="https://res.cloudinary.com/de8cuyd0n/image/upload/v1520412541/E-commerce%20landing%20page/icons/back_-_top_1x.png"
+          alt="back to top" /></a>
+    </div>
+  </div>
+  </div>
+  <div id="footer" class="" >
+    <footer class="bottom-0  bg-[#202020] p-4 px-6  md:px-20 text-white capitalize ">
+        <div id="first" class=" pl-2 flex items-center justify-between ">
+            <div id="socialIcon" class="flex items-center justify-between" >
+                <div><i class=" pr-2 pl-0 text-3xl text-gray-300 fab fa-facebook" aria-hidden="true"></i></div>
+                <div><i class=" px-2 text-3xl text-gray-300 fab fa-twitter" aria-hidden="true"></i></div>
+                <div><i class=" px-2 text-3xl text-gray-300 fab fa-youtube" aria-hidden="true"></i></div>       
+            </div>
+          
+        </div>
+
+        <div class="py-3 " >
+            <p class="text-gray-500 font-semibold" >Resourses</p>
+        </div>
+
+        <div id="second" class="flex items-center justify-start">
+            <div class="flex justify-between md:grid md:grid-cols-3 lg:grid-cols-3 items-center justify-start text-[15px] ">
+            <!-- <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 items-center justify-start text-[15px] "> -->
+            <!-- <div class="flex items-center justify-start text-[15px] "> -->
+                <ul class="block mr-3">
+                    <li class="hover:text-blue-700">support-a-creator</li>
+                    <li class="hover:text-blue-700">published on epic games</li>
+                    <li class="hover:text-blue-700">careers</li>
+                    <li class="hover:text-blue-700">company</li>
+                </ul>
+                
+                <ul class="block">
+                    <li class="hover:text-blue-700">fan art policy</li>
+                    <li class="hover:text-blue-700">UX research</li>
+                    <li class="hover:text-blue-700">store EULA</li>
+                </ul>
+                <ul class="md:block mt-2 hidden ">
+                    <li class="hover:text-blue-700">online community</li>
+                    <li class="hover:text-blue-700">community rules</li>
+                    <li class="hover:text-blue-700">epic newsroom</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8" >
+            <p class="text-gray-500 font-semibold inline" >made by epic game</p>
+        </div>
+        
+        <div id="third" class=" flex justify-start items-center ">
+
+            <ul class="mr-8 ">
+                <li class="hover:text-blue-700">battle breakers</li>
+                <li class="hover:text-blue-700">fortnite</li>
+                <li class="hover:text-blue-700">infinity blade</li>
+            </ul>
+            <div class="">
+                <p class="hover:text-blue-700">robo recall</p>
+                <p class="hover:text-blue-700">shadow complex</p>
+                <p class="hover:text-blue-700">unreal tournament</p>
+            </div>
+        </div>
+        <div id="forth" class="pt-12 pb-5 ">
+            <p class="text-xs md:w-1/2 my-2 md:my-12 text-gray-400 leading-[24px] " >
+                © 2022, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. Non-US transactions through Epic Games International, S.à r.l. 
+            </p>
+        </div>
+        <div id="five" class="block " >
+            <div class=" content-center md:flex ">
+                <div class="text-sm mx-2 hover:text-blue-700 "><center><p>Terms of Service</p></center></div>
+                <div class="text-sm mx-2 hover:text-blue-700 "><center><p>privacy policy</p></center></div>
+                <div class="text-sm mx-2 hover:text-blue-700 "><center><p>store refund policy</p></center></div>
+            </div>
+            <div class="flex justify-center items-center">
+                <img class="h-6 w-5 m-2 ml-5  lg:ml-4  " src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAB0CAMAAABE6mf9AAAB7FBMVEVMaXH////////n5+dwcHD///////////97e3v////////////////8/Pz+/v7///////+xsbH////////+/v7+/v7+/v729vbS0tLOzs7e3t6wsLD///8YGBjPz8/9/f3////7+/v////////8/Pzf39/4+Phubm7+/v7///85OTmSkpLLy8v////+/v7////Z2dn////6+vr39/fU1NT+/v6enp6lpaX9/f3////+/v719fX39/f8/Pz////////AwMD9/f3////9/f38/Pzb29v4+Pj39/f///////+3t7f8/Pze3t77+/uTk5P8/Pz4+Pjx8fH+/v7c3Nz5+fni4uL6+vr////5+fn///+qqqr09PT9/f3+/v7e3t7////8/Pz6+vr9/f3////7+/vn5+f6+vr+/v65ubn29vbMzMyhoaHb29vr6+vExMS2trb8/Pz7+/v7+/u2tra7u7vm5ub+/v6enp77+/v////////5+fn7+/v5+fmpqana2trZ2dnOzs76+vrLy8vl5eXW1tbJycnS0tL5+fn7+/vn5+f19fW9vb3Hx8f5+fn4+PjNzc3+/v7AwMDZ2dm1tbX5+fm2trb29vbe3t7p6em9vb3y8vLKysrT09Pc3Nz09PTh4eHIyMjm5ub///+stlOlAAAAo3RSTlMA9vsEAf3l/gL5UvDtEgnz7wP0wqWEijAcGiUJgAQUJNzOq+jrKOQIG64JUlTsmuKN3+AZDdkGFpbV4ToQIVC7Cg3SY3AgHgfEsh4VZcgOlAondSO7LCqo17YwNY6gj2hLRX/N0i/mWpnvElQ6Qj4+VnzpaBJP5UTCgcqqvIs6Fh5krSyESEZZ3dp3tzR68qOAh1CHS4VBS0pacG8hhHZdoqdl1QdEjAAACP1JREFUeF7tmvtf08gaxpNJ0iEkJb0BKEhDs0B7zmlrLRQoLZS0tmAFaFlABeQu53CABQQFkEXA+3W97eqq657tP3pmUjSUSitCPZ+zy/NTMszkyzvvO88kAwRBRUfqZTKRG5Gyo8lNEZT/lawjYY4gkNQ1FJoJd6ETJHIp4HQQIzJI5FYMRzh0iZyLaGC/AYSF3wCSSPyJIMeQYwjg+N0SALY49Z4jmR3jY5WOH50VsrxmRzwJs0CAq75sl1a2JIY0FqkNnW2ypKxeVu7E9wOtpILwNo9O5iuaLLO5WJgRwrbPbmhVuc/LQDfQozZEw8VDyzr0DNJSjO97OjnEEJbPx7RdBYq6tP5JIwkzQpYvnSJUBe6OA13hCZpQpffdXkMUg+lkHkHklRTpEPD7pak8tQfta2plDwch6MCdh+RuCLhwfiq1h2/SBQ8HIei6X6vgLohhDV2m6NT2FpkdQgd8ak6SEEprtVp9egKp+uUyq0LgwvtFZR61frPZH6Xw8HNlfHZI4Hb8U3UlIXnuuMXWF6/04MdtrxlUCLi/2UGgy3PzY6I4VmhFzfRUUMoOKX9x3/5xnSQh+kqTjiTFeS1+XrdD2AWp+EcpDu/6BYDGVywF8M3P3i+AnP7uY+Y+QSxomrnOm/jRZz8D+dvfq/A6u3++BiflxzOHgNRng9T+f0OOIccQ8UEM2c/Z594cQqCwasNaNmSHTL0fd2qwOHAwSAKyJBYLs0M8PcP5SE1zazw8GERVdqunChSdeL+QK4iqxZ+u7IYwmtENOpeQ7k5ZHKufLVWsfjA3EIJy+81+t4dWdosb5BFA9FNuK1bP6Z2cpKgD7/GHh9RsPrUhWWwXyEQahJp4KiT2g0DwxSVc/uIKqQjAvRC6tHdAYvaFsLVtFnUxHnDFE3QEvx76ot2vTYixHwTaf5/4eluhaxqb0ItuaOCiKMDE/pDvLpcfwiC7HSKyGYnDr7k5g+DFqOp/ATmGHENO5xRy/R4awoi/TX0pZOq3dlGRl4RZIRc2A/i5l546eV7T1k8pm8EXQPTlfjNW7JdWNhsEVv20iL2tejtYthLq76Kxi3/QZIOo0k80Z4UkhKdnaaVzi1bbQtHKV9cAd8QQtv11hEiRZ3YcHDEE8o4YlcKoXNdl3BmNjwIFqrr6EaSoG19N2FIhfT1dqPUknhdGM1Dsw/OERVPaiXUnkwkCGkL5uxWSgWAJKletbOpvM4RbgzYDHmVvjjeaw1akcGxmvllCjAwQyEqa3ZJYyAhKk0TClI5kslVgksPsLvmiDemi7LKzMGfnXQxLIrHMX+Tk7hhyDAEkJ5BM4isEgbJUskOANNZW72hr4MHHBrsoegWorPMrorjA4ivBi6/AEzEp3IOBrHMVL3qJhFkg7FioNxx1h/sL5WRfKM0Xx2a2BMWk7/b0bFYgurA2E+v59d6T/0ybk4rdthkMy3/EkH1NBG9wMCMEjOVr9QGftosKPxCVWMgbsx5i8fE9gA9nf6jOK3klQTC+2UFX//vCv/5ZR+gjBUg1j0x8+9KUR+v2RXyv29lMEMYV3NBvLMVH5/zFJk6Zomuhcn2eZ3tNSEIIz/SWIK2jz+AkJK9uJGnYxiuXT3i2Xw3GG2NBZ8ZIuPpuz8aDCokXTTaJ2QkkUNKRt/i4iklC6I6r4w/vlBI7kOrr3zuThoyOBms+yJwk21bZjFbvHQ4EltpJVnLWik4OT5c0v/Hu7fVqz+xDUoHoKc+7t1frPKV0CkTiQO0fNZ7tolWnnWMzJh60PzpVfnkB1MbxecRTO4NaXtZtLr/10XWPr0AMqZuoK92o67j0Y2nKdAVNAjfYS1HR2HChUQLZPkxLfn8CKu5stBSceLEAE9Krczfrrw1eOoVDwZB3oat1eVTPrasdSQjtUQ6qY4U8o3H0RwuoiHZi1MVkjORSMpL5JrNnER16oEA6egblh9ercSgY0u1ACdmYb8eQ1EgSDLdalN8bjXhOrusy5eTMbHUyJ/LQ1BSC2F+dywtYzeEATVTfWeYwZNC1Xvm8vQpBUnPCQFan451jRcWR6jtnYIbq4kdL9Ep1NSgQMP6yOqJMRylNl6xfUyA6ebReOpMCwRSSrCgaFHlu/MHUqUfjIAMEyMMt1EZjaDT/pr78xQI/cK5jOrRStjL/QylRentZgQisZAcIkrZObp0MD5cNDsxEAsPeTJEkBMuIlqLwim/pX+PuP+9wdzp5nnd2Tmupm+tbP2NIAkIGQ1JX/Jr3VqymQOuOBmqmTYaMtgK51qEJt1br7h1q5oWt2xNv2nHkDDce6q0833m3Z8ZC4vuqx5XdV1O9i3NuvcEnkOZ8G5/Zu/Cr16qjcMXRqmEhw3nFa9gmkwcathuiV/RySnkaKmy2dm6PC5PXxmyWNqMzmwtjAUHHCwCmbxUkSLllYfpQ3Ake7/FJHUOYbwHhwTeAGA3fABJ3whwjIEvE+qTcpoXhjQRVPCAacoeBpMvRSBCUNd8kcgDmJApOtAX9yh+du8IjA6sSC488F3a5s8nfoicU0ZFoceiiSwDpPRmDpMkm6bMDBVdzHL290IQqqsU855DtabNGrhaFgnP5+2syGCoycmn7gr1hcM7so4g9ogvcjaNGp4HZE4nz4vxMzF1T8Bl1+ay9Tc+anXsiQZuXcbTRqpxKpYvSxj6YanV7h0i1tvi0Fc1tiuiI1j9S1izu/UcVoEPJ7tVSxL7CRfBsVSJhGqcvOKFwVMLwSrOLZ9N6rj4bwcnOJDy8d6hN5EBi72jZFCy2tlA7hMJ0QgJwYluoPxqhiezSt/h/qZfVmlYLTe5DrzJRMyboWJhesY43fjXZ2UQH3P3xZmfa1ymD4hnsTCfgnzhRst2oYg8ivS8211fLg/SFw6kENdm1FpxsBXEwTFd4ZrRVk+ljW032TBgl+6tEU9riIUstBzIggCC2DRVHDx5EihOElzrH9jM2yEqyYymMSu4QUotAdYIUNzDG+90BmjgKUT7znKlhj7EBvtY0ie3pyER3uRtxEcBPydasrs9gezpK4SLoDVqSTgA4V9tQ7yGSndkJ5vrsTIKx9835D1Kx/wXK3/3Drl/jTAAAAABJRU5ErkJggg==" alt="">
+                <!-- <img class="h-6 w-5 m-2 ml-5  lg:ml-4  " src="https://www.pngfind.com/pngs/m/435-4351693_unreal-4-logo-png-unreal-engine-4-logo.png" alt=""> -->
+            </div>
+        </div>
+    </footer>
+</div>
+
+</body>
+
+</html>
+<!-- <----------   Contact US file  Start          --------------------  > -->
+
+<script
+  type="text/javascript">!function (t, e) {t.artibotApi = {l: [], t: [], on: function () {this.l.push(arguments)}, trigger: function () {this.t.push(arguments)}}; var a = !1, i = e.createElement("script"); i.async = !0, i.type = "text/javascript", i.src = "https://app.artibot.ai/loader.js", e.getElementsByTagName("head").item(0).appendChild(i), i.onreadystatechange = i.onload = function () {if (!(a || this.readyState && "loaded" != this.readyState && "complete" != this.readyState)) {new window.ArtiBot({i: "4fc2ac37-3d97-4f29-98cc-2a4e4858c5f7"}); a = !0} }}(window, document);</script>
+
+<!-- <----------   Contact US  file END             --------------------  > -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+<script src="../scripts/gameDetailsPage.js"></script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
