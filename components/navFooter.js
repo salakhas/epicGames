@@ -8,8 +8,7 @@ function footer() {
                     <div><i class=" px-2 text-3xl text-gray-300 fab fa-twitter" aria-hidden="true"></i></div>
                     <div><i class=" px-2 text-3xl text-gray-300 fab fa-youtube" aria-hidden="true"></i></div>       
                 </div>
-                            </div>
-
+                 </div>
             <div class="py-3 " >
                 <p class="text-gray-500 font-semibold" >Resourses</p>
             </div>
