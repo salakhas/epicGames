@@ -15,6 +15,7 @@ We have tried to clone the website using HTML5, CSS, Javascript DOM and Advanced
 9. News page
 10. Help page
 
+
 ## Layouts
 1. Grid
 2. Flex
