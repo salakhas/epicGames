@@ -57,7 +57,9 @@ function footer() {
                 <p class="text-xs md:w-1/2 my-2 md:my-12 text-gray-400 leading-[24px] " >
                     © 2022, Epic Games, Inc. All rights reserved. Epic, Epic Games, the Epic Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Epic Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. Non-US transactions through Epic Games International, S.à r.l. 
                 </p>
+                
             </div>
+            
             <div id="five" class="block " >
                 <div class=" content-center md:flex ">
                     <div class="text-sm mx-2 hover:text-blue-700 "><center><p>Terms of Service</p></center></div>
@@ -70,8 +72,6 @@ function footer() {
                 </div>
             </div>
         </footer>`;
-
 }
-
 
 export { footer };
